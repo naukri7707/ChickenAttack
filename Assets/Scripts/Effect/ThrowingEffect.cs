@@ -20,7 +20,6 @@ public class ThrowingEffect : EffectBase
 			newPos.x = _rigid.transform.position.x > newPos.x ? _rigid.transform.position.x - 0.1f : _rigid.transform.position.x + 0.1f;
 		newPos.y = y;
 		_rigid.transform.position = newPos;
-		//Debug.Log(tmp + "-->" + _rigid.position);
 	}
 
 	private void OnCollisionEnter2D(Collision2D col)

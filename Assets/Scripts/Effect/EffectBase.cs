@@ -73,7 +73,6 @@ public class EffectBase : MonoBehaviour
 	{
 		Target = target;
 		Damage = damage;
-		Debug.Log(Target + "," + Damage);
 	}
 
 	public void Instantiate()
