@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Naukri.ExtensionMethods;
 using UnityEngine;
-using Naukri.ExtensionMethods;
 
 public class EffectBase : MonoBehaviour
 {
@@ -38,7 +36,10 @@ public class EffectBase : MonoBehaviour
 		get
 		{
 			if (Target != null)
+			{
 				_targetTeam = Target.Team;
+			}
+
 			return _targetTeam;
 		}
 	}
@@ -46,13 +47,15 @@ public class EffectBase : MonoBehaviour
 	/// <summary>
 	/// 目標x座標
 	/// </summary>
-	public Vector2 TargetPosX
+	public float TargetPosX
 	{
 		get
 		{
 			if (Target != null)
+			{
 				_targetPosX = _targetTeam == AgentTeam.Ally ? Target.Collider.GetBoundsRect().xMax : Target.Collider.GetBoundsRect().xMin;
-			return TargetPosX;
+			}
+			return _targetPosX;
 		}
 	}
 
@@ -70,11 +73,16 @@ public class EffectBase : MonoBehaviour
 	{
 		Target = target;
 		Damage = damage;
+		Debug.Log(Target + "," + Damage);
 	}
 
 	public void Instantiate()
 	{
-		if (InstantiateObject == null) return;
+		if (InstantiateObject == null)
+		{
+			return;
+		}
+
 		GameObject tmp = Instantiate(InstantiateObject, transform.position + (Vector3)InstantiateFixPosition, new Quaternion());
 		tmp.GetComponent<EffectBase>().Initialization(Target, Damage);
 	}
@@ -90,7 +98,9 @@ public class EffectBase : MonoBehaviour
 				{
 					agent.GetDetails<DetailsBase>().HitPoint -= Damage;
 					if (agent.GetDetails<DetailsBase>().Type == AgentType.Troop && Damage >= agent.GetDetails<TroopDetails>().KnockBack)
+					{
 						agent.GetComponent<AlertAbility>().KnockBack = true;
+					}
 				}
 			}
 		}
@@ -103,5 +113,4 @@ public class EffectBase : MonoBehaviour
 		Naukri.Tools.NGizmos.DrawBox(collider.transform.position + (Vector3)collider.offset, collider.bounds.size, new Vector2());
 	}
 #endif
-
 }

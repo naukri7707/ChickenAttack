@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using UnityEngine;
-using UnityEngine.Events;
+﻿using UnityEngine;
 
 /// <summary>
 /// 攻擊型態
@@ -33,11 +30,6 @@ public class AttackAbility : AbilityBase
 	/// 鎖定目標
 	/// </summary>
 	public CoreBase LockedAgent;
-	
-	/// <summary>
-	/// 接觸目標點
-	/// </summary>
-	public Vector2 HitPoint;
 
 	/// <summary>
 	/// 產生的物件
@@ -65,12 +57,10 @@ public class AttackAbility : AbilityBase
 
 	public override bool Triggers()
 	{
-		Debug.DrawRay(_rayOrigin, _agent.Direction* _agent.GetDetails<TroopDetails>().HitRange);
 		RaycastHit2D hit = Physics2D.Raycast(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange, _agent.EnemyLayerMask);
-		if(hit)
+		if (hit)
 		{
 			LockedAgent = hit.collider.GetComponent<CoreBase>();
-			HitPoint = hit.point;
 			return true;
 		}
 		return false;
@@ -99,7 +89,9 @@ public class AttackAbility : AbilityBase
 		LockedAgent.GetDetails<DetailsBase>().HitPoint -= _agent.GetDetails<TroopDetails>().Damage;
 		if (LockedAgent.GetDetails<DetailsBase>().Type == AgentType.Troop &&
 			_agent.GetDetails<TroopDetails>().Damage >= LockedAgent.GetDetails<TroopDetails>().KnockBack)
+		{
 			LockedAgent.GetComponent<AlertAbility>().KnockBack = true;
+		}
 	}
 
 	/// <summary>
@@ -108,6 +100,6 @@ public class AttackAbility : AbilityBase
 	public void RemoteAttack()
 	{
 		GameObject tmp = Instantiate(InstantiateObject, transform.position + FixPosition, new Quaternion());
-		GetComponent<ThrowingEffect>().Initialization(LockedAgent.Team, HitPoint, _agent.GetDetails<TroopDetails>().Damage);
+		tmp.GetComponent<EffectBase>().Initialization(LockedAgent, _agent.GetDetails<TroopDetails>().Damage);
 	}
 }
