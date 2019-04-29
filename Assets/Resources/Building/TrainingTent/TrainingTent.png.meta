@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: 0b298535b470d37408b58b34383a4b43
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TrainingTent01
+    21300002: TrainingTent02
+    21300004: TrainingTent03
+    21300006: TrainingTent04
+    21300008: TrainingTent05
+    21300010: TrainingTent06
+    21300012: TrainingTent07
+    21300014: TrainingTent08
+    21300016: TrainingTent09
+    21300018: TrainingTent10
+    21300020: TrainingTent11
+    21300022: TrainingTent12
+    21300024: TrainingTent13
+    21300026: TrainingTent14
+    21300028: TrainingTent15
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrainingTent01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4975
+        width: 1696
+        height: 642
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.49922118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975309936697b714d9c812fd0af5502d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent02
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 4975
+        width: 1696
+        height: 642
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.49922118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c615df5da08be94db917411af12dfc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent03
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 4331
+        width: 1696
+        height: 642
+      alignment: 9
+      pivot: {x: 0.5002948, y: 0.49922118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6781a66999fc2784098016fff938006e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3043
+        width: 1695
+        height: 642
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49922118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea5a97a5134bd442bf5aa4d3db62587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent05
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3687
+        width: 1696
+        height: 642
+      alignment: 9
+      pivot: {x: 0.5002948, y: 0.49922118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0baa7433a65bfb6478f3243f1650b38e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent06
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 3687
+        width: 1696
+        height: 642
+      alignment: 9
+      pivot: {x: 0.5002948, y: 0.49922118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa698858a263ea84cb503ada4c593a73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4331
+        width: 1696
+        height: 642
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.49922118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a7c02e8927b664480961f39fbe5e28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent08
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 5619
+        width: 1696
+        height: 642
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.5007788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659e72b676d079a469b69cab00930427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6907
+        width: 1696
+        height: 641
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2a0b2c4d476b84eb5ba98c7f644f8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7550
+        width: 1696
+        height: 641
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892eb568ad5923b41b6fbb5c72d51efb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6263
+        width: 1696
+        height: 642
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.49922118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924c7bf9791b55a4caae9aed8c246707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent12
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 7550
+        width: 1696
+        height: 641
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824992b27b5bf214d9c0707ceda4fae3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent13
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 6907
+        width: 1696
+        height: 641
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62346f9d7f2101341af7302946516b0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent14
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 6263
+        width: 1696
+        height: 642
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f109630f9dc3fba40b09185a29a861b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingTent15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5619
+        width: 1696
+        height: 642
+      alignment: 9
+      pivot: {x: 0.4997052, y: 0.49922118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f5a41afa32f6545ac3ba7ec8e2f7d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d1740b08f8a7a204d980971572e3479f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

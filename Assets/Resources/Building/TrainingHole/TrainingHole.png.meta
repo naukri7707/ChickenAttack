@@ -1,0 +1,337 @@
+fileFormatVersion: 2
+guid: f1bcc99b7362c3e43a6bc69f0c7a6bcf
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TrainingCamp
+    21300002: TrainingHole01
+    21300004: TrainingHole02
+    21300006: TrainingHole03
+    21300008: TrainingHole04
+    21300010: TrainingHole05
+    21300012: TrainingHole06
+    21300014: TrainingHole07
+    21300016: TrainingHole08
+    21300018: TrainingHole09
+    21300020: TrainingHole10
+    21300022: TrainingHole11
+    21300024: TrainingHole12
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrainingHole01
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 5806
+        width: 1430
+        height: 794
+      alignment: 9
+      pivot: {x: 0.5423077, y: 0.55604535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755fe5260981d78498ca8ccbb6d31349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole02
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 5010
+        width: 1430
+        height: 794
+      alignment: 9
+      pivot: {x: 0.5423077, y: 0.55604535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2352b6a8a69985545803c08d7531e24a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole03
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 4214
+        width: 1431
+        height: 794
+      alignment: 9
+      pivot: {x: 0.5419287, y: 0.55604535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c7edc8e73c41b4083ecfa29cba508e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole04
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 3418
+        width: 1431
+        height: 794
+      alignment: 9
+      pivot: {x: 0.5419287, y: 0.55604535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11e682f4861cf844ba5a80cfecffeb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole05
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3418
+        width: 1431
+        height: 794
+      alignment: 9
+      pivot: {x: 0.5419287, y: 0.55604535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e385471d168785a4aa7edb4415482738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4214
+        width: 1431
+        height: 794
+      alignment: 9
+      pivot: {x: 0.5419287, y: 0.55604535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6871d2ee33111c14b84c292c48aa5b7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5010
+        width: 1431
+        height: 794
+      alignment: 9
+      pivot: {x: 0.5419287, y: 0.55604535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f8907eef73c624496714f48e13258c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6602
+        width: 1431
+        height: 794
+      alignment: 9
+      pivot: {x: 0.5419287, y: 0.55604535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f8c1fbd6ce5c2459a093393a60eb7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole09
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 6602
+        width: 1431
+        height: 794
+      alignment: 9
+      pivot: {x: 0.5419287, y: 0.5573048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a989bf4814a2e48b5e26941a6454a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole10
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 7398
+        width: 1431
+        height: 793
+      alignment: 9
+      pivot: {x: 0.5419287, y: 0.55674654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496865483b460bc428344b127175c239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5806
+        width: 1431
+        height: 794
+      alignment: 9
+      pivot: {x: 0.5419287, y: 0.5573048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075e05ca2d206474489b278043b529e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHole12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7398
+        width: 1431
+        height: 793
+      alignment: 9
+      pivot: {x: 0.5419287, y: 0.55674654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98473fbc31f2fb544aefbf178f5e5b9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7e578da639f30fc4eaaf2ae2527e173e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

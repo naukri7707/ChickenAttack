@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ScenesObject
+  - Building
+  - Troop
+  - Object
+  - Effect
+  - BackGround
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Invincilbe
+  - BackGround
+  - Ally
+  - Enemy
+  - Perfabs
+  - Object
+  - Effect
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4195221131
+    locked: 0
+  - name: ScenesObject
+    uniqueID: 68397993
+    locked: 0
+  - name: Building
+    uniqueID: 3110306647
+    locked: 0
+  - name: Troop
+    uniqueID: 3506731951
+    locked: 0
+  - name: Object
+    uniqueID: 3728962965
+    locked: 0
+  - name: Effect
+    uniqueID: 3985104093
+    locked: 0

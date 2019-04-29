@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: 684eddf74f05ac7498e1242df524ea3e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body_Controller
+    21300002: Body_Glow
+    21300004: Body_Leaves
+    21300006: Body_Music
+    21300008: Body_RIP
+    21300010: Body_Sound
+    21300012: Body_StrikeLine
+    21300014: Body_Trophy
+    21300016: Body_TryAgain
+    21300018: Button_Base
+    21300020: Button_home
+    21300022: Button_Play
+    21300024: Button_Replay
+    21300026: Panel_Paper
+    21300028: Panel_Plant
+    21300030: Panel_Ribbon
+    21300032: Panel_Wood
+    21300034: Title_Defeat
+    21300036: Title_Pause
+    21300038: Title_Vectory
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Body_Controller
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 8034
+        width: 157
+        height: 157
+      alignment: 9
+      pivot: {x: 0.53503186, y: 0.38535032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612a4902eab1e5d42b6f2095b0128fef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body_Glow
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4130
+        width: 1364
+        height: 1462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fc2adbeda90434f9759af0028f716b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body_Leaves
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 6965
+        width: 993
+        height: 701
+      alignment: 9
+      pivot: {x: 0.4672709, y: 0.6504993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf533999eea8a047b500352ded4223f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body_Music
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 8023
+        width: 237
+        height: 168
+      alignment: 9
+      pivot: {x: 0.47890297, y: 0.49107143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4258cc7698a17f04c9cc9ea31b6bed06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body_RIP
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 4067
+        width: 1830
+        height: 1525
+      alignment: 9
+      pivot: {x: 0.507377, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2e6c3c9ebf2cc4e9400cbebb5c0036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body_Sound
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 8016
+        width: 238
+        height: 175
+      alignment: 9
+      pivot: {x: 0.47268906, y: 0.46571428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9a0ef7f3189194aa7b6d56ba4418a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body_StrikeLine
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 8169
+        width: 650
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5176923, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e9d5ecbd7422949b314893dc30e4ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body_Trophy
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 2048
+        width: 1030
+        height: 2017
+      alignment: 9
+      pivot: {x: 0.49951455, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc32a8b075f9e764fbc36ac7d13d1eaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body_TryAgain
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 7738
+        width: 2061
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5014556, y: 0.42687747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc228d89778e52b4297ed15bc2f93c22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Base
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 7668
+        width: 350
+        height: 323
+      alignment: 9
+      pivot: {x: 0.49285713, y: 0.5650155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8c539927085624bb8999624fb2b4e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_home
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 8070
+        width: 144
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5381944, y: 0.37603307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec9bbfb1723cbb459a26edcef76e230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Play
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 8068
+        width: 106
+        height: 123
+      alignment: 9
+      pivot: {x: 0.45754716, y: 0.34552845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e06ecd9bdb04a345aef57bb988df5bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Replay
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 8051
+        width: 120
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5708333, y: 0.51785713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43857482048f9c047ac7ad7afc39a21a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel_Paper
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5669
+        width: 1403
+        height: 1294
+      alignment: 9
+      pivot: {x: 0.49928725, y: 0.5003864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eba30d3b15b21f46b157820e98c58f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel_Plant
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 5594
+        width: 1948
+        height: 1369
+      alignment: 9
+      pivot: {x: 0.5033367, y: 0.6607012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc0f0709d4756745bc37888fce39dad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel_Ribbon
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7104
+        width: 1772
+        height: 562
+      alignment: 9
+      pivot: {x: 0.5019752, y: -0.7713523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61689767bc37dc4a89553ddc03fef78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel_Wood
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2236
+        width: 1784
+        height: 1829
+      alignment: 9
+      pivot: {x: 0.49971974, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637409f004f78a84e996c2a8bfe1ed27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Defeat
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 7993
+        width: 983
+        height: 198
+      alignment: 9
+      pivot: {x: 0.517294, y: 0.44191918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1209b90f20fdc6e4cbfe628d367a57a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Pause
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 8016
+        width: 818
+        height: 175
+      alignment: 9
+      pivot: {x: 0.47616136, y: 0.47142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c573aa6bf526f649822f8c30763d9e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Vectory
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7782
+        width: 1158
+        height: 209
+      alignment: 9
+      pivot: {x: 0.4857513, y: 0.4569378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d219d73c2f55c4397323c4d5a30304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 05d252ab84e90b34e86d86e4133e5938
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

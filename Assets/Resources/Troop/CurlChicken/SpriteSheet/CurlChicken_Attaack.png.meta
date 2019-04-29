@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: 341ea254a95182944a718062d4050a4a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\u6D77\u6C34\u6CE2\u6D6A001"
+    21300002: "\u6D77\u6C34\u6CE2\u6D6A002"
+    21300004: "\u6D77\u6C34\u6CE2\u6D6A003"
+    21300006: "\u6D77\u6C34\u6CE2\u6D6A004"
+    21300008: "\u6D77\u6C34\u6CE2\u6D6A005"
+    21300010: "\u6D77\u6C34\u6CE2\u6D6A006"
+    21300012: "\u6D77\u6C34\u6CE2\u6D6A007"
+    21300014: "\u6D77\u6C34\u6CE2\u6D6A008"
+    21300016: "\u6D77\u6C34\u6CE2\u6D6A009"
+    21300018: "\u6D77\u6C34\u6CE2\u6D6A010"
+    21300020: "\u6D77\u6C34\u6CE2\u6D6A011"
+    21300022: "\u6D77\u6C34\u6CE2\u6D6A012"
+    21300024: "\u6D77\u6C34\u6CE2\u6D6A013"
+    21300026: "\u6D77\u6C34\u6CE2\u6D6A014"
+    21300028: "\u6D77\u6C34\u6CE2\u6D6A015"
+    21300030: "\u6D77\u6C34\u6CE2\u6D6A016"
+    21300032: "\u6D77\u6C34\u6CE2\u6D6A017"
+    21300034: "\u6D77\u6C34\u6CE2\u6D6A018"
+    21300036: "\u6D77\u6C34\u6CE2\u6D6A019"
+    21300038: "\u6D77\u6C34\u6CE2\u6D6A020"
+    21300040: "\u6D77\u6C34\u6CE2\u6D6A021"
+    21300042: "\u6D77\u6C34\u6CE2\u6D6A022"
+    21300044: "\u6D77\u6C34\u6CE2\u6D6A023"
+    21300046: "\u6D77\u6C34\u6CE2\u6D6A024"
+    21300048: "\u6D77\u6C34\u6CE2\u6D6A025"
+    21300050: "\u6D77\u6C34\u6CE2\u6D6A026"
+    21300052: "\u6D77\u6C34\u6CE2\u6D6A027"
+    21300054: "\u6D77\u6C34\u6CE2\u6D6A028"
+    21300056: "\u6D77\u6C34\u6CE2\u6D6A029"
+    21300058: "\u6D77\u6C34\u6CE2\u6D6A030"
+    21300060: "\u6D77\u6C34\u6CE2\u6D6A031"
+    21300062: "\u6D77\u6C34\u6CE2\u6D6A032"
+    21300064: "\u6D77\u6C34\u6CE2\u6D6A033"
+    21300066: "\u6D77\u6C34\u6CE2\u6D6A034"
+    21300068: "\u6D77\u6C34\u6CE2\u6D6A035"
+    21300070: "\u6D77\u6C34\u6CE2\u6D6A036"
+    21300072: "\u6D77\u6C34\u6CE2\u6D6A037"
+    21300074: "\u6D77\u6C34\u6CE2\u6D6A038"
+    21300076: "\u6D77\u6C34\u6CE2\u6D6A039"
+    21300078: "\u6D77\u6C34\u6CE2\u6D6A040"
+    21300080: "\u6D77\u6C34\u6CE2\u6D6A041"
+    21300082: "\u6D77\u6C34\u6CE2\u6D6A042"
+    21300084: "\u6D77\u6C34\u6CE2\u6D6A043"
+    21300086: "\u6D77\u6C34\u6CE2\u6D6A044"
+    21300088: "\u6D77\u6C34\u6CE2\u6D6A045"
+    21300090: "\u6D77\u6C34\u6CE2\u6D6A046"
+    21300092: "\u6D77\u6C34\u6CE2\u6D6A047"
+    21300094: "\u6D77\u6C34\u6CE2\u6D6A048"
+    21300096: "\u6D77\u6C34\u6CE2\u6D6A049"
+    21300098: "\u6D77\u6C34\u6CE2\u6D6A050"
+    21300100: "\u6D77\u6C34\u6CE2\u6D6A051"
+    21300102: "\u6D77\u6C34\u6CE2\u6D6A052"
+    21300104: "\u6D77\u6C34\u6CE2\u6D6A053"
+    21300106: "\u6D77\u6C34\u6CE2\u6D6A054"
+    21300108: "\u6D77\u6C34\u6CE2\u6D6A055"
+    21300110: "\u6D77\u6C34\u6CE2\u6D6A056"
+    21300112: "\u6D77\u6C34\u6CE2\u6D6A057"
+    21300114: "\u6D77\u6C34\u6CE2\u6D6A058"
+    21300116: "\u6D77\u6C34\u6CE2\u6D6A059"
+    21300118: "\u6D77\u6C34\u6CE2\u6D6A060"
+    21300120: "\u6D77\u6C34\u6CE2\u6D6A061"
+    21300122: "\u6D77\u6C34\u6CE2\u6D6A062"
+    21300124: "\u6D77\u6C34\u6CE2\u6D6A063"
+    21300126: "\u6D77\u6C34\u6CE2\u6D6A064"
+    21300128: "\u6D77\u6C34\u6CE2\u6D6A065"
+    21300130: "\u6D77\u6C34\u6CE2\u6D6A066"
+    21300132: "\u6D77\u6C34\u6CE2\u6D6A067"
+    21300134: "\u6D77\u6C34\u6CE2\u6D6A068"
+    21300136: "\u6D77\u6C34\u6CE2\u6D6A069"
+    21300138: "\u6D77\u6C34\u6CE2\u6D6A070"
+    21300140: "\u6D77\u6C34\u6CE2\u6D6A071"
+    21300142: "\u6D77\u6C34\u6CE2\u6D6A072"
+    21300144: "\u6D77\u6C34\u6CE2\u6D6A073"
+    21300146: "\u6D77\u6C34\u6CE2\u6D6A074"
+    21300148: "\u6D77\u6C34\u6CE2\u6D6A075"
+    21300150: "\u6D77\u6C34\u6CE2\u6D6A076"
+    21300152: "\u6D77\u6C34\u6CE2\u6D6A077"
+    21300154: "\u6D77\u6C34\u6CE2\u6D6A078"
+    21300156: "\u6D77\u6C34\u6CE2\u6D6A079"
+    21300158: "\u6D77\u6C34\u6CE2\u6D6A080"
+    21300160: "\u6D77\u6C34\u6CE2\u6D6A081"
+    21300162: "\u6D77\u6C34\u6CE2\u6D6A082"
+    21300164: "\u6D77\u6C34\u6CE2\u6D6A083"
+    21300166: "\u6D77\u6C34\u6CE2\u6D6A084"
+    21300168: "\u6D77\u6C34\u6CE2\u6D6A085"
+    21300170: "\u6D77\u6C34\u6CE2\u6D6A086"
+    21300172: "\u6D77\u6C34\u6CE2\u6D6A087"
+    21300174: "\u6D77\u6C34\u6CE2\u6D6A088"
+    21300176: "\u6D77\u6C34\u6CE2\u6D6A089"
+    21300178: "\u6D77\u6C34\u6CE2\u6D6A090"
+    21300180: "\u6D77\u6C34\u6CE2\u6D6A091"
+    21300182: "\u6D77\u6C34\u6CE2\u6D6A092"
+    21300184: "\u6D77\u6C34\u6CE2\u6D6A093"
+    21300186: "\u6D77\u6C34\u6CE2\u6D6A094"
+    21300188: "\u6D77\u6C34\u6CE2\u6D6A095"
+    21300190: "\u6D77\u6C34\u6CE2\u6D6A096"
+    21300192: "\u6D77\u6C34\u6CE2\u6D6A097"
+    21300194: "\u6D77\u6C34\u6CE2\u6D6A098"
+    21300196: "\u6D77\u6C34\u6CE2\u6D6A099"
+    21300198: "\u6D77\u6C34\u6CE2\u6D6A100"
+    21300200: "\u7206\u70B8\u52D5\u614B0000"
+    21300202: "\u7206\u70B8\u52D5\u614B0001"
+    21300204: "\u7206\u70B8\u52D5\u614B0002"
+    21300206: "\u7206\u70B8\u52D5\u614B0003"
+    21300208: "\u7206\u70B8\u52D5\u614B0004"
+    21300210: "\u7206\u70B8\u52D5\u614B0005"
+    21300212: "\u7206\u70B8\u52D5\u614B0006"
+    21300214: "\u7206\u70B8\u52D5\u614B0007"
+    21300216: "\u7206\u70B8\u52D5\u614B0008"
+    21300218: "\u7206\u70B8\u52D5\u614B0009"
+    21300220: "\u7206\u70B8\u52D5\u614B0010"
+    21300222: "\u7206\u70B8\u52D5\u614B0011"
+    21300224: "\u7206\u70B8\u52D5\u614B0012"
+    21300226: "\u7206\u70B8\u52D5\u614B0013"
+    21300228: "\u7206\u70B8\u52D5\u614B0014"
+    21300230: "\u7206\u70B8\u52D5\u614B0015"
+    21300232: "\u7206\u70B8\u52D5\u614B0016"
+    21300234: "\u7206\u70B8\u52D5\u614B0017"
+    21300236: "\u7206\u70B8\u52D5\u614B0018"
+    21300238: "\u7206\u70B8\u52D5\u614B0019"
+    21300240: "\u7206\u70B8\u52D5\u614B0020"
+    21300242: "\u7206\u70B8\u52D5\u614B0021"
+    21300244: "\u7206\u70B8\u52D5\u614B0022"
+    21300246: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-01"
+    21300248: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-02"
+    21300250: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-03"
+    21300252: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-04"
+    21300254: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-05"
+    21300256: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-06"
+    21300258: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-07"
+    21300260: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-08"
+    21300262: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-09"
+    21300264: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-10"
+    21300266: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-11"
+    21300268: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-12"
+    21300270: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-13"
+    21300272: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-14"
+    21300274: "\u6372\u6BDB\u96DE \u9592\u7F6E\u52D5\u4F5C-15"
+    21300276: CurlChicken_Idle01
+    21300278: CurlChicken_Idle02
+    21300280: CurlChicken_Idle03
+    21300282: CurlChicken_Idle04
+    21300284: CurlChicken_Idle05
+    21300286: CurlChicken_Idle06
+    21300288: CurlChicken_Idle07
+    21300290: CurlChicken_Idle08
+    21300292: CurlChicken_Idle09
+    21300294: CurlChicken_Idle10
+    21300296: CurlChicken_Idle11
+    21300298: CurlChicken_Idle12
+    21300300: CurlChicken_Idle13
+    21300302: CurlChicken_Idle14
+    21300304: CurlChicken_Idle15
+    21300306: CurlChicken_Attack01
+    21300308: CurlChicken_Attack02
+    21300310: CurlChicken_Attack03
+    21300312: CurlChicken_Attack04
+    21300314: CurlChicken_Attack05
+    21300316: CurlChicken_Attack06
+    21300318: CurlChicken_Attack07
+    21300320: CurlChicken_Attack08
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CurlChicken_Attack01
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 15
+        width: 246
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.49361023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06065bf64bbecc4a8bab9a583b53ba7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack02
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 330
+        width: 247
+        height: 346
+      alignment: 9
+      pivot: {x: 0.5040486, y: 0.2615607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b50945693141145b3120aaac6d3d76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 480
+        width: 236
+        height: 543
+      alignment: 9
+      pivot: {x: 0.50211865, y: 0.21270718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369f20af83487b2489c9814e52a3f3ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack04
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 369
+        width: 245
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: -0.33387622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4496dae086a9e214c9a33be93dee3c2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack05
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 711
+        width: 256
+        height: 312
+      alignment: 9
+      pivot: {x: 0.49804688, y: -0.30929488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210aac0edbd81ed458ffdaa3077484bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack06
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 678
+        width: 370
+        height: 345
+      alignment: 9
+      pivot: {x: 0.6148649, y: 0.004347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aafd50d4d1955f4cb21118694456b2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 122
+        width: 501
+        height: 356
+      alignment: 9
+      pivot: {x: 0.50798404, y: 0.2766854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b4d4d8030589d4ba0671256a1b3c34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack08
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 16
+        width: 241
+        height: 312
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47916666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0db7e573341994fa81d9c12fea06b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a4a667ea2eaa24949a08314a75f36ead
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 66d79a58d4efa544f98565aae0d222a5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _materialDefault: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - _materialBlurGass: {fileID: 2100000, guid: 3f8d060f5d942f5468de0707bd5c79b9, type: 2}
+  - _materiaGrayScale: {fileID: 2100000, guid: a914b449744e9a443ab0629234934030, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
