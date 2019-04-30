@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: 609c4bbdc7930c24cb5412c06e288255
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -435687720235116548
+    second: MageChicken_Alert01
+  - first:
+      213: -8635974160174483815
+    second: MageChicken_Attack01
+  - first:
+      213: 2307668976597919399
+    second: MageChicken_Attack02
+  - first:
+      213: 1028384756995220403
+    second: MageChicken_Attack03
+  - first:
+      213: -8207535240052042936
+    second: MageChicken_Attack04
+  - first:
+      213: 3933004598628487110
+    second: MageChicken_Attack05
+  - first:
+      213: -2643625042640982484
+    second: MageChicken_Attack06
+  - first:
+      213: -5948339761094534766
+    second: MageChicken_Attack07
+  - first:
+      213: -9194756343751240314
+    second: MageChicken_Attack08
+  - first:
+      213: 8549303741971237181
+    second: MageChicken_Attack09
+  - first:
+      213: 626090247135103445
+    second: MageChicken_Attack10
+  - first:
+      213: 721278978008522128
+    second: MageChicken_Attack11
+  - first:
+      213: 3400142397859779737
+    second: MageChicken_Attack12
+  - first:
+      213: 1233322582834779241
+    second: MageChicken_Idle01
+  - first:
+      213: 5527683463486286739
+    second: MageChicken_Idle02
+  - first:
+      213: -4971822019259310038
+    second: MageChicken_Idle03
+  - first:
+      213: 5229040597657743080
+    second: MageChicken_Idle04
+  - first:
+      213: -2961208690803202052
+    second: MageChicken_Idle05
+  - first:
+      213: -4743210187301314650
+    second: MageChicken_Idle06
+  - first:
+      213: 3125210282219817644
+    second: MageChicken_Idle07
+  - first:
+      213: -5145893790635661259
+    second: MageChicken_Idle08
+  - first:
+      213: -1824026322812337377
+    second: MageChicken_Idle09
+  - first:
+      213: 5531544013746588609
+    second: MageChicken_Idle10
+  - first:
+      213: 4004214293957204589
+    second: MageChicken_Move01
+  - first:
+      213: -3760957835736058863
+    second: MageChicken_Move02
+  - first:
+      213: -3666027993159590456
+    second: MageChicken_Move03
+  - first:
+      213: 1897682803183790919
+    second: MageChicken_Move04
+  - first:
+      213: -6759386588257019122
+    second: MageChicken_Move05
+  - first:
+      213: 4620431134854416700
+    second: MageChicken_Move06
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MageChicken_Alert01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3449
+        width: 561
+        height: 646
+      alignment: 9
+      pivot: {x: 0.5285205, y: 0.4512384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9efe03e292bac245b836a61bb119bf1
+      internalID: -435687720235116548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack01
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 2381
+        width: 412
+        height: 571
+      alignment: 9
+      pivot: {x: 0.50849515, y: 0.5140105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b96501bd40a684e97dd6fb12071c80
+      internalID: -8635974160174483815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack02
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1813
+        width: 401
+        height: 566
+      alignment: 9
+      pivot: {x: 0.5698254, y: 0.50618374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2703eaf9a394b244cb80009a76bea110
+      internalID: 2307668976597919399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack03
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 3522
+        width: 450
+        height: 573
+      alignment: 9
+      pivot: {x: 0.5922222, y: 0.5104712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20923bd5adac64b4cba41ef8900cab6d
+      internalID: 1028384756995220403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack04
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 3527
+        width: 501
+        height: 568
+      alignment: 9
+      pivot: {x: 0.6157685, y: 0.506162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413a9d51f937e44418c0fc3a69af7e32
+      internalID: -8207535240052042936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack05
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2954
+        width: 442
+        height: 566
+      alignment: 9
+      pivot: {x: 0.5803167, y: 0.50441694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8776a1bc298a14f4c9a7cc5afec107d2
+      internalID: 3933004598628487110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2881
+        width: 413
+        height: 566
+      alignment: 9
+      pivot: {x: 0.5532688, y: 0.50618374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a33fa4f16f60bd47ad244765472d4b9
+      internalID: -2643625042640982484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack07
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1249
+        width: 398
+        height: 567
+      alignment: 9
+      pivot: {x: 0.5263819, y: 0.51058203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c78498301206242a77339d4117779e
+      internalID: -5948339761094534766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack08
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 2385
+        width: 413
+        height: 572
+      alignment: 9
+      pivot: {x: 0.51937044, y: 0.5131119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac87b527df96714580d2b7f79872f6e
+      internalID: -9194756343751240314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1174
+        width: 404
+        height: 569
+      alignment: 9
+      pivot: {x: 0.53341585, y: 0.51054484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7654b161b0dd14ab61417a949db0d1
+      internalID: 8549303741971237181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack10
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1818
+        width: 405
+        height: 565
+      alignment: 9
+      pivot: {x: 0.517284, y: 0.50884956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceb5cb67b059a54c83b03b9445bb5a4
+      internalID: 626090247135103445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1745
+        width: 406
+        height: 566
+      alignment: 9
+      pivot: {x: 0.5184729, y: 0.50883394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e4141f0a303104aae359e2c8ebc68a
+      internalID: 721278978008522128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Attack12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2313
+        width: 407
+        height: 566
+      alignment: 9
+      pivot: {x: 0.522113, y: 0.50795054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cd249025cbc814586bb7e64199c4e9
+      internalID: 3400142397859779737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Idle01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 149
+        width: 316
+        height: 520
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50096154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d993c4a26f209204eaa88aeee1eed31b
+      internalID: 1233322582834779241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Idle02
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 159
+        width: 316
+        height: 510
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5088235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b6f7ee36c2fd448a4393c019d31a80
+      internalID: 5527683463486286739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Idle03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 671
+        width: 317
+        height: 501
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51796407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0768f90848ddcf4fb33bcf74441e39f
+      internalID: -4971822019259310038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Idle04
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 759
+        width: 322
+        height: 495
+      alignment: 9
+      pivot: {x: 0.48913044, y: 0.5242424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e07bac8058ec947b946dd519cd09b2
+      internalID: 5229040597657743080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Idle05
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1393
+        width: 317
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5306749}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112771111b236474fbda21439c9fa140
+      internalID: -2961208690803202052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Idle06
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 764
+        width: 316
+        height: 483
+      alignment: 9
+      pivot: {x: 0.49841774, y: 0.53519666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ef7617936b8bc419c72ac7e117f61f
+      internalID: -4743210187301314650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Idle07
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1322
+        width: 317
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5306749}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfc542ce94dbc344a6bba4f0e72a5cd
+      internalID: 3125210282219817644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Idle08
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1884
+        width: 317
+        height: 495
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5242424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713a63d02c06bac458125d7373dda582
+      internalID: -5145893790635661259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Idle09
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 818
+        width: 316
+        height: 502
+      alignment: 9
+      pivot: {x: 0.49841774, y: 0.5189243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df24eb23ff1a87409cc325c5aaa8d14
+      internalID: -1824026322812337377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Idle10
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 881
+        width: 316
+        height: 510
+      alignment: 9
+      pivot: {x: 0.49841774, y: 0.5088235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552497db1a420dc4d8f51f7e0a4f9d6b
+      internalID: 5531544013746588609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Move01
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 3524
+        width: 505
+        height: 571
+      alignment: 9
+      pivot: {x: 0.43960395, y: 0.5122592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc58b69e5a2092479a0092a000416f1
+      internalID: 4004214293957204589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Move02
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1823
+        width: 407
+        height: 563
+      alignment: 9
+      pivot: {x: 0.5159705, y: 0.5053286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2792695eb4cd44940acfe2a43a7166a1
+      internalID: -3760957835736058863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Move03
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 2959
+        width: 499
+        height: 566
+      alignment: 9
+      pivot: {x: 0.42184368, y: 0.50795054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0040cea03df6664286f1a60341ce3f3
+      internalID: -3666027993159590456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Move04
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2388
+        width: 408
+        height: 563
+      alignment: 9
+      pivot: {x: 0.5183824, y: 0.5071048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd69ce7b24e3ad46aa13d024c7031b7
+      internalID: 1897682803183790919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Move05
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 2953
+        width: 493
+        height: 569
+      alignment: 9
+      pivot: {x: 0.4249493, y: 0.51054484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c47cc2922b5934e8be7fe22bc0596e
+      internalID: -6759386588257019122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageChicken_Move06
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1256
+        width: 405
+        height: 565
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.50707966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4befdca64f35d6f4aa6c8e7c84e65b21
+      internalID: 4620431134854416700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dcd781e86146f9f439622557ca0c207e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

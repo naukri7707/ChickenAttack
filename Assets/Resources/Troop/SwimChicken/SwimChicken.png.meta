@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: 1e98fc769606e754bbf53f4c3ffadfd9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -444850242738514326
+    second: SwimChicken_Alert01
+  - first:
+      213: -6802242307288863748
+    second: SwimChicken_Attack01
+  - first:
+      213: 7796012765650437992
+    second: SwimChicken_Attack02
+  - first:
+      213: -2219407394266762746
+    second: SwimChicken_Attack03
+  - first:
+      213: 3390217956370694077
+    second: SwimChicken_Attack04
+  - first:
+      213: -4321736471641718766
+    second: SwimChicken_Attack05
+  - first:
+      213: 240667943772311848
+    second: SwimChicken_Attack06
+  - first:
+      213: -6616903998328917547
+    second: SwimChicken_Attack07
+  - first:
+      213: 8782657023800257105
+    second: SwimChicken_Attack08
+  - first:
+      213: 4400008998297528462
+    second: SwimChicken_Attack09
+  - first:
+      213: -753472583864149072
+    second: SwimChicken_Attack10
+  - first:
+      213: 3244505090362036400
+    second: SwimChicken_Attack11
+  - first:
+      213: -5094100649119554250
+    second: SwimChicken_Attack12
+  - first:
+      213: 3684941572734985952
+    second: SwimChicken_Idle01
+  - first:
+      213: -2639048389415652060
+    second: SwimChicken_Idle02
+  - first:
+      213: 5444468161239438072
+    second: SwimChicken_Idle03
+  - first:
+      213: -7270831092905150457
+    second: SwimChicken_Idle04
+  - first:
+      213: 40461126440947256
+    second: SwimChicken_Idle05
+  - first:
+      213: 1914289372403782619
+    second: SwimChicken_Idle06
+  - first:
+      213: 4133889561784234363
+    second: SwimChicken_Idle07
+  - first:
+      213: 7693333423363770364
+    second: SwimChicken_Idle08
+  - first:
+      213: -3762831082566429035
+    second: SwimChicken_Idle09
+  - first:
+      213: 8448946291736825102
+    second: SwimChicken_Idle10
+  - first:
+      213: -2387431369787897400
+    second: SwimChicken_Idle11
+  - first:
+      213: -983389856338323119
+    second: SwimChicken_Move01
+  - first:
+      213: -177194796531803116
+    second: SwimChicken_Move02
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwimChicken_Alert01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 710
+        width: 259
+        height: 314
+      alignment: 9
+      pivot: {x: 0.45173746, y: 0.40923566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7111b9f88a821ef4aa03e92803f0f3ed
+      internalID: -444850242738514326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack01
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 248
+        width: 232
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5215517, y: 0.49804688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6be0afe694ff3d4bb4203c81f7388a2
+      internalID: -6802242307288863748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 172
+        width: 222
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5022523, y: 0.49625468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d982010029716349a1af67bd6f51a99
+      internalID: 7796012765650437992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack03
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 922
+        width: 246
+        height: 254
+      alignment: 9
+      pivot: {x: 0.45731708, y: 0.5019685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c94898cda2aa414aa5a600fc76fd3cb
+      internalID: -2219407394266762746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 441
+        width: 254
+        height: 267
+      alignment: 9
+      pivot: {x: 0.47047246, y: 0.4775281}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162d5a68c40ae4c41a77d3196a283286
+      internalID: 3390217956370694077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack05
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1405
+        width: 274
+        height: 302
+      alignment: 9
+      pivot: {x: 0.4580292, y: 0.442053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f1ef778cd875d45b2f1e29cbf50199
+      internalID: -4321736471641718766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack06
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1709
+        width: 303
+        height: 338
+      alignment: 9
+      pivot: {x: 0.44719473, y: 0.3831361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655773206aa0e984198a54ada9346f36
+      internalID: 240667943772311848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1346
+        width: 270
+        height: 348
+      alignment: 9
+      pivot: {x: 0.4425926, y: 0.38649425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb150acfb808df47ac67ad98b308e6d
+      internalID: -6616903998328917547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack08
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1038
+        width: 236
+        height: 306
+      alignment: 9
+      pivot: {x: 0.47245762, y: 0.42973855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35232a7ac0ca7d4babd806589628d24
+      internalID: 8782657023800257105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1026
+        width: 246
+        height: 318
+      alignment: 9
+      pivot: {x: 0.49390244, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137308ba8ba1dca48abcb0d355162890
+      internalID: 4400008998297528462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1696
+        width: 269
+        height: 351
+      alignment: 9
+      pivot: {x: 0.5111524, y: 0.37749287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2502a1e9b06e28e409d8d7bf0b688415
+      internalID: -753472583864149072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack11
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 177
+        width: 231
+        height: 264
+      alignment: 9
+      pivot: {x: 0.521645, y: 0.50189394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6bcd97f0908a548a1536336029c523
+      internalID: 3244505090362036400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Attack12
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 617
+        width: 229
+        height: 255
+      alignment: 9
+      pivot: {x: 0.51746726, y: 0.5117647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfae60be7bbd1514abc530129130ea54
+      internalID: -5094100649119554250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle01
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 443
+        width: 259
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5019305, y: 0.49622643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f588c8d0e2ee6dc46b113af537e660ee
+      internalID: 3684941572734985952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle02
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 506
+        width: 260
+        height: 263
+      alignment: 9
+      pivot: {x: 0.49807692, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c01d007db41ef444b5c04415406a540
+      internalID: -2639048389415652060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle03
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 174
+        width: 261
+        height: 265
+      alignment: 9
+      pivot: {x: 0.49616858, y: 0.49622643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b07d35ddf259647b2efa7776d51950
+      internalID: 5444468161239438072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle04
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 874
+        width: 259
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7fb1b1d53e809448ced6673e5ebef0
+      internalID: -7270831092905150457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle05
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1789
+        width: 268
+        height: 258
+      alignment: 9
+      pivot: {x: 0.505597, y: 0.50581396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d010df807966fe64abfc49004f011e5e
+      internalID: 40461126440947256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle06
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1783
+        width: 258
+        height: 264
+      alignment: 9
+      pivot: {x: 0.498062, y: 0.50189394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5a7b0b6643e1d4e82d1de3b9f4ec8d
+      internalID: 1914289372403782619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle07
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1519
+        width: 262
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5057252, y: 0.5038168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b674f8c8f83ff8e43a6d6068bacb3637
+      internalID: 4133889561784234363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle08
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1443
+        width: 262
+        height: 264
+      alignment: 9
+      pivot: {x: 0.4942748, y: 0.50189394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7646cd2e5e0b82048a5c7c5a1d328fdb
+      internalID: 7693333423363770364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle09
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1139
+        width: 264
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5094697, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2168587b667c4c34c835f5bf3b283bdf
+      internalID: -3762831082566429035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle10
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1178
+        width: 256
+        height: 263
+      alignment: 9
+      pivot: {x: 0.49414062, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d06ab905b024d74b92c01968d6571a1
+      internalID: 8448946291736825102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Idle11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 771
+        width: 258
+        height: 265
+      alignment: 9
+      pivot: {x: 0.49031007, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d1a00f4f4a1ed40bf14db9b6b00406
+      internalID: -2387431369787897400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Move01
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1785
+        width: 231
+        height: 262
+      alignment: 9
+      pivot: {x: 0.508658, y: 0.4980916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1777d1619156542bc9fd8131cd8f62
+      internalID: -983389856338323119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimChicken_Move02
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1265
+        width: 222
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5022523, y: 0.49801588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9eaff1d206b56a4fb585e1a7352a1af
+      internalID: -177194796531803116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 924a2a073c61e3e47870c47e806a0229
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

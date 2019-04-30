@@ -1,0 +1,849 @@
+fileFormatVersion: 2
+guid: e094381afd907ae498617f210c75b06f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -435687720235116548
+    second: MageChicken_Alert01
+  - first:
+      213: -8635974160174483815
+    second: MageChicken_Attack01
+  - first:
+      213: 2307668976597919399
+    second: MageChicken_Attack02
+  - first:
+      213: 1028384756995220403
+    second: MageChicken_Attack03
+  - first:
+      213: -8207535240052042936
+    second: MageChicken_Attack04
+  - first:
+      213: 3933004598628487110
+    second: MageChicken_Attack05
+  - first:
+      213: -2643625042640982484
+    second: MageChicken_Attack06
+  - first:
+      213: -5948339761094534766
+    second: MageChicken_Attack07
+  - first:
+      213: -9194756343751240314
+    second: MageChicken_Attack08
+  - first:
+      213: 8549303741971237181
+    second: MageChicken_Attack09
+  - first:
+      213: 626090247135103445
+    second: MageChicken_Attack10
+  - first:
+      213: 721278978008522128
+    second: MageChicken_Attack11
+  - first:
+      213: 3400142397859779737
+    second: MageChicken_Attack12
+  - first:
+      213: 1233322582834779241
+    second: MageChicken_Idle01
+  - first:
+      213: 5527683463486286739
+    second: MageChicken_Idle02
+  - first:
+      213: -4971822019259310038
+    second: MageChicken_Idle03
+  - first:
+      213: 5229040597657743080
+    second: MageChicken_Idle04
+  - first:
+      213: -2961208690803202052
+    second: MageChicken_Idle05
+  - first:
+      213: -4743210187301314650
+    second: MageChicken_Idle06
+  - first:
+      213: 3125210282219817644
+    second: MageChicken_Idle07
+  - first:
+      213: -5145893790635661259
+    second: MageChicken_Idle08
+  - first:
+      213: -1824026322812337377
+    second: MageChicken_Idle09
+  - first:
+      213: 5531544013746588609
+    second: MageChicken_Idle10
+  - first:
+      213: 4004214293957204589
+    second: MageChicken_Move01
+  - first:
+      213: -3760957835736058863
+    second: MageChicken_Move02
+  - first:
+      213: -3666027993159590456
+    second: MageChicken_Move03
+  - first:
+      213: 1897682803183790919
+    second: MageChicken_Move04
+  - first:
+      213: -6759386588257019122
+    second: MageChicken_Move05
+  - first:
+      213: 4620431134854416700
+    second: MageChicken_Move06
+  - first:
+      213: 8612370033193765095
+    second: ArtisanChicken_Alert01
+  - first:
+      213: -7571725716157708201
+    second: ArtisanChicken_Attack01
+  - first:
+      213: 5791306010292134522
+    second: ArtisanChicken_Attack02
+  - first:
+      213: 4809586717856573318
+    second: ArtisanChicken_Attack03
+  - first:
+      213: 2333060511511308919
+    second: ArtisanChicken_Attack04
+  - first:
+      213: 8006180762384370146
+    second: ArtisanChicken_Attack05
+  - first:
+      213: -8381220718256300989
+    second: ArtisanChicken_Attack06
+  - first:
+      213: -7502135382757687226
+    second: ArtisanChicken_Attack07
+  - first:
+      213: -4557870878836549187
+    second: ArtisanChicken_Attack08
+  - first:
+      213: 3177036695608973536
+    second: ArtisanChicken_Idle01
+  - first:
+      213: 737837989624780238
+    second: ArtisanChicken_Idle02
+  - first:
+      213: -210705310874050705
+    second: ArtisanChicken_Idle03
+  - first:
+      213: -1605865936496086857
+    second: ArtisanChicken_Idle04
+  - first:
+      213: -7615513527796350206
+    second: ArtisanChicken_Idle05
+  - first:
+      213: 5923102277527816330
+    second: ArtisanChicken_Idle06
+  - first:
+      213: 1142630983937272312
+    second: ArtisanChicken_Idle07
+  - first:
+      213: -5587129448291753508
+    second: ArtisanChicken_Idle08
+  - first:
+      213: 4252544063267738260
+    second: ArtisanChicken_Idle09
+  - first:
+      213: -2796348346116574641
+    second: ArtisanChicken_Idle10
+  - first:
+      213: -4410799664021108771
+    second: ArtisanChicken_Idle11
+  - first:
+      213: 8514948021644531216
+    second: ArtisanChicken_Idle12
+  - first:
+      213: -4225716388877514696
+    second: ArtisanChicken_Idle13
+  - first:
+      213: 894640809470024689
+    second: ArtisanChicken_Idle14
+  - first:
+      213: 1649413848367494580
+    second: ArtisanChicken_Idle15
+  - first:
+      213: -371072569222212694
+    second: ArtisanChicken_Move01
+  - first:
+      213: -165330144349278664
+    second: ArtisanChicken_Move02
+  - first:
+      213: 1490865250282149104
+    second: ArtisanChicken_Move03
+  - first:
+      213: 3437001601246725556
+    second: ArtisanChicken_Move04
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArtisanChicken_Alert01
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1256
+        width: 480
+        height: 585
+      alignment: 9
+      pivot: {x: 0.609375, y: 0.4948718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65eaac0bd59512743869ded64bdf1dd1
+      internalID: 8612370033193765095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Attack01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2961
+        width: 508
+        height: 570
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.4991228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fea234b9f484b47870904d934a0edd
+      internalID: -7571725716157708201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Attack02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 674
+        width: 478
+        height: 583
+      alignment: 9
+      pivot: {x: 0.5596234, y: 0.5068611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e6c758ad35ffb4da26ae84af41d53b
+      internalID: 5791306010292134522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Attack03
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 96
+        width: 463
+        height: 576
+      alignment: 9
+      pivot: {x: 0.5799136, y: 0.4939236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c728926700247b94d8ca99f910309f3e
+      internalID: 4809586717856573318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Attack04
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 680
+        width: 471
+        height: 574
+      alignment: 9
+      pivot: {x: 0.57855624, y: 0.49738675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f656bf14411be114eb28be34367db0a5
+      internalID: 2333060511511308919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Attack05
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1262
+        width: 475
+        height: 579
+      alignment: 9
+      pivot: {x: 0.59052634, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6965089bcff66849b30e4328b1e502d
+      internalID: 8006180762384370146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Attack06
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1264
+        width: 482
+        height: 578
+      alignment: 9
+      pivot: {x: 0.5612033, y: 0.50086504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f61d483cddbf0408846cb969f0418c
+      internalID: -8381220718256300989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Attack07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1259
+        width: 480
+        height: 581
+      alignment: 9
+      pivot: {x: 0.540625, y: 0.50860584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3601acd9697664a82cfd35232b903b
+      internalID: -7502135382757687226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Attack08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 460
+        height: 577
+      alignment: 9
+      pivot: {x: 0.55108696, y: 0.5051993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8ef22b9be5c6f4fb881dc9a3c9bbb7
+      internalID: -4557870878836549187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle01
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 3528
+        width: 508
+        height: 567
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.50176364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a4271c24f5c1b41aac7b2893987669
+      internalID: 3177036695608973536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle02
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3524
+        width: 508
+        height: 571
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.4982487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983d4fc76ed8c34419967bb6b02b055a
+      internalID: 737837989624780238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle03
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 3527
+        width: 508
+        height: 568
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.5008803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0240f8fa607cfc9449752773ed0971e5
+      internalID: -210705310874050705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle04
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 2959
+        width: 508
+        height: 567
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.50352734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0a3faf71e6b2043939a9c6253422ee
+      internalID: -1605865936496086857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle05
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2402
+        width: 508
+        height: 558
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.50985664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41e301381bb2904299b529be2269a38
+      internalID: -7615513527796350206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle06
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1843
+        width: 508
+        height: 557
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.510772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2db7213ca2ae7e47ae2ffedc8f4ed62
+      internalID: 5923102277527816330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle07
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1843
+        width: 508
+        height: 556
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.5116907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd5f8ccb9c7e2440bc5bf3bbed5bc80
+      internalID: 1142630983937272312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle08
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1844
+        width: 508
+        height: 554
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.5135379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539eacc6fe74f95458320424899c1e68
+      internalID: -5587129448291753508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1842
+        width: 508
+        height: 557
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.510772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caf79f7761f8c34b833592ffe9082e3
+      internalID: 4252544063267738260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle10
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 2400
+        width: 508
+        height: 557
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.510772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0fd6c9a3416104e99a212ef04fcbd1
+      internalID: -2796348346116574641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2401
+        width: 508
+        height: 558
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.50985664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cf2f11321063340b28f7bd380fb826
+      internalID: -4410799664021108771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle12
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2401
+        width: 508
+        height: 558
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.50985664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cbd2e01f97a144c9a8a3c2b94699cd
+      internalID: 8514948021644531216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle13
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2962
+        width: 508
+        height: 560
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.5080357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31279795f9eec94593b6787a65a258f
+      internalID: -4225716388877514696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3533
+        width: 509
+        height: 562
+      alignment: 9
+      pivot: {x: 0.5255403, y: 0.5080071}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb54ca1864858d44b4010e27958bfef
+      internalID: 894640809470024689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Idle15
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2961
+        width: 508
+        height: 564
+      alignment: 9
+      pivot: {x: 0.5246063, y: 0.5044326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71041092924249c46bf69b8fc0a8defe
+      internalID: 1649413848367494580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Move01
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 703
+        width: 423
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138f3eca81f62d8429f3329868ba0af0
+      internalID: -371072569222212694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Move02
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 126
+        width: 419
+        height: 552
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21a1abcff539cb47ab9c689bf9faaa4
+      internalID: -165330144349278664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Move03
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 712
+        width: 414
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f14b7e97228c424891a4372156035f6
+      internalID: 1490865250282149104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArtisanChicken_Move04
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 151
+        width: 419
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf5da6ff6a74224baf5c7242d103aa2
+      internalID: 3437001601246725556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7afcb7f51979651419cd6b45bfdafcb8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,594 @@
+fileFormatVersion: 2
+guid: 5493e71045aae1742be8f67ecb7aefde
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7921448955306150787
+    second: PotionChicken_Alert01
+  - first:
+      213: 7945704036776749512
+    second: PotionChicken_Attack01
+  - first:
+      213: -3399277657229074400
+    second: PotionChicken_Attack02
+  - first:
+      213: -913101544965914925
+    second: PotionChicken_Attack03
+  - first:
+      213: 1203660030232061771
+    second: PotionChicken_Attack04
+  - first:
+      213: 170053731916495594
+    second: PotionChicken_Attack05
+  - first:
+      213: 6359868204767051940
+    second: PotionChicken_Attack06
+  - first:
+      213: 7299623563399585671
+    second: PotionChicken_Idle01
+  - first:
+      213: -7514509013657328724
+    second: PotionChicken_Idle02
+  - first:
+      213: -1796945727638531135
+    second: PotionChicken_Idle03
+  - first:
+      213: 3393988332484660992
+    second: PotionChicken_Idle04
+  - first:
+      213: 7681899025645675746
+    second: PotionChicken_Idle05
+  - first:
+      213: -1652093015261098538
+    second: PotionChicken_Idle06
+  - first:
+      213: 9050184016679287251
+    second: PotionChicken_Idle07
+  - first:
+      213: -2454193660050862584
+    second: PotionChicken_Idle08
+  - first:
+      213: 1743059542364810087
+    second: PotionChicken_Idle09
+  - first:
+      213: 5501782995671863466
+    second: PotionChicken_Idle10
+  - first:
+      213: -5754019843014505942
+    second: PotionChicken_Idle11
+  - first:
+      213: -8047755576133540868
+    second: PotionChicken_Idle12
+  - first:
+      213: 2097129047624132364
+    second: PotionChicken_Move01
+  - first:
+      213: 856292920156806969
+    second: PotionChicken_Move02
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PotionChicken_Alert01
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 3537
+        width: 347
+        height: 558
+      alignment: 9
+      pivot: {x: 0.5432277, y: 0.48835126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad0b8e48391ced4a90ad045e2ba01fd
+      internalID: -7921448955306150787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Attack01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1899
+        width: 308
+        height: 547
+      alignment: 9
+      pivot: {x: 0.49837664, y: 0.49817184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f19a80eb082254789882f57bde1509
+      internalID: 7945704036776749512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Attack02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3550
+        width: 385
+        height: 545
+      alignment: 9
+      pivot: {x: 0.44805196, y: 0.5055046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4356a256cb67bf14f9885a5cfa686593
+      internalID: -3399277657229074400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Attack03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3002
+        width: 345
+        height: 546
+      alignment: 9
+      pivot: {x: 0.5057971, y: 0.49725273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1947149c53fbfaa41972bed19fc54e18
+      internalID: -913101544965914925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Attack04
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 2483
+        width: 327
+        height: 545
+      alignment: 9
+      pivot: {x: 0.53669727, y: 0.49266055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f12be4bbe86cb41856779f46ab2f62
+      internalID: 1203660030232061771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Attack05
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2443
+        width: 320
+        height: 546
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.50091577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d190626f687bd7f4d81af802b1074540
+      internalID: 170053731916495594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Attack06
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1938
+        width: 307
+        height: 543
+      alignment: 9
+      pivot: {x: 0.49674267, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f860a647ace19d478e1f815ecf87807
+      internalID: 6359868204767051940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle01
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 3560
+        width: 285
+        height: 535
+      alignment: 9
+      pivot: {x: 0.48245615, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d0ee39e26ef364cb71ee987fa3bfb6
+      internalID: 7299623563399585671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle02
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1384
+        width: 274
+        height: 531
+      alignment: 9
+      pivot: {x: 0.5018248, y: 0.5037665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc06a8c6bffb7e049aeec0ae34feeb44
+      internalID: -7514509013657328724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 844
+        width: 273
+        height: 520
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1261414055b2e124ea5aa6c702cd5c21
+      internalID: -1796945727638531135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 327
+        width: 269
+        height: 515
+      alignment: 9
+      pivot: {x: 0.48884758, y: 0.51941746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32191a456bb7b4e40a38ffa5a763b1f4
+      internalID: 3393988332484660992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle05
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 880
+        width: 274
+        height: 519
+      alignment: 9
+      pivot: {x: 0.5018248, y: 0.5115607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7682887ae0f784ea9cc6bbe76a1390
+      internalID: 7681899025645675746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1366
+        width: 274
+        height: 531
+      alignment: 9
+      pivot: {x: 0.5018248, y: 0.5037665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389389f68d3f2e84b8f13fda7455d569
+      internalID: -1652093015261098538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle07
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1401
+        width: 276
+        height: 535
+      alignment: 9
+      pivot: {x: 0.5018116, y: 0.5009346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5658b6b01aa53064fba94160670edc7c
+      internalID: 9050184016679287251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle08
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1917
+        width: 277
+        height: 524
+      alignment: 9
+      pivot: {x: 0.4927798, y: 0.5104962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929ba65d4b8e9b7438dd53c2be2e2b38
+      internalID: -2454193660050862584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle09
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 359
+        width: 273
+        height: 519
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51541424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841dddf88c469fb4bbb2b9181f60c349
+      internalID: 1743059542364810087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 348
+        width: 272
+        height: 515
+      alignment: 9
+      pivot: {x: 0.4944853, y: 0.52038836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2c1878050dff0408a03d3cfaa14858
+      internalID: 5501782995671863466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 865
+        width: 274
+        height: 517
+      alignment: 9
+      pivot: {x: 0.5018248, y: 0.51740813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb3479e9b989a64b90365f0246869d3
+      internalID: -5754019843014505942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Idle12
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 3030
+        width: 278
+        height: 528
+      alignment: 9
+      pivot: {x: 0.4910072, y: 0.5047349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63afb49cbed0f2241a42513d2c0ab20a
+      internalID: -8047755576133540868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Move01
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2991
+        width: 338
+        height: 544
+      alignment: 9
+      pivot: {x: 0.45118344, y: 0.4935662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6d59eb08d392d449d61a199d22b40a
+      internalID: 2097129047624132364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PotionChicken_Move02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2448
+        width: 321
+        height: 552
+      alignment: 9
+      pivot: {x: 0.49376947, y: 0.4990942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddedd4698f0199f4f90e5b7fb29f8dcb
+      internalID: 856292920156806969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8f41868c627b2d047b85c78956683f84
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

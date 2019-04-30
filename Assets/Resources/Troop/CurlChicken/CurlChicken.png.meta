@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: 8f4a3e564e99b94489a5076885bea460
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7061905915223726355
+    second: CurlChicken_Alert01
+  - first:
+      213: 1895931609489790407
+    second: CurlChicken_Attack01
+  - first:
+      213: -5855471412890946530
+    second: CurlChicken_Attack02
+  - first:
+      213: -2195689645718283687
+    second: CurlChicken_Attack03
+  - first:
+      213: 4159297546755348616
+    second: CurlChicken_Attack04
+  - first:
+      213: 2416766949442886193
+    second: CurlChicken_Attack05
+  - first:
+      213: -5758711048348071847
+    second: CurlChicken_Attack06
+  - first:
+      213: -4840589245559657239
+    second: CurlChicken_Attack07
+  - first:
+      213: -1573386915912391700
+    second: CurlChicken_Attack08
+  - first:
+      213: -2306524019960975298
+    second: CurlChicken_Idle01
+  - first:
+      213: -781692832717515531
+    second: CurlChicken_Idle02
+  - first:
+      213: -7593709849222175726
+    second: CurlChicken_Idle03
+  - first:
+      213: -2939358451118009147
+    second: CurlChicken_Idle04
+  - first:
+      213: 1148092057341481080
+    second: CurlChicken_Idle05
+  - first:
+      213: 4136509330474175380
+    second: CurlChicken_Idle06
+  - first:
+      213: 1336271872884296212
+    second: CurlChicken_Idle07
+  - first:
+      213: -2079777918721687148
+    second: CurlChicken_Idle08
+  - first:
+      213: 6743012494480470179
+    second: CurlChicken_Idle09
+  - first:
+      213: -1848648021391540999
+    second: CurlChicken_Idle10
+  - first:
+      213: 3026729246951158948
+    second: CurlChicken_Idle11
+  - first:
+      213: 6841520912090533836
+    second: CurlChicken_Idle12
+  - first:
+      213: 5996898794755471732
+    second: CurlChicken_Idle13
+  - first:
+      213: 3830674824470819935
+    second: CurlChicken_Idle14
+  - first:
+      213: 2953769211662500395
+    second: CurlChicken_Idle15
+  - first:
+      213: -5046040812011150577
+    second: CurlChicken_Move01
+  - first:
+      213: -7683618219253347496
+    second: CurlChicken_Move02
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CurlChicken_Alert01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 801
+        width: 244
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5020492, y: 0.43586007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e75ff6a7cbba754a965b089475c33bb
+      internalID: -7061905915223726355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 486
+        width: 246
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.49361023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812dfdb981792c2459ff066c95cc7b44
+      internalID: 1895931609489790407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack02
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1701
+        width: 247
+        height: 346
+      alignment: 9
+      pivot: {x: 0.5040486, y: 0.2615607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71eed6af010dc8439e6f2731ace58ca
+      internalID: -5855471412890946530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1504
+        width: 236
+        height: 543
+      alignment: 9
+      pivot: {x: 0.50211865, y: 0.21270718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197461a6a5a56a24f88098c771a54afe
+      internalID: -2195689645718283687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack04
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 523
+        width: 245
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: -0.33387622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50358815ae3c184db010d31a37a0845
+      internalID: 4159297546755348616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack05
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 832
+        width: 256
+        height: 312
+      alignment: 9
+      pivot: {x: 0.49804688, y: -0.30929488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a79653b0f1cf144592444ead0e73602
+      internalID: 2416766949442886193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack06
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1702
+        width: 370
+        height: 345
+      alignment: 9
+      pivot: {x: 0.6148649, y: 0.004347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9118042de714c57438211c9fc06788fb
+      internalID: -5758711048348071847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1146
+        width: 501
+        height: 356
+      alignment: 9
+      pivot: {x: 0.50798404, y: 0.2766854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7021e8f09c35e940b1fe204ac15f0bb
+      internalID: -4840589245559657239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Attack08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 172
+        width: 241
+        height: 312
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47916666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20188c15176b67242b44ca32d9ee5b11
+      internalID: -1573386915912391700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle01
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 219
+        width: 255
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5019608, y: 0.48509935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e170c913307b334699fbe6fddf0f308
+      internalID: -2306524019960975298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle02
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1399
+        width: 265
+        height: 301
+      alignment: 9
+      pivot: {x: 0.4811321, y: 0.48671097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178f335a700a9a9439543bd83caff952
+      internalID: -781692832717515531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle03
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1097
+        width: 270
+        height: 300
+      alignment: 9
+      pivot: {x: 0.47592592, y: 0.48833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b23d45319aa8574a8288ff6687ef99f
+      internalID: -7593709849222175726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle04
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1748
+        width: 257
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48996654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8167fdce5f8e54eb8e8de0d5450873
+      internalID: -2939358451118009147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle05
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1752
+        width: 264
+        height: 295
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.49661016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e68e8e7beb61149a6cf7f7885237bf
+      internalID: 1148092057341481080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle06
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1100
+        width: 265
+        height: 298
+      alignment: 9
+      pivot: {x: 0.48490566, y: 0.49161074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587c9c8dea9fc884b83947a5826f2c39
+      internalID: 4136509330474175380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle07
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1753
+        width: 266
+        height: 294
+      alignment: 9
+      pivot: {x: 0.4830827, y: 0.49829933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a5d3fbddc8e0b40b84d691a2b52f47
+      internalID: 1336271872884296212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle08
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1460
+        width: 261
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5191571, y: 0.50343645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a7fb2c612103f43983a99843e011f4
+      internalID: -2079777918721687148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle09
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1458
+        width: 255
+        height: 292
+      alignment: 9
+      pivot: {x: 0.50392157, y: 0.49828768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54eec970ffc4f24583d610228faf160
+      internalID: 6743012494480470179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle10
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1161
+        width: 252
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019841, y: 0.493266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3211d749c7266ae4a8f69f92af186587
+      internalID: -1848648021391540999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle11
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1153
+        width: 250
+        height: 293
+      alignment: 9
+      pivot: {x: 0.502, y: 0.49658704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cc724859f397c4cb0a0b3560b47ed1
+      internalID: 3026729246951158948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle12
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1448
+        width: 259
+        height: 298
+      alignment: 9
+      pivot: {x: 0.503861, y: 0.49161074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bf1e96f97cc1d48ab848bd13b886e7
+      internalID: 6841520912090533836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle13
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1749
+        width: 257
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48825502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d63fcf2e54fe64e89aaf3e316d15d7
+      internalID: 5996898794755471732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle14
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 796
+        width: 255
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48996654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a503091187488c40a2937c86f757887
+      internalID: 3830674824470819935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Idle15
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1400
+        width: 266
+        height: 300
+      alignment: 9
+      pivot: {x: 0.4793233, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439f970b8c443c54491caf20158083a2
+      internalID: 2953769211662500395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Move01
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 522
+        width: 238
+        height: 308
+      alignment: 9
+      pivot: {x: 0.5021008, y: 0.48538962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1de328b806bedc48886585a92095d1f
+      internalID: -5046040812011150577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CurlChicken_Move02
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 175
+        width: 245
+        height: 309
+      alignment: 9
+      pivot: {x: 0.5122449, y: 0.487055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0175ec3e3de4a241aebd053d349e925
+      internalID: -7683618219253347496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 511533b7910aa0649bd64af12c914940
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
