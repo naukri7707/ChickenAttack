@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using UnityEngine;
 
 // TODO: Remove the allocs here, use a static memory pool?
@@ -13,7 +14,12 @@ public static class Awaiters
         get { return _waitForUpdate; }
     }
 
-    public static WaitForFixedUpdate FixedUpdate
+	internal static Task Seconds(object delayTime)
+	{
+		throw new NotImplementedException();
+	}
+
+	public static WaitForFixedUpdate FixedUpdate
     {
         get { return _waitForFixedUpdate; }
     }

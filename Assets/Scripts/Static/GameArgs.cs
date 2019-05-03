@@ -28,6 +28,11 @@ public static class GameArgs
 	public const string Background = "BackGround";
 
 	/// <summary>
+	/// 金幣
+	/// </summary>
+	public static int Gold;
+
+	/// <summary>
 	/// 目前關卡
 	/// </summary>
 	public static int CurrentStage;

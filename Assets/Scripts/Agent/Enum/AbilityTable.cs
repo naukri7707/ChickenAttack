@@ -13,6 +13,7 @@ public enum AbilityPriority
 	Alert = 20,
 	//
 	Instantiate = 1000,
+	GoldProduce = -9999,
 }
 
 /// <summary>

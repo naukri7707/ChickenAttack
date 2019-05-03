@@ -42,6 +42,7 @@ public class DataViewer : EditorWindow
 		DataType.AgentTypeFlags,
 		DataType.Int,
 		DataType.Int,
+		DataType.Int,
 	};
 
 	/// <summary>
@@ -138,8 +139,9 @@ public class DataViewer : EditorWindow
 	private void LoadTable()
 	{
 		EditorGUILayout.BeginHorizontal();
+		EditorGUI.BeginChangeCheck();
 		_currentTableSelection = EditorGUILayout.Popup(_currentTableSelection, _tableList);
-		if (GUILayout.Button("Load"))
+		if (EditorGUI.EndChangeCheck())
 		{
 			DataReader reader = new DataTable(_currentTable).SelectAll();
 			_dataTable = new List<object[]>();

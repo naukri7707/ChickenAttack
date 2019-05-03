@@ -40,6 +40,11 @@ public class TroopDetails : DetailsBase
 	public int TrainingTime;
 
 	/// <summary>
+	/// 金幣
+	/// </summary>
+	public int Gold;
+
+	/// <summary>
 	/// 建構子
 	/// </summary>
 	/// <param name="identify">目標ID</param>
@@ -60,6 +65,7 @@ public class TroopDetails : DetailsBase
 		HitFavor = (AgentType)reader.Get<int>("HitFavor");
 		KnockBack = reader.Get<int>("KnockBack");
 		TrainingTime = reader.Get<int>("TrainingTime");
+		Gold = reader.Get<int>("Gold");
 		//
 		reader.SqliteReader.Close();
 	}

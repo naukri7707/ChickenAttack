@@ -26,6 +26,7 @@ public class DeadAbility : AbilityBase
 	{
 		_agent.Collider.enabled = false;
 		_agent.Rigidbody.AddForce(new Vector2(_agent.Team == AgentTeam.Ally ? -200f : 200f, 400f));
+		GameArgs.Gold += _agent.GetDetails<TroopDetails>().Gold;
 	}
 
 	public override void Stay()
