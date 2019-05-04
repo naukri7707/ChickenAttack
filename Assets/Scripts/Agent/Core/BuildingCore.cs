@@ -29,4 +29,14 @@ public class BuildingCore : CoreBase
 		_details = new BuildingDetails(Identify);
 		base.Awake();
 	}
+
+	public void OnMouseUpAsButton()
+	{
+		if (Team == AgentTeam.Ally)
+		{
+			GameArgs.FocusBuilding = this;
+			GameArgs.BuildingList.SetActive(true);
+			Debug.Log(transform.name);
+		}
+	}
 }

@@ -11,7 +11,7 @@ public class BuildBtnEvent : MonoBehaviour
 	/// <summary>
 	/// 目標建築
 	/// </summary>
-	private GameObject _buildingGameObject;
+	private static GameObject _buildingGameObject;
 
 	private static Vector2 _colliderSize;
 
@@ -72,6 +72,10 @@ public class BuildBtnEvent : MonoBehaviour
 
 	public void OnClick()
 	{
+		if (_buildingGameObject != null)
+		{
+			Destroy(_buildingGameObject);
+		}
 		_buildingGameObject = Prefabs.Instantiate(BuildingID);
 		_buildingGameObject.transform.parent = GameArgs.World.transform;
 		_colliderSize = _buildingGameObject.GetComponent<Collider2D>().bounds.size;

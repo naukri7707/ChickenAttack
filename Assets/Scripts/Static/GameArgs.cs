@@ -33,6 +33,16 @@ public static class GameArgs
 	public static int Gold;
 
 	/// <summary>
+	/// 聚焦建築
+	/// </summary>
+	public static CoreBase FocusBuilding;
+
+	/// <summary>
+	/// 建築按鈕清單
+	/// </summary>
+	public static GameObject BuildingList;
+
+	/// <summary>
 	/// 目前關卡
 	/// </summary>
 	public static int CurrentStage;
@@ -46,6 +56,11 @@ public static class GameArgs
 	/// 背景物件
 	/// </summary>
 	public static GameObject BackGround;
+
+	/// <summary>
+	/// 地面碰撞器物件
+	/// </summary>
+	public static GameObject Ground;
 
 	/// <summary>
 	/// 地平線
