@@ -71,6 +71,7 @@ public class EffectBase : MonoBehaviour
 
 	public void Initialization(CoreBase target, int damage)
 	{
+		Debug.Log(damage);
 		Target = target;
 		Damage = damage;
 	}
@@ -105,7 +106,28 @@ public class EffectBase : MonoBehaviour
 		}
 	}
 
-#if UNITY_EDITOR
+	public bool AttackOnce()
+	{
+		foreach (BoxCollider2D b in GetComponent<BoxCollider2D>().OverlapAll())
+		{
+			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
+			{
+				CoreBase agent = b.GetComponent<CoreBase>();
+				if (agent.Team != Target.Team)
+				{
+					agent.GetDetails<DetailsBase>().HitPoint -= Damage;
+					if (agent.GetDetails<DetailsBase>().Type == AgentType.Troop && Damage >= agent.GetDetails<TroopDetails>().KnockBack)
+					{
+						agent.GetComponent<AlertAbility>().KnockBack = true;
+					}
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+#if false //UNITY_EDITOR
 	public void OnDrawGizmos()
 	{
 		BoxCollider2D collider = GetComponent<BoxCollider2D>();

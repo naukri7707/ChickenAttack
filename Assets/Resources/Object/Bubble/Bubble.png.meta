@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 5c644913712fc20488efc9c1b18af98e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1420936465133920882
+    second: Bubble01
+  - first:
+      213: 3050939384221417995
+    second: Bubble02
+  - first:
+      213: 2840317877001620584
+    second: Bubble03
+  - first:
+      213: -1856921589434476102
+    second: Bubble04
+  - first:
+      213: -333457444416001301
+    second: Bubble05
+  - first:
+      213: -6348816176271616739
+    second: Bubble06
+  - first:
+      213: 1455382402493287611
+    second: Bubble07
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bubble01
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 319
+        width: 186
+        height: 93
+      alignment: 9
+      pivot: {x: 0.50268817, y: 0.48924732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd78f9e2e3bb2f4cb9f49c67d40112c
+      internalID: -1420936465133920882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble02
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 414
+        width: 196
+        height: 97
+      alignment: 9
+      pivot: {x: 0.3239796, y: 0.52061856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c983b7adbb2333844b186959806602b9
+      internalID: 3050939384221417995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 306
+        width: 186
+        height: 93
+      alignment: 9
+      pivot: {x: 0.54569894, y: 0.48924732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101b176e06348514384ce4e2c67df1c5
+      internalID: 2840317877001620584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble04
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 222
+        width: 181
+        height: 95
+      alignment: 9
+      pivot: {x: 0.6491713, y: 0.5947368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ab8d3e23c3d964c9332fea97a87e5d
+      internalID: -1856921589434476102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble05
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 210
+        width: 173
+        height: 94
+      alignment: 9
+      pivot: {x: 0.632948, y: 0.60106385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0439655fc28e2442bb3e6914e6adc0f
+      internalID: -333457444416001301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 401
+        width: 202
+        height: 110
+      alignment: 9
+      pivot: {x: 0.730198, y: 0.3318182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a726005a7799f342bf72225d2a387ca
+      internalID: -6348816176271616739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble07
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 188
+        width: 130
+        height: 129
+      alignment: 9
+      pivot: {x: 0.7192308, y: 0.251938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420c45fb7eb7b7c4983b3cbe675787e3
+      internalID: 1455382402493287611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c10f8d5230747614b829641504f21cff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

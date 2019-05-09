@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Team: 10
-  Identify: 10001
+  Identify: 10003
   Rigidbody: {fileID: 0}
   Collider: {fileID: 0}
   SpriteRenderer: {fileID: 0}
@@ -188,6 +188,7 @@ MonoBehaviour:
     HitFavor: 1
     KnockBack: 0
     TrainingTime: 0
+    Gold: 0
 --- !u!114 &114933217246667984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,10 +213,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a68e1f9a88858c43b1dea3b1efc66e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackType: 0
+  AttackType: 1
   FixPosition: {x: 0, y: 0, z: 0}
   LockedAgent: {fileID: 0}
-  InstantiateObject: {fileID: 0}
+  InstantiateObject: {fileID: 1837707240109570, guid: 56f6d8c421e56854689cd716dfd6dd57,
+    type: 3}
 --- !u!114 &114228490917167622
 MonoBehaviour:
   m_ObjectHideFlags: 0
