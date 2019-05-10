@@ -21,7 +21,7 @@ public class EffectBase : MonoBehaviour
 	/// <summary>
 	/// 目標隊伍
 	/// </summary>
-	private AgentTeam _targetTeam;
+	public AgentTeam TargetTeam;
 
 	/// <summary>
 	/// 目標x座標
@@ -31,18 +31,6 @@ public class EffectBase : MonoBehaviour
 	/// <summary>
 	/// 目標隊伍
 	/// </summary>
-	public AgentTeam TargetTeam
-	{
-		get
-		{
-			if (Target != null)
-			{
-				_targetTeam = Target.Team;
-			}
-
-			return _targetTeam;
-		}
-	}
 
 	/// <summary>
 	/// 目標x座標
@@ -53,7 +41,7 @@ public class EffectBase : MonoBehaviour
 		{
 			if (Target != null)
 			{
-				_targetPosX = _targetTeam == AgentTeam.Ally ? Target.Collider.GetBoundsRect().xMax : Target.Collider.GetBoundsRect().xMin;
+				_targetPosX = TargetTeam == AgentTeam.Ally ? Target.Collider.GetBoundsRect().xMax : Target.Collider.GetBoundsRect().xMin;
 			}
 			return _targetPosX;
 		}
@@ -73,6 +61,7 @@ public class EffectBase : MonoBehaviour
 	{
 		Debug.Log(damage);
 		Target = target;
+		TargetTeam = target.Team;
 		Damage = damage;
 	}
 
@@ -94,7 +83,7 @@ public class EffectBase : MonoBehaviour
 			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
 			{
 				CoreBase agent = b.GetComponent<CoreBase>();
-				if (agent.Team != Target.Team)
+				if (agent.Team == TargetTeam)
 				{
 					agent.GetDetails<DetailsBase>().HitPoint -= Damage;
 					if (agent.GetDetails<DetailsBase>().Type == AgentType.Troop && Damage >= agent.GetDetails<TroopDetails>().KnockBack)
@@ -113,7 +102,8 @@ public class EffectBase : MonoBehaviour
 			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
 			{
 				CoreBase agent = b.GetComponent<CoreBase>();
-				if (agent.Team != Target.Team)
+				Debug.Log(agent.Team+ ","+ TargetTeam);
+				if (agent.Team == TargetTeam)
 				{
 					agent.GetDetails<DetailsBase>().HitPoint -= Damage;
 					if (agent.GetDetails<DetailsBase>().Type == AgentType.Troop && Damage >= agent.GetDetails<TroopDetails>().KnockBack)

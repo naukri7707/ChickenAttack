@@ -10,16 +10,24 @@ public class BulletEffect : EffectBase
 	private void Start()
 	{
 		_animatorManager = GetComponent<Animator>();
+		_animatorManager.AnimClip = (int)AbilityAnimClip.Move;
 	}
 
 	// Update is called once per frame
 	private void Update()
 	{
-		transform.Translate(_speed, 0, 0);
-
-		if (AttackOnce())
+		if (_animatorManager.AnimClip == (int)AbilityAnimClip.Move)
 		{
-			_animatorManager.AnimClip = (int)AbilityAnimClip.Dead;
+			transform.Translate(_speed, 0, 0);
+
+			if (AttackOnce())
+			{
+				_animatorManager.AnimClip = (int)AbilityAnimClip.Dead;
+			}
+		}
+		else
+		{
+			transform.Translate(_speed / 2, 0, 0);
 		}
 	}
 }
