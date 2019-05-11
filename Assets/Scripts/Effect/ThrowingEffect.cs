@@ -19,9 +19,9 @@ public class ThrowingEffect : EffectBase
 		if (_rigid != null)
 			targetPos = Target.transform.position;
 		float y = _rigid.position.y;
-		Vector3 newPos = Vector3.Lerp(_rigid.transform.position, targetPos, 0.03f);
-		if (Mathf.Abs(_rigid.transform.position.x - newPos.x) > 0.3f)
-			newPos.x = _rigid.transform.position.x > newPos.x ? _rigid.transform.position.x - 0.3f : _rigid.transform.position.x + 0.3f;
+		Vector3 newPos = Vector3.Lerp(_rigid.transform.position, targetPos, 0.02f);
+		if (Mathf.Abs(_rigid.transform.position.x - newPos.x) > 0.2f)
+			newPos.x = _rigid.transform.position.x > newPos.x ? _rigid.transform.position.x - 0.2f : _rigid.transform.position.x + 0.2f;
 		newPos.y = y;
 		_rigid.transform.position = newPos;
 	}

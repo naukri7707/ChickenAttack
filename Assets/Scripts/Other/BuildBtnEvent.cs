@@ -54,6 +54,7 @@ public class BuildBtnEvent : MonoBehaviour
 					sr.color = new Color(1, 1, 1, 1);
 				if (Input.GetMouseButton(0))
 				{
+					GameArgs.Gold -= _buildingGameObject.GetComponent<CoreBase>().GetDetails<BuildingDetails>().UpgradeCost;
 					_buildingGameObject.GetComponent<CoreBase>().enabled = true;
 					_buildingGameObject.GetComponent<Collider2D>().enabled = true;
 					_buildingGameObject = null;
@@ -77,6 +78,12 @@ public class BuildBtnEvent : MonoBehaviour
 			Destroy(_buildingGameObject);
 		}
 		_buildingGameObject = Prefabs.Instantiate(BuildingID);
+		if (GameArgs.Gold < _buildingGameObject.GetComponent<CoreBase>().GetDetails<BuildingDetails>().UpgradeCost)
+		{
+			Destroy(_buildingGameObject);
+			_buildingGameObject = null;
+			return;
+		}
 		_buildingGameObject.transform.parent = GameArgs.World.transform;
 		_colliderSize = _buildingGameObject.GetComponent<Collider2D>().bounds.size;
 		_buildingGameObject.GetComponent<CoreBase>().enabled = false;
