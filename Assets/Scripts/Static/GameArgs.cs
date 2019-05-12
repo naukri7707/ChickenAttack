@@ -67,10 +67,10 @@ public static class GameArgs
 	/// </summary>
 	public static float Horizon;
 
-    /// <summary>
-    /// 載入中的視窗
-    /// </summary>
-    public static int LoadingScene;
+	/// <summary>
+	/// 載入中的視窗
+	/// </summary>
+	public static int LoadingScene;
 
 	/// <summary>
 	/// 將物件設置在地平線上
