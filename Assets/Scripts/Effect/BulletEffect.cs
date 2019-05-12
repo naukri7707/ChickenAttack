@@ -9,6 +9,9 @@ public class BulletEffect : EffectBase
 	// Start is called before the first frame update
 	private void Start()
 	{
+		Debug.Log(_speed);
+		_speed = Mathf.Abs(_speed) * (TargetTeam == AgentTeam.Ally ? -1 : 1);
+		Debug.Log(_speed);
 		_animatorManager = GetComponent<Animator>();
 		_animatorManager.AnimClip = (int)AbilityAnimClip.Move;
 	}

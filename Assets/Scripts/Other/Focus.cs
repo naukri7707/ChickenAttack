@@ -1,25 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Naukri.ExtensionMethods;
 using UnityEngine;
-
 public class Focus : MonoBehaviour
 {
-	float posX;
-	Rigidbody2D _rigidbody;
-
+	private float posX;
+	private Rigidbody2D _rigidbody;
+	[SerializeField] private float xMin, xMax;
 	private void Awake()
 	{
 		_rigidbody = GetComponent<Rigidbody2D>();
 	}
 
 	// Use this for initialization
-	void Start()
+	private void Start()
 	{
-
+		xMin = -GameArgs.BackGround.GetComponent<SpriteRenderer>().size.x / 2;
+		xMax = GameArgs.BackGround.GetComponent<SpriteRenderer>().size.x / 2;
 	}
 
 	// Update is called once per frame
-	void Update()
+	private void Update()
 	{
 		if (Input.touchCount > 0)
 		{
@@ -45,7 +44,14 @@ public class Focus : MonoBehaviour
 				posX = Input.mousePosition.x;
 			}
 		}
-		if (transform.position.x < -31) transform.position = new Vector3(-31f, transform.position.y, transform.position.z);
-		if (transform.position.x > 31) transform.position = new Vector3(31f, transform.position.y, transform.position.z);
+		if (transform.position.x < xMin)
+		{
+			transform.position = new Vector3(xMin, transform.position.y, transform.position.z);
+		}
+
+		if (transform.position.x > xMax)
+		{
+			transform.position = new Vector3(xMax, transform.position.y, transform.position.z);
+		}
 	}
 }

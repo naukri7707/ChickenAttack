@@ -59,7 +59,6 @@ public class EffectBase : MonoBehaviour
 
 	public void Initialization(CoreBase target, int damage)
 	{
-		Debug.Log(damage);
 		Target = target;
 		TargetTeam = target.Team;
 		Damage = damage;
