@@ -178,4 +178,9 @@ public class ButtonEvents : MonoBehaviour
 		Destroy(GameArgs.FocusBuilding);
 		GameArgs.FocusBuilding = null;
 	}
+
+	public void PlaySound(AudioSource src)
+	{
+		src.Play();
+	}
 }

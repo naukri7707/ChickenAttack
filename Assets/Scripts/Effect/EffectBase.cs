@@ -59,6 +59,10 @@ public class EffectBase : MonoBehaviour
 
 	public void Initialization(CoreBase target, int damage)
 	{
+		if (target.Team == AgentTeam.Ally)
+		{
+			transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+		}
 		Target = target;
 		TargetTeam = target.Team;
 		Damage = damage;
@@ -101,7 +105,7 @@ public class EffectBase : MonoBehaviour
 			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
 			{
 				CoreBase agent = b.GetComponent<CoreBase>();
-				Debug.Log(agent.Team+ ","+ TargetTeam);
+				Debug.Log(agent.Team + "," + TargetTeam);
 				if (agent.Team == TargetTeam)
 				{
 					agent.GetDetails<DetailsBase>().HitPoint -= Damage;
