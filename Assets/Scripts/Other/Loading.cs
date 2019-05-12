@@ -13,12 +13,15 @@ public class Loading : MonoBehaviour
 	/// 載入文本
 	/// </summary>
 	public Text loadingText;
-	
+
+	[SerializeField] private Animator _animator;
+
 	/// <summary>
 	/// 初始化
 	/// </summary>
 	void Start()
 	{
+		_animator.speed = 0;
 		loadingText.text = "0%";
 		StartCoroutine(LoadingScreenAsync(GameArgs.LoadingScene));
 	}
@@ -38,9 +41,9 @@ public class Loading : MonoBehaviour
 			tPogress = (int)(async.progress * 100);
 			while (fPogress < tPogress)
 			{
-				//fPogress++;
 				fPogress = (fPogress + tPogress + 1) >> 1;
 				SetLoading(fPogress);
+				_animator.Play("Loading", 0, (float)fPogress / 101);
 				yield return new WaitForEndOfFrame();
 			}
 			yield return null;
@@ -50,6 +53,7 @@ public class Loading : MonoBehaviour
 		{
 			//fPogress++;
 			fPogress = (fPogress + tPogress + 1) >> 1;
+			_animator.Play("Loading", 0, (float)fPogress / 101);
 			SetLoading(fPogress);
 			yield return new WaitForEndOfFrame();
 		}
