@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: cccf006973e73664f9204a425ece96db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1890520668546635127
+    second: TrainingHouse01
+  - first:
+      213: -2452991225533536857
+    second: TrainingHouse02
+  - first:
+      213: -719341278646698129
+    second: TrainingHouse03
+  - first:
+      213: -1997413430324296163
+    second: TrainingHouse04
+  - first:
+      213: 5172764183160733555
+    second: TrainingHouse05
+  - first:
+      213: 1952682908566348762
+    second: TrainingHouse06
+  - first:
+      213: -3926377304839429756
+    second: TrainingHouse07
+  - first:
+      213: 2562003390314633790
+    second: TrainingHouse08
+  - first:
+      213: 1645354797913345125
+    second: TrainingHouse09
+  - first:
+      213: -2044043403799910595
+    second: TrainingHouse10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrainingHouse01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 99
+        width: 801
+        height: 983
+      alignment: 9
+      pivot: {x: 0.5093633, y: 0.51322484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1afd86d0d4ecd459b0c1a98c640a4b
+      internalID: 1890520668546635127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHouse02
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1090
+        width: 804
+        height: 956
+      alignment: 9
+      pivot: {x: 0.505597, y: 0.499477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9db5a6f4776694a95abda52dd01dc8
+      internalID: -2452991225533536857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHouse03
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 129
+        width: 800
+        height: 956
+      alignment: 9
+      pivot: {x: 0.508125, y: 0.499477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8534b788d3d0f498fad78021e87771
+      internalID: -719341278646698129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHouse04
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 116
+        width: 801
+        height: 959
+      alignment: 9
+      pivot: {x: 0.50873905, y: 0.5010427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86273044ce7604842a2f10e6c3343e6a
+      internalID: -1997413430324296163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHouse05
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1077
+        width: 806
+        height: 969
+      alignment: 9
+      pivot: {x: 0.50682384, y: 0.50619197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd187b99f067384a8d32cc429abebbf
+      internalID: 5172764183160733555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHouse06
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 123
+        width: 801
+        height: 965
+      alignment: 9
+      pivot: {x: 0.5093633, y: 0.5041451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8e330705f85c44c9d7fb82c1f14a67
+      internalID: 1952682908566348762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHouse07
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1063
+        width: 801
+        height: 983
+      alignment: 9
+      pivot: {x: 0.50873905, y: 0.51322484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0920278c2d00d6a438488dda37fb6f5a
+      internalID: -3926377304839429756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHouse08
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 1087
+        width: 801
+        height: 959
+      alignment: 9
+      pivot: {x: 0.50873905, y: 0.5010427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9dcbb1a743afe479076768f902a4c2
+      internalID: 2562003390314633790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHouse09
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 105
+        width: 804
+        height: 956
+      alignment: 9
+      pivot: {x: 0.505597, y: 0.499477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39375e36fa24d124c83757aac9da2402
+      internalID: 1645354797913345125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingHouse10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1084
+        width: 812
+        height: 962
+      alignment: 9
+      pivot: {x: 0.50184727, y: 0.50259876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2601a18824ac66e4da1b43387a15701c
+      internalID: -2044043403799910595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6c044c61de225bc4ebb693024af7dddc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

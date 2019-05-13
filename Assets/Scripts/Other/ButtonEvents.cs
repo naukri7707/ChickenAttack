@@ -165,7 +165,7 @@ public class ButtonEvents : MonoBehaviour
 
 	public void BuildingUpgarde()
 	{
-		BuildingDetails focus = GameArgs.FocusBuilding.GetComponent<BuildingDetails>();
+		BuildingDetails focus = GameArgs.FocusBuilding.GetDetails<BuildingDetails>();
 		if (GameArgs.Gold > focus.UpgradeCost)
 		{
 			GameArgs.Gold -= focus.UpgradeCost;
@@ -175,7 +175,7 @@ public class ButtonEvents : MonoBehaviour
 
 	public void BuildingDestroy()
 	{
-		Destroy(GameArgs.FocusBuilding);
+		Destroy(GameArgs.FocusBuilding.gameObject);
 		GameArgs.FocusBuilding = null;
 	}
 

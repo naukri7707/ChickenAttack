@@ -61,7 +61,6 @@ public class InstantiateAbility : AbilityBase
 
     private void ChangeTraining(int identify)
     {
-        Debug.Log(identify);
         _currentTrainID = identify;
         _maxTrainingTime = Prefabs.Troop[identify].GetComponent<CoreBase>().GetDetails<TroopDetails>().TrainingTime;
         _trainingTime = _maxTrainingTime;

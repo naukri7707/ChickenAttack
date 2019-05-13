@@ -13,23 +13,23 @@ public static class Prefabs
 	/// <param name="Identify">ID</param>
 	/// <returns>實例化物件</returns>
 	public static GameObject Instantiate(int Identify)
-    {
-        if (Identify < 20000)
-        {
-            return Object.Instantiate(Troop[Identify]) as GameObject;
-        }
-        else
-        {
-            return Object.Instantiate(Building[Identify]) as GameObject;
-        }
-    }
+	{
+		if (Identify < 20000)
+		{
+			return Object.Instantiate(Troop[Identify]) as GameObject;
+		}
+		else
+		{
+			return Object.Instantiate(Building[Identify]) as GameObject;
+		}
+	}
 
 	/// <summary>
 	/// 軍隊預製表
 	/// </summary>
 	public readonly static Dictionary<int, Object> Troop = new Dictionary<int, Object>
-    {
-        {10001, Resources.Load("Troop/CurlChicken")},
+	{
+		{10001, Resources.Load("Troop/CurlChicken")},
 		{10002, Resources.Load("Troop/PotionChicken")},
 		{10003, Resources.Load("Troop/SwimChicken")},
 		{10004, Resources.Load("Troop/MageChicken")},
@@ -39,9 +39,11 @@ public static class Prefabs
 	/// 建築預製表
 	/// </summary>
 	public readonly static Dictionary<int, Object> Building = new Dictionary<int, Object>
-    {
-        {20001, Resources.Load("Building/PumpkinFarm")},
+	{
+		{20001, Resources.Load("Building/PumpkinFarm")},
 		{20002, Resources.Load("Building/TrainingTent")},
 		{20003, Resources.Load("Building/TrainingHole")},
+		{20004, Resources.Load("Building/EvilCastle")},
+		{20005, Resources.Load("Building/TrainingHouse")},
 	};
 }
