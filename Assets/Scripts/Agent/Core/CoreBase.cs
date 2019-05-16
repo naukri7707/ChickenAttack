@@ -20,7 +20,6 @@ public abstract class CoreBase : MonoBehaviour
 	/// 代理ID
 	/// </summary>
 	public int Identify;
-
 	/// <summary>
 	/// 敵人的圖層
 	/// </summary>
