@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 114062456329580000}
   - component: {fileID: 114227956420449688}
   m_Layer: 12
-  m_Name: TrainingTent 1
+  m_Name: TrainingHouse
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 1219244948096136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -205,8 +205,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055f9fccf63dbf042a76ac68a66c4d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _currentTrainID: 10001
-  _trainList: 11270000
+  _currentTrainID: 10003
+  _trainList: 13270000
   _maxTrainingTime: 0
   _trainingTime: 0
 --- !u!114 &114227956420449688

@@ -16,7 +16,7 @@ public class ThrowingEffect : EffectBase
 
 	private void Update()
 	{
-		if (_rigid != null)
+		if (Target != null)
 			targetPos = Target.transform.position;
 		float y = _rigid.position.y;
 		Vector3 newPos = Vector3.Lerp(_rigid.transform.position, targetPos, 0.02f);
