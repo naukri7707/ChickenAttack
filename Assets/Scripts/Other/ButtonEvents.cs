@@ -183,4 +183,29 @@ public class ButtonEvents : MonoBehaviour
 	{
 		src.Play();
 	}
+
+	public void PrevTraining(ChangeInfo panel)
+	{
+		var ins = GameArgs.FocusBuilding.GetComponent<InstantiateAbility>();
+		ins.TempIndex--;
+		panel.ChangePanelInfo(ins.TempID);
+	}
+	public void NextTraining(ChangeInfo panel)
+	{
+		var ins = GameArgs.FocusBuilding.GetComponent<InstantiateAbility>();
+		ins.TempIndex++;
+		panel.ChangePanelInfo(ins.TempID);
+	}
+
+	public void ConfirmTraining()
+	{
+		var target = GameArgs.FocusBuilding.GetComponent<InstantiateAbility>();
+		target.ChangeTraining(target.TempIndex);
+	}
+
+	public void SetFocusPermit(bool permit)
+	{
+		GameArgs.FocusPermit = permit;
+	}
+
 }

@@ -32,6 +32,8 @@ public static class GameArgs
 	/// </summary>
 	public static int Gold;
 
+	public static bool FocusPermit;
+
 	/// <summary>
 	/// 聚焦建築
 	/// </summary>

@@ -1,30 +1,105 @@
 fileFormatVersion: 2
-guid: 684eddf74f05ac7498e1242df524ea3e
+guid: f5707a16ad6ff7c4cbd87b623c047c6c
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Body_Controller
-    21300002: Body_Glow
-    21300004: Body_Leaves
-    21300006: Body_Music
-    21300008: Body_RIP
-    21300010: Body_Sound
-    21300012: Body_StrikeLine
-    21300014: Body_Trophy
-    21300016: Body_TryAgain
-    21300018: Button_Base
-    21300020: Button_home
-    21300022: Button_Play
-    21300024: Button_Replay
-    21300026: Panel_Paper
-    21300028: Panel_Plant
-    21300030: Panel_Ribbon
-    21300032: Panel_Wood
-    21300034: Title_Defeat
-    21300036: Title_Pause
-    21300038: Title_Vectory
-    2186277476908879412: ImportLogs
+  internalIDToNameTable:
+  - first:
+      213: -5746786187235661293
+    second: defeatPanel_rip
+  - first:
+      213: -3449861900205122976
+    second: defeatPanel_title
+  - first:
+      213: 2583945003031454879
+    second: defeatPanel_tryAgain
+  - first:
+      213: -9128214887476070858
+    second: icon_attack
+  - first:
+      213: 8576677450322519593
+    second: icon_cancel
+  - first:
+      213: -4651188389714555502
+    second: icon_confirm
+  - first:
+      213: -7460330306225914847
+    second: icon_hitPoint
+  - first:
+      213: 6419319919173709906
+    second: icon_speed
+  - first:
+      213: -9205921323012735474
+    second: infoPanel
+  - first:
+      213: -3883216071444935528
+    second: infoPanel_cancel
+  - first:
+      213: -8095502205290126473
+    second: infoPanel_next
+  - first:
+      213: 8972439964564087047
+    second: infoPanel_prev
+  - first:
+      213: 271261206572955951
+    second: panel_button
+  - first:
+      213: -7275617771641560255
+    second: panel_home
+  - first:
+      213: 5354504757480070856
+    second: panel_list
+  - first:
+      213: -4966213176746718128
+    second: panel_play
+  - first:
+      213: -8580690363128924986
+    second: panel_replay
+  - first:
+      213: -2507970238652861767
+    second: pausePanel_controller
+  - first:
+      213: -2106591948568343522
+    second: pausePanel_high
+  - first:
+      213: -9164968979682140888
+    second: pausePanel_line
+  - first:
+      213: -930203224562991555
+    second: pausePanel_low
+  - first:
+      213: 8750692565184302904
+    second: pausePanel_music
+  - first:
+      213: -1153762870625670465
+    second: pausePanel_paper
+  - first:
+      213: 6154124336954757587
+    second: pausePanel_plant
+  - first:
+      213: -7707341989979089541
+    second: pausePanel_ribbon
+  - first:
+      213: 4810368141534729515
+    second: pausePanel_sound
+  - first:
+      213: 7067525258419325491
+    second: pausePanel_title
+  - first:
+      213: -8863877483985404859
+    second: pausePanel_wood
+  - first:
+      213: 6656557107881695367
+    second: winPanel_chickenTrophy
+  - first:
+      213: -7671147875970184744
+    second: winPanel_Glow
+  - first:
+      213: -8609015019309280202
+    second: winPanel_leaves
+  - first:
+      213: 6572325117421565999
+    second: winPanel_Title
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -42,6 +117,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -52,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -61,7 +138,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -99,146 +176,414 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 8192
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Body_Controller
+      name: defeatPanel_rip
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 8034
-        width: 157
-        height: 157
+        x: 2
+        y: 6394
+        width: 1837
+        height: 1533
       alignment: 9
-      pivot: {x: 0.53503186, y: 0.38535032}
+      pivot: {x: 0.5081655, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 612a4902eab1e5d42b6f2095b0128fef
+      spriteID: 127066b2b5b99464aa64596dbd7bf56e
+      internalID: -5746786187235661293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Body_Glow
+      name: defeatPanel_title
       rect:
         serializedVersion: 2
-        x: 1
-        y: 4130
-        width: 1364
-        height: 1462
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 73fc2adbeda90434f9759af0028f716b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Body_Leaves
-      rect:
-        serializedVersion: 2
-        x: 1775
-        y: 6965
-        width: 993
-        height: 701
+        x: 940
+        y: 2092
+        width: 990
+        height: 203
       alignment: 9
-      pivot: {x: 0.4672709, y: 0.6504993}
+      pivot: {x: 0.51666665, y: 0.44581282}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eaf533999eea8a047b500352ded4223f
+      spriteID: 032c6f791c397cf4783caf05328c5e82
+      internalID: -3449861900205122976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Body_Music
+      name: defeatPanel_tryAgain
       rect:
         serializedVersion: 2
-        x: 1188
-        y: 8023
-        width: 237
-        height: 168
+        x: 2
+        y: 7929
+        width: 2073
+        height: 261
       alignment: 9
-      pivot: {x: 0.47890297, y: 0.49107143}
+      pivot: {x: 0.4990352, y: 0.42528737}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4258cc7698a17f04c9cc9ea31b6bed06
+      spriteID: 8b5f40ee747d7ca48bc86f5a81bb8638
+      internalID: 2583945003031454879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Body_RIP
+      name: icon_attack
       rect:
         serializedVersion: 2
-        x: 1367
-        y: 4067
-        width: 1830
-        height: 1525
+        x: 1966
+        y: 6967
+        width: 81
+        height: 70
       alignment: 9
-      pivot: {x: 0.507377, y: 0.5}
+      pivot: {x: 0.54320985, y: 0.54285717}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f2e6c3c9ebf2cc4e9400cbebb5c0036
+      spriteID: b9c65ddb3a705d64c96097f15cc78e08
+      internalID: -9128214887476070858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Body_Sound
+      name: icon_cancel
       rect:
         serializedVersion: 2
-        x: 2247
-        y: 8016
-        width: 238
-        height: 175
+        x: 1841
+        y: 6804
+        width: 117
+        height: 112
       alignment: 9
-      pivot: {x: 0.47268906, y: 0.46571428}
+      pivot: {x: 0.4957265, y: 0.51339287}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d9a0ef7f3189194aa7b6d56ba4418a5
+      spriteID: 5f20cb73e500a3742b5692a40f33f54f
+      internalID: 8576677450322519593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Body_StrikeLine
+      name: icon_confirm
       rect:
         serializedVersion: 2
-        x: 1
-        y: 8169
+        x: 1841
+        y: 7035
+        width: 123
+        height: 114
+      alignment: 9
+      pivot: {x: 0.49593496, y: 0.51754385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7be04db8843554f8fff415d35ab92f
+      internalID: -4651188389714555502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_hitPoint
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 7569
+        width: 67
+        height: 65
+      alignment: 9
+      pivot: {x: 0.4477612, y: 0.52307695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90973e85ba6ec254d995f5fd36173776
+      internalID: -7460330306225914847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_speed
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 7072
+        width: 85
+        height: 81
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8bf2cf233e5da4a84a9e970b7595db
+      internalID: 6419319919173709906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infoPanel
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1557
+        width: 936
+        height: 738
+      alignment: 9
+      pivot: {x: 0.49786323, y: 0.49729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9249d315632d4eb48aebbe633d1d7bdc
+      internalID: -9205921323012735474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infoPanel_cancel
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 6918
+        width: 117
+        height: 115
+      alignment: 9
+      pivot: {x: 0.47435898, y: 0.49130434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe406ff63331eb43b57a5fe67627e77
+      internalID: -3883216071444935528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infoPanel_next
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 7297
+        width: 86
+        height: 139
+      alignment: 9
+      pivot: {x: 0.45930234, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571084beb5bb3824d87f174103d9afcd
+      internalID: -8095502205290126473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infoPanel_prev
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 7155
+        width: 85
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5352941, y: 0.49642858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15bc33572ba61548870e7a224f51269
+      internalID: 8972439964564087047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_button
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 5696
+        width: 350
+        height: 337
+      alignment: 9
+      pivot: {x: 0.49285713, y: 0.5682493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e14f051ca14d544815651ac007b669
+      internalID: 271261206572955951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_home
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 7796
+        width: 173
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35496184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38995c1076ab63c42b836898f19e4015
+      internalID: -7275617771641560255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_list
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 7636
+        width: 167
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fba76b22fdcd14aa38af72d6553092
+      internalID: 5354504757480070856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_play
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 7151
+        width: 131
+        height: 156
+      alignment: 9
+      pivot: {x: 0.38549617, y: 0.38141027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e2c7adeec968743965817bacd2bc18
+      internalID: -4966213176746718128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_replay
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 7309
+        width: 132
+        height: 160
+      alignment: 9
+      pivot: {x: 0.57954544, y: 0.534375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d325dcc8fdec96418cc62752d2d648d
+      internalID: -8580690363128924986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pausePanel_controller
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 7471
+        width: 165
+        height: 163
+      alignment: 9
+      pivot: {x: 0.5090909, y: 0.37730062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76159ecba358334cb6cfd2d78533ccc
+      internalID: -2507970238652861767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pausePanel_high
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 7039
+        width: 106
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5141509, y: 0.33870968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa4b4cf68370ce4cb8a4fb8d13293d4
+      internalID: -2106591948568343522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pausePanel_line
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 6035
         width: 650
         height: 22
       alignment: 9
@@ -248,267 +593,260 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8e9d5ecbd7422949b314893dc30e4ea
+      spriteID: 3037243236d22c342bc9f85eabf526b3
+      internalID: -9164968979682140888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Body_Trophy
+      name: pausePanel_low
       rect:
         serializedVersion: 2
-        x: 1787
-        y: 2048
-        width: 1030
-        height: 2017
+        x: 1975
+        y: 7438
+        width: 98
+        height: 31
       alignment: 9
-      pivot: {x: 0.49951455, y: 0.5}
+      pivot: {x: 0.4744898, y: 0.4032258}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc32a8b075f9e764fbc36ac7d13d1eaa
+      spriteID: a27cc9318c2d51f448eda1125f722795
+      internalID: -930203224562991555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Body_TryAgain
+      name: pausePanel_music
       rect:
         serializedVersion: 2
-        x: 1161
-        y: 7738
-        width: 2061
-        height: 253
+        x: 3770
+        y: 6620
+        width: 248
+        height: 193
       alignment: 9
-      pivot: {x: 0.5014556, y: 0.42687747}
+      pivot: {x: 0.47782257, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc228d89778e52b4297ed15bc2f93c22
+      spriteID: a88ab645bda2f7443a6345afed6fcac0
+      internalID: 8750692565184302904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_Base
+      name: pausePanel_paper
       rect:
         serializedVersion: 2
-        x: 3224
-        y: 7668
-        width: 350
-        height: 323
-      alignment: 9
-      pivot: {x: 0.49285713, y: 0.5650155}
+        x: 1800
+        y: 4945
+        width: 1405
+        height: 1295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb8c539927085624bb8999624fb2b4e6
+      spriteID: 682f669c841c48c4cac3247fbae12ecd
+      internalID: -1153762870625670465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_home
+      name: pausePanel_plant
       rect:
         serializedVersion: 2
-        x: 653
-        y: 8070
-        width: 144
-        height: 121
+        x: 2077
+        y: 6815
+        width: 1965
+        height: 1375
       alignment: 9
-      pivot: {x: 0.5381944, y: 0.37603307}
+      pivot: {x: 0.50763357, y: 0.66145456}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ec9bbfb1723cbb459a26edcef76e230
+      spriteID: dc303d419d5cd774e931d02251cda88b
+      internalID: 6154124336954757587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_Play
+      name: pausePanel_ribbon
       rect:
         serializedVersion: 2
-        x: 799
-        y: 8068
-        width: 106
-        height: 123
+        x: 1960
+        y: 6242
+        width: 1808
+        height: 571
       alignment: 9
-      pivot: {x: 0.45754716, y: 0.34552845}
+      pivot: {x: 0.5074668, y: -0.7486865}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e06ecd9bdb04a345aef57bb988df5bc
+      spriteID: 544f3a19ca1121f4cac506dc29c25d72
+      internalID: -7707341989979089541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_Replay
+      name: pausePanel_sound
       rect:
         serializedVersion: 2
-        x: 907
-        y: 8051
-        width: 120
-        height: 140
+        x: 3770
+        y: 6417
+        width: 245
+        height: 201
       alignment: 9
-      pivot: {x: 0.5708333, y: 0.51785713}
+      pivot: {x: 0.4632653, y: 0.48507464}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43857482048f9c047ac7ad7afc39a21a
+      spriteID: 2d49ee4449eca0942a4e33ff0d4491c6
+      internalID: 4810368141534729515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Panel_Paper
+      name: pausePanel_title
       rect:
         serializedVersion: 2
-        x: 1
-        y: 5669
-        width: 1403
-        height: 1294
+        x: 3207
+        y: 6059
+        width: 826
+        height: 181
       alignment: 9
-      pivot: {x: 0.49928725, y: 0.5003864}
+      pivot: {x: 0.47881356, y: 0.46685082}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1eba30d3b15b21f46b157820e98c58f4
+      spriteID: 78f9daca3a735744dbfe1be6f724a4c6
+      internalID: 7067525258419325491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Panel_Plant
+      name: pausePanel_wood
       rect:
         serializedVersion: 2
-        x: 1406
-        y: 5594
-        width: 1948
-        height: 1369
+        x: 2
+        y: 4556
+        width: 1796
+        height: 1836
       alignment: 9
-      pivot: {x: 0.5033367, y: 0.6607012}
+      pivot: {x: 0.5008352, y: 0.49972767}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efc0f0709d4756745bc37888fce39dad
+      spriteID: 6836014d3fcc13543a4957629d79032d
+      internalID: -8863877483985404859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Panel_Ribbon
+      name: winPanel_chickenTrophy
       rect:
         serializedVersion: 2
-        x: 1
-        y: 7104
-        width: 1772
-        height: 562
+        x: 2
+        y: 2297
+        width: 1033
+        height: 2032
       alignment: 9
-      pivot: {x: 0.5019752, y: -0.7713523}
+      pivot: {x: 0.50096804, y: 0.49630904}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a61689767bc37dc4a89553ddc03fef78
+      spriteID: 9c3abce74a27555419fa546bca0e8ecc
+      internalID: 6656557107881695367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Panel_Wood
+      name: winPanel_Glow
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2236
-        width: 1784
-        height: 1829
-      alignment: 9
-      pivot: {x: 0.49971974, y: 0.5}
+        x: 1800
+        y: 3481
+        width: 1364
+        height: 1462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 637409f004f78a84e996c2a8bfe1ed27
+      spriteID: e364b8c97bdbce745abc37a6ddbfcf87
+      internalID: -7671147875970184744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Defeat
+      name: winPanel_leaves
       rect:
         serializedVersion: 2
-        x: 2487
-        y: 7993
-        width: 983
-        height: 198
+        x: 2
+        y: 840
+        width: 999
+        height: 715
       alignment: 9
-      pivot: {x: 0.517294, y: 0.44191918}
+      pivot: {x: 0.46946946, y: 0.64895105}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1209b90f20fdc6e4cbfe628d367a57a1
+      spriteID: d2f0e199598fbc8419f99e672ea36edd
+      internalID: -8609015019309280202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Pause
+      name: winPanel_Title
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 8016
-        width: 818
-        height: 175
+        x: 2
+        y: 4331
+        width: 1169
+        height: 223
       alignment: 9
-      pivot: {x: 0.47616136, y: 0.47142857}
+      pivot: {x: 0.48545766, y: 0.46412557}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c573aa6bf526f649822f8c30763d9e6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Title_Vectory
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 7782
-        width: 1158
-        height: 209
-      alignment: 9
-      pivot: {x: 0.4857513, y: 0.4569378}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4d219d73c2f55c4397323c4d5a30304
+      spriteID: dac66b2f786cdd9438fe8a9618ce05e7
+      internalID: 6572325117421565999
       vertices: []
       indices: 
       edges: []
@@ -516,12 +854,16 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 05d252ab84e90b34e86d86e4133e5938
+    spriteID: 9c493e9fbd14fbb4890a24359ae2c29a
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

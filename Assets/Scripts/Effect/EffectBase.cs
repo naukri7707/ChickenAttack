@@ -105,7 +105,6 @@ public class EffectBase : MonoBehaviour
 			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
 			{
 				CoreBase agent = b.GetComponent<CoreBase>();
-				Debug.Log(agent.Team + "," + TargetTeam);
 				if (agent.Team == TargetTeam)
 				{
 					agent.GetDetails<DetailsBase>().HitPoint -= Damage;

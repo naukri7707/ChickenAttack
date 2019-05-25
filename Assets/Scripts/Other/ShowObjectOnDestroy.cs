@@ -8,6 +8,7 @@ public class ShowObjectOnDestroy : MonoBehaviour
 
 	private void OnDestroy()
 	{
+		Time.timeScale = 0;
 		if (ShowObject != null)
 			ShowObject.SetActive(true);
 	}

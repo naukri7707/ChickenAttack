@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 84b9e428c6874e64297da884a530e2a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2064290967978799557
+    second: cover_back
+  - first:
+      213: 703191495980237012
+    second: cover_enter
+  - first:
+      213: -5036861428529946794
+    second: cover_exit
+  - first:
+      213: 3404962962337231475
+    second: icon_stageLock
+  - first:
+      213: 1197085100960554446
+    second: icon_stageSelectorStyle1
+  - first:
+      213: 4042727606487199793
+    second: icon_stageSelectorStyle2
+  - first:
+      213: 2114705616521237380
+    second: icon_stageSelectorStyle3
+  - first:
+      213: -4956154544536655959
+    second: LOGO
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cover_back
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 588
+        width: 485
+        height: 248
+      alignment: 9
+      pivot: {x: 0.4969072, y: 0.50403225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf9685d2b3bd6749995e03ea74c4e60
+      internalID: -2064290967978799557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover_enter
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 838
+        width: 721
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5006935, y: 0.44836956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c76a7ff73ac5c04ead82ff9f72cbe93
+      internalID: 703191495980237012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover_exit
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 420
+        width: 375
+        height: 183
+      alignment: 9
+      pivot: {x: 0.47733334, y: 0.47814208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32dd8a92c7b6f442967d037298ad5c0
+      internalID: -5036861428529946794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_stageLock
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 970
+        width: 42
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: -0.22115384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56705a6c98d3a974f880e19617198e58
+      internalID: 3404962962337231475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_stageSelectorStyle1
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 818
+        width: 248
+        height: 204
+      alignment: 9
+      pivot: {x: 0.50403225, y: 0.49754903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb70be3a6a2c3254f943f067a1f1180a
+      internalID: 1197085100960554446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_stageSelectorStyle2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 214
+        width: 240
+        height: 204
+      alignment: 9
+      pivot: {x: 0.50416666, y: 0.49754903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35509adb11a6324f80c9f7a83d128f6
+      internalID: 4042727606487199793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_stageSelectorStyle3
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 605
+        width: 243
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.49052134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbfbf42e85bdf8408e74f241aa4632a
+      internalID: 2114705616521237380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGO
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 640
+        width: 208
+        height: 196
+      alignment: 9
+      pivot: {x: 0.49519232, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39b3cbbaf826754681c36024b488b85
+      internalID: -4956154544536655959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e7464f705a96cee48a1c570c2854405c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

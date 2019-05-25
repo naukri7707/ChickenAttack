@@ -23,5 +23,6 @@ public class World : MonoBehaviour
 		GameArgs.BuildingList = argsBuildingList;
 		GameArgs.Horizon = GameArgs.Ground.GetComponent<Collider2D>().GetBoundsRect().yMax;
 		GameArgs.Gold = 0;
+		GameArgs.FocusPermit = true;
 	}
 }
