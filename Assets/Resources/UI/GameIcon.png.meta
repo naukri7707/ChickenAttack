@@ -35,6 +35,12 @@ TextureImporter:
   - first:
       213: -5356211433497995897
     second: icon_upgrade
+  - first:
+      213: 1445869448751300512
+    second: icon_exit
+  - first:
+      213: -3315573968085272438
+    second: icon_info
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -93,7 +99,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -104,7 +110,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -120,8 +126,8 @@ TextureImporter:
       name: egg
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1312
+        x: 1398
+        y: 2397
         width: 572
         height: 734
       alignment: 9
@@ -131,7 +137,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1396d136a67f70b4abf9c60dfa3de86f
+      spriteID: 67282cf2b2d3ab146bb6ebac8018c6ed
       internalID: -2109547878569501114
       vertices: []
       indices: 
@@ -141,8 +147,8 @@ TextureImporter:
       name: egg_energy
       rect:
         serializedVersion: 2
-        x: 2
-        y: 633
+        x: 1419
+        y: 3417
         width: 623
         height: 677
       alignment: 9
@@ -152,7 +158,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f09016ddd1e9d904ea93921ad2a4b88e
+      spriteID: 607ada6b61cb44f40a34ad5b95a4479d
       internalID: 4200675326698670201
       vertices: []
       indices: 
@@ -162,8 +168,8 @@ TextureImporter:
       name: egg_energyLine
       rect:
         serializedVersion: 2
-        x: 627
-        y: 1087
+        x: 1398
+        y: 3133
         width: 583
         height: 282
       alignment: 9
@@ -173,7 +179,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eba963b86fb20f1459e957da5d3ad898
+      spriteID: 2b6c3b5531bc36749b1b4efd7a159594
       internalID: 8817161882765653717
       vertices: []
       indices: 
@@ -183,8 +189,8 @@ TextureImporter:
       name: icon_build
       rect:
         serializedVersion: 2
-        x: 627
-        y: 587
+        x: 676
+        y: 2250
         width: 566
         height: 498
       alignment: 9
@@ -194,7 +200,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba188ab3371206a4b8002ace9358020b
+      spriteID: b3c4d16a35a25884fb27ec9d845b5bb6
       internalID: -658742112255296425
       vertices: []
       indices: 
@@ -204,8 +210,8 @@ TextureImporter:
       name: icon_cancel
       rect:
         serializedVersion: 2
-        x: 787
-        y: 174
+        x: 2
+        y: 1889
         width: 398
         height: 411
       alignment: 9
@@ -215,8 +221,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f87071a8e06e5714586174d4b2dbf83e
+      spriteID: 922a7f7b0be62b449a84c87869b9b01f
       internalID: 8576677450322519593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_exit
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 2600
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b16703a0df9a44da832e326dad733c
+      internalID: 1445869448751300512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_info
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3374
+        width: 720
+        height: 720
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49930555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1027d481b107544adc9ad0b8873149
+      internalID: -3315573968085272438
       vertices: []
       indices: 
       edges: []
@@ -225,8 +273,8 @@ TextureImporter:
       name: icon_pause
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 222
+        x: 1244
+        y: 2032
         width: 328
         height: 363
       alignment: 9
@@ -236,7 +284,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6ed4b6dbd0e4554ba8158f902e00184
+      spriteID: e8911068acf32aa46a17217f50f3ead2
       internalID: -8757137802742049463
       vertices: []
       indices: 
@@ -246,8 +294,8 @@ TextureImporter:
       name: icon_rectBoard
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1371
+        x: 724
+        y: 2750
         width: 672
         height: 675
       alignment: 9
@@ -257,7 +305,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 253b4590d8920864ea2b6acbf7946bd1
+      spriteID: 20137a422c5e56442a95c2627d5b19d8
       internalID: -3083231132573708178
       vertices: []
       indices: 
@@ -267,8 +315,8 @@ TextureImporter:
       name: icon_rectBoard2
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 704
+        x: 2
+        y: 2699
         width: 672
         height: 673
       alignment: 9
@@ -278,7 +326,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0af10af0a9871a54d867aa1462fe0f42
+      spriteID: bffeb8c410336a249a2580df0b816808
       internalID: 288446474658153220
       vertices: []
       indices: 
@@ -288,8 +336,8 @@ TextureImporter:
       name: icon_roundBoard
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 1379
+        x: 724
+        y: 3427
         width: 693
         height: 667
       alignment: 9
@@ -299,7 +347,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0608a80e66b435b4a826e4773d70cebb
+      spriteID: 659827f2e27333340a69c4243236a94a
       internalID: 7041223526543009186
       vertices: []
       indices: 
@@ -309,8 +357,8 @@ TextureImporter:
       name: icon_trash
       rect:
         serializedVersion: 2
-        x: 498
-        y: 166
+        x: 1574
+        y: 1976
         width: 287
         height: 419
       alignment: 9
@@ -320,7 +368,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 946ef2feca2eeb14b95ee8b7e3391f84
+      spriteID: 2468eb8301f362f41904356c9f8d1ba4
       internalID: -1634381009187739497
       vertices: []
       indices: 
@@ -331,7 +379,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 236
+        y: 2302
         width: 494
         height: 395
       alignment: 9
@@ -341,7 +389,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03d02d2cc735ca44c856bb725842b6c7
+      spriteID: 4c08891feba6fd84d9dbb43549b0d548
       internalID: -5356211433497995897
       vertices: []
       indices: 
