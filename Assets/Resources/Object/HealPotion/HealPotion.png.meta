@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: 66572f3b51f958443851c35e623c468e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -546116247211704613
+    second: HealChicken_Alert
+  - first:
+      213: -4939696097547909682
+    second: HealChicken_Attack01
+  - first:
+      213: -7333575390614995733
+    second: HealChicken_Attack02
+  - first:
+      213: -2583067706688229579
+    second: HealChicken_Attack03
+  - first:
+      213: 7145443195672691968
+    second: HealChicken_Attack04
+  - first:
+      213: 926594143095318614
+    second: HealChicken_Attack05
+  - first:
+      213: 7909674762533794015
+    second: HealChicken_Attack06
+  - first:
+      213: -5957164280627771332
+    second: HealChicken_Attack07
+  - first:
+      213: -4366768908871716119
+    second: HealChicken_Attack08
+  - first:
+      213: -2144351251714185580
+    second: HealChicken_Attack09
+  - first:
+      213: -8123858901655085582
+    second: HealChicken_Attack10
+  - first:
+      213: -5366235183622147662
+    second: HealChicken_Idle01
+  - first:
+      213: -9160374032614509395
+    second: HealChicken_Idle02
+  - first:
+      213: 7317767891107672992
+    second: HealChicken_Idle03
+  - first:
+      213: 8622328052682952043
+    second: HealChicken_Idle04
+  - first:
+      213: 3233180769403648776
+    second: HealChicken_Idle05
+  - first:
+      213: -2229662967622424507
+    second: HealChicken_Idle06
+  - first:
+      213: 2676700244734080713
+    second: HealChicken_Idle07
+  - first:
+      213: 1899636985881774542
+    second: HealChicken_Idle08
+  - first:
+      213: 2219242103763655101
+    second: HealChicken_Idle09
+  - first:
+      213: 4466445776367443849
+    second: HealChicken_Idle10
+  - first:
+      213: -593393933010940441
+    second: HealChicken_Idle11
+  - first:
+      213: -6073439418646265483
+    second: HealChicken_Idle12
+  - first:
+      213: -5912503743605026776
+    second: HealChicken_Move01
+  - first:
+      213: -3712287497706741148
+    second: HealChicken_Move02
+  - first:
+      213: -1539088051456840175
+    second: HealPotion01
+  - first:
+      213: 6977714688593721631
+    second: HealPotion02
+  - first:
+      213: 2932995517637949997
+    second: HealPotion03
+  - first:
+      213: 640218998348294304
+    second: HealPotion04
+  - first:
+      213: -3289181248109427434
+    second: HealPotion05
+  - first:
+      213: 8467199684893089280
+    second: HealPotion06
+  - first:
+      213: 4608048479006666341
+    second: HealPotion07
+  - first:
+      213: -1336350654435346056
+    second: HealPotion08
+  - first:
+      213: 2092819508291498985
+    second: HealPotion09
+  - first:
+      213: -2762892507454163229
+    second: HealPotion10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HealPotion01
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 272
+        width: 122
+        height: 101
+      alignment: 9
+      pivot: {x: 0.52868855, y: 0.52970296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e100ce6a25b3a64ab1d102a6bec491e
+      internalID: -1539088051456840175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealPotion02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 317
+        width: 128
+        height: 90
+      alignment: 9
+      pivot: {x: 0.46484375, y: 0.48333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6797117f4dd2fd2418ece1e5a5fa1e95
+      internalID: 6977714688593721631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealPotion03
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 185
+        width: 90
+        height: 130
+      alignment: 9
+      pivot: {x: 0.57222223, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dd43f974194f149b755ae91babaf06
+      internalID: 2932995517637949997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealPotion04
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 375
+        width: 146
+        height: 135
+      alignment: 9
+      pivot: {x: 0.52397263, y: 0.56666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6435cafd227017e45bc5462039ec6206
+      internalID: 640218998348294304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealPotion05
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 375
+        width: 140
+        height: 135
+      alignment: 9
+      pivot: {x: 0.46071428, y: 0.5222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855a062e5ce793c41bba9695be49a978
+      internalID: -3289181248109427434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealPotion06
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 409
+        width: 183
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5054645, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8235bb12209d09f4fb329a029ed69063
+      internalID: 8467199684893089280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealPotion07
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 90
+        width: 102
+        height: 110
+      alignment: 9
+      pivot: {x: 0.50490195, y: 0.51363635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a4d2e761b788f489e7d4a342fb45dd
+      internalID: 4608048479006666341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealPotion08
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 69
+        width: 93
+        height: 114
+      alignment: 9
+      pivot: {x: 0.46774194, y: 0.5131579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2cbbabe1c28e849aaeef72d118ee9d
+      internalID: -1336350654435346056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealPotion09
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 202
+        width: 92
+        height: 113
+      alignment: 9
+      pivot: {x: 0.48369566, y: 0.50884956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df349b201dcf0d34f921270a7a1f42d3
+      internalID: 2092819508291498985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealPotion10
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 269
+        width: 89
+        height: 104
+      alignment: 9
+      pivot: {x: 0.49438202, y: 0.49519232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af08fd1439f1504ba988e38da7ff42f
+      internalID: -2762892507454163229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cdd34e04fd998104f9a97e0643827296
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

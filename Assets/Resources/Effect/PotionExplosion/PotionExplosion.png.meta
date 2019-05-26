@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: 4332281dee81b634a86b5efdf5c1252e
+guid: 96fbcea6e25633b40955705ce8b3382e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7512311874944548713
-    second: PotionExplosion01
+      213: -1677398147381608324
+    second: Explosion01
   - first:
-      213: -1478528625516732975
-    second: PotionExplosion02
+      213: -2807809523221113996
+    second: Explosion02
   - first:
-      213: 8703239313768603169
-    second: PotionExplosion03
+      213: 8404984484687728834
+    second: Explosion03
   - first:
-      213: -5116631782162584735
-    second: PotionExplosion04
+      213: 5629741872326040507
+    second: Explosion04
   - first:
-      213: -2487525534808932620
-    second: PotionExplosion05
+      213: -4935594267911876868
+    second: Explosion05
   - first:
-      213: 5196721789935104762
-    second: PotionExplosion06
+      213: 424120890853583010
+    second: Explosion06
   - first:
-      213: -562141023643081973
-    second: PotionExplosion07
+      213: 1652491055898666680
+    second: Explosion07
   - first:
-      213: 4545098717853752960
-    second: PotionExplosion08
+      213: 6728878332316467329
+    second: Explosion08
   - first:
-      213: 8724010612363422240
-    second: PotionExplosion09
+      213: -585510630709029534
+    second: Explosion09
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -100,190 +100,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PotionExplosion01
+      name: Explosion01
       rect:
         serializedVersion: 2
         x: 2
-        y: 346
-        width: 333
-        height: 336
+        y: 859
+        width: 553
+        height: 581
       alignment: 9
-      pivot: {x: 0.509009, y: 0.42559522}
+      pivot: {x: 0.4647378, y: 0.42685026}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee642fa7a640b784890f698358e34251
-      internalID: -7512311874944548713
+      spriteID: 4d344d3264148964e9bbcac2622dcc43
+      internalID: -1677398147381608324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PotionExplosion02
+      name: Explosion02
       rect:
         serializedVersion: 2
         x: 2
-        y: 684
-        width: 268
-        height: 338
+        y: 1442
+        width: 478
+        height: 604
       alignment: 9
-      pivot: {x: 0.5018657, y: 0.40828404}
+      pivot: {x: 0.5041841, y: 0.40562913}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abbf938feea00f14194d8fd0c3de60ce
-      internalID: -1478528625516732975
+      spriteID: 72749f145559eac43bb8550cc460257b
+      internalID: -2807809523221113996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PotionExplosion03
+      name: Explosion03
       rect:
         serializedVersion: 2
-        x: 555
-        y: 778
-        width: 278
-        height: 244
+        x: 1468
+        y: 1618
+        width: 481
+        height: 428
       alignment: 9
-      pivot: {x: 0.49460432, y: 0.48360655}
+      pivot: {x: 0.51975054, y: 0.48364487}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67f4e93378b042540ab4311ce62664e8
-      internalID: 8703239313768603169
+      spriteID: c0cbddfcaa5739d41b12b0bd3d71a0c3
+      internalID: 8404984484687728834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PotionExplosion04
+      name: Explosion04
       rect:
         serializedVersion: 2
-        x: 543
-        y: 442
-        width: 294
-        height: 254
+        x: 967
+        y: 1036
+        width: 499
+        height: 447
       alignment: 9
-      pivot: {x: 0.5255102, y: 0.43700787}
+      pivot: {x: 0.54108214, y: 0.43176734}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 639b0b5780fb0154f963578daa10fe6e
-      internalID: -5116631782162584735
+      spriteID: 43a2156fef947404f8e940c4ae993397
+      internalID: 5629741872326040507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PotionExplosion05
+      name: Explosion05
       rect:
         serializedVersion: 2
-        x: 272
-        y: 698
-        width: 281
-        height: 324
+        x: 482
+        y: 1485
+        width: 496
+        height: 561
       alignment: 9
-      pivot: {x: 0.51067615, y: 0.35185185}
+      pivot: {x: 0.5201613, y: 0.37254903}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2360fb91ad8bee847ad9791b0ec8562f
-      internalID: -2487525534808932620
+      spriteID: df6343571127e7241b93f588b4241ac5
+      internalID: -4935594267911876868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PotionExplosion06
+      name: Explosion06
       rect:
         serializedVersion: 2
         x: 2
-        y: 49
-        width: 288
-        height: 295
+        y: 354
+        width: 512
+        height: 503
       alignment: 9
-      pivot: {x: 0.5121528, y: 0.24067797}
+      pivot: {x: 0.5078125, y: 0.22266401}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7214ebc57f8db144c81fd605ccee7a8c
-      internalID: 5196721789935104762
+      spriteID: 8d8d9396ee86f5944bec5df27f2ecb21
+      internalID: 424120890853583010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PotionExplosion07
+      name: Explosion07
       rect:
         serializedVersion: 2
-        x: 523
-        y: 155
-        width: 250
-        height: 263
+        x: 873
+        y: 557
+        width: 435
+        height: 460
       alignment: 9
-      pivot: {x: 0.55, y: 0.23954372}
+      pivot: {x: 0.54022986, y: 0.22173913}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a28346935a516ff4a888a4303ae2c904
-      internalID: -562141023643081973
+      spriteID: 45a49f377ed17a749b2ee78156479683
+      internalID: 1652491055898666680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PotionExplosion08
+      name: Explosion08
       rect:
         serializedVersion: 2
-        x: 292
-        y: 67
-        width: 229
-        height: 277
+        x: 557
+        y: 1019
+        width: 408
+        height: 464
       alignment: 9
-      pivot: {x: 0.5043668, y: 0.24187726}
+      pivot: {x: 0.49754903, y: 0.21982759}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be325915760395e49aa9d6585ba35306
-      internalID: 4545098717853752960
+      spriteID: e7e2e849550f38446884638668c0201e
+      internalID: 6728878332316467329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PotionExplosion09
+      name: Explosion09
       rect:
         serializedVersion: 2
-        x: 337
-        y: 420
-        width: 204
-        height: 276
+        x: 516
+        y: 387
+        width: 355
+        height: 470
       alignment: 9
-      pivot: {x: 0.502451, y: 0.1884058}
+      pivot: {x: 0.51267606, y: 0.16170213}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 161ed11bff268a94185dd058ab0abb64
-      internalID: 8724010612363422240
+      spriteID: 4806420edcff5f04d88e071644e8777f
+      internalID: -585510630709029534
       vertices: []
       indices: 
       edges: []
@@ -291,7 +291,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bf5c165694a199d428ec20b829a6d866
+    spriteID: ff02ee98f395ffe4bb988727ae6e4735
     internalID: 0
     vertices: []
     indices: 

@@ -1,0 +1,690 @@
+fileFormatVersion: 2
+guid: bf58fa0a68b978541bd003eb01efaa59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -546116247211704613
+    second: HealChicken_Alert
+  - first:
+      213: -4939696097547909682
+    second: HealChicken_Attack01
+  - first:
+      213: -7333575390614995733
+    second: HealChicken_Attack02
+  - first:
+      213: -2583067706688229579
+    second: HealChicken_Attack03
+  - first:
+      213: 7145443195672691968
+    second: HealChicken_Attack04
+  - first:
+      213: 926594143095318614
+    second: HealChicken_Attack05
+  - first:
+      213: 7909674762533794015
+    second: HealChicken_Attack06
+  - first:
+      213: -5957164280627771332
+    second: HealChicken_Attack07
+  - first:
+      213: -4366768908871716119
+    second: HealChicken_Attack08
+  - first:
+      213: -2144351251714185580
+    second: HealChicken_Attack09
+  - first:
+      213: -8123858901655085582
+    second: HealChicken_Attack10
+  - first:
+      213: -5366235183622147662
+    second: HealChicken_Idle01
+  - first:
+      213: -9160374032614509395
+    second: HealChicken_Idle02
+  - first:
+      213: 7317767891107672992
+    second: HealChicken_Idle03
+  - first:
+      213: 8622328052682952043
+    second: HealChicken_Idle04
+  - first:
+      213: 3233180769403648776
+    second: HealChicken_Idle05
+  - first:
+      213: -2229662967622424507
+    second: HealChicken_Idle06
+  - first:
+      213: 2676700244734080713
+    second: HealChicken_Idle07
+  - first:
+      213: 1899636985881774542
+    second: HealChicken_Idle08
+  - first:
+      213: 2219242103763655101
+    second: HealChicken_Idle09
+  - first:
+      213: 4466445776367443849
+    second: HealChicken_Idle10
+  - first:
+      213: -593393933010940441
+    second: HealChicken_Idle11
+  - first:
+      213: -6073439418646265483
+    second: HealChicken_Idle12
+  - first:
+      213: -5912503743605026776
+    second: HealChicken_Move01
+  - first:
+      213: -3712287497706741148
+    second: HealChicken_Move02
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HealChicken_Alert
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 602
+        width: 429
+        height: 745
+      alignment: 9
+      pivot: {x: 0.7027972, y: 0.44630873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918a0263fd2eeb64b805ab2254bcb169
+      internalID: -546116247211704613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Attack01
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 21
+        width: 447
+        height: 671
+      alignment: 9
+      pivot: {x: 0.49552572, y: 0.49403876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5aeba2ac9e75944b5489c2c59c082e
+      internalID: -4939696097547909682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Attack02
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 29
+        width: 441
+        height: 671
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49552906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d081745e471534e9a550c97ef93949
+      internalID: -7333575390614995733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Attack03
+      rect:
+        serializedVersion: 2
+        x: 3217
+        y: 1382
+        width: 433
+        height: 664
+      alignment: 9
+      pivot: {x: 0.608545, y: 0.49924698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f22abdc5a353546a76a66648d75ee8
+      internalID: -2583067706688229579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Attack04
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1396
+        width: 468
+        height: 650
+      alignment: 9
+      pivot: {x: 0.64102566, y: 0.51153845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753a999c30f081e49bb76f65ae3a3427
+      internalID: 7145443195672691968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Attack05
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 1382
+        width: 442
+        height: 664
+      alignment: 9
+      pivot: {x: 0.38800904, y: 0.49924698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76438e6de80792848a94b7c727e06184
+      internalID: 926594143095318614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Attack06
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 16
+        width: 434
+        height: 669
+      alignment: 9
+      pivot: {x: 0.45737326, y: 0.49701047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f983808e3b29946b83dbc9ed51a127
+      internalID: 7909674762533794015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Attack07
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 702
+        width: 440
+        height: 678
+      alignment: 9
+      pivot: {x: 0.5034091, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6b0afc77960cd46ae1d5fc8be59756
+      internalID: -5957164280627771332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Attack08
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 1382
+        width: 426
+        height: 664
+      alignment: 9
+      pivot: {x: 0.49178404, y: 0.49774095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263b7f21c23f73348a1844758f44da52
+      internalID: -4366768908871716119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Attack09
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 42
+        width: 431
+        height: 670
+      alignment: 9
+      pivot: {x: 0.48839906, y: 0.49626866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8b89ff518698741afea1384c589dde
+      internalID: -2144351251714185580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Attack10
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 694
+        width: 445
+        height: 665
+      alignment: 9
+      pivot: {x: 0.50449437, y: 0.49699247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60345a92df37fe478ac2ed32335fda1
+      internalID: -8123858901655085582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle01
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 687
+        width: 440
+        height: 682
+      alignment: 9
+      pivot: {x: 0.50795454, y: 0.49486804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccec3b4cc4edea04a94a50eca131a5a3
+      internalID: -5366235183622147662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle02
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 19
+        width: 436
+        height: 670
+      alignment: 9
+      pivot: {x: 0.50573397, y: 0.5022388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b83154848c6b7f46ae24d9408383371
+      internalID: -9160374032614509395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle03
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 693
+        width: 447
+        height: 666
+      alignment: 9
+      pivot: {x: 0.49552572, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f75fab93dd55e54c9da8e80b47bcab8
+      internalID: 7317767891107672992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle04
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 18
+        width: 438
+        height: 674
+      alignment: 9
+      pivot: {x: 0.5079909, y: 0.5051929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a4818ad5bce764c8accb5fdc4181fa
+      internalID: 8622328052682952043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle05
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1349
+        width: 473
+        height: 697
+      alignment: 9
+      pivot: {x: 0.4936575, y: 0.4856528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e82ef818f029d4d8de0c7ac0c6f257
+      internalID: 3233180769403648776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle06
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1371
+        width: 458
+        height: 675
+      alignment: 9
+      pivot: {x: 0.4945415, y: 0.50074077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d4ff24818f7e74e824ed5fe8fd603c
+      internalID: -2229662967622424507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle07
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1339
+        width: 468
+        height: 707
+      alignment: 9
+      pivot: {x: 0.50106835, y: 0.47736916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f905c9d03d52d24082f59ca7a5b3db2
+      internalID: 2676700244734080713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle08
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 638
+        width: 447
+        height: 699
+      alignment: 9
+      pivot: {x: 0.48657718, y: 0.48426324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a1b9f38564cca42aef528655a50e1c
+      internalID: 1899636985881774542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle09
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 691
+        width: 446
+        height: 678
+      alignment: 9
+      pivot: {x: 0.485426, y: 0.5036873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7767075befa34d849ac173683a5b35bf
+      internalID: 2219242103763655101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle10
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1384
+        width: 457
+        height: 662
+      alignment: 9
+      pivot: {x: 0.49343544, y: 0.5113293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cec6cc98aeaf64c9c4e53ac197ca71
+      internalID: 4466445776367443849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle11
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 1361
+        width: 435
+        height: 685
+      alignment: 9
+      pivot: {x: 0.50689656, y: 0.49270073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22d7e95c4c7b8842b574670fa0a8a29
+      internalID: -593393933010940441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Idle12
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 694
+        width: 452
+        height: 700
+      alignment: 9
+      pivot: {x: 0.49004424, y: 0.48357144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b5507d86ce2834cb482fcd1d3cbd0e
+      internalID: -6073439418646265483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Move01
+      rect:
+        serializedVersion: 2
+        x: 3629
+        y: 714
+        width: 441
+        height: 666
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49774775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca1fa2955199114e962f97b46c3ccde
+      internalID: -5912503743605026776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealChicken_Move02
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 18
+        width: 434
+        height: 673
+      alignment: 9
+      pivot: {x: 0.48041475, y: 0.49554235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f59b0ce5ee53774ead9c5f19c595911
+      internalID: -3712287497706741148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e133ce0a5bfac1641b88f506436c9f83
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

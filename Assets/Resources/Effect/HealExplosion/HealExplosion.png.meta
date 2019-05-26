@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 2ff52b20d88f1d84a9428489531c09d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6664960625499113973
+    second: HealExplosion01
+  - first:
+      213: -1335658900147937961
+    second: HealExplosion02
+  - first:
+      213: -6660397388290220538
+    second: HealExplosion03
+  - first:
+      213: 3356404179313110472
+    second: HealExplosion04
+  - first:
+      213: 4879983410065081600
+    second: HealExplosion05
+  - first:
+      213: -8991168616913959594
+    second: HealExplosion06
+  - first:
+      213: 8401013917099642666
+    second: HealExplosion07
+  - first:
+      213: -1916901369164085070
+    second: HealExplosion08
+  - first:
+      213: -4117356715795453863
+    second: HealExplosion09
+  - first:
+      213: -3223871677812593640
+    second: HealExplosion10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HealExplosion01
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1730
+        width: 266
+        height: 622
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.63826364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240fa822c9947354db71934abf63d711
+      internalID: 6664960625499113973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealExplosion02
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 616
+        width: 565
+        height: 616
+      alignment: 9
+      pivot: {x: 0.64955753, y: 0.6720779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029e7fadc6aa9534389170229ca24ad8
+      internalID: -1335658900147937961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealExplosion03
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 414
+        width: 760
+        height: 818
+      alignment: 9
+      pivot: {x: 0.6, y: 0.49388754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5ec4fdad748804a84d04606438d5ed
+      internalID: -6660397388290220538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealExplosion04
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1234
+        width: 837
+        height: 852
+      alignment: 9
+      pivot: {x: 0.5221028, y: 0.51877934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b60fc8dffa1184d86734e14702746c
+      internalID: 3356404179313110472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealExplosion05
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1447
+        width: 842
+        height: 905
+      alignment: 9
+      pivot: {x: 0.48574823, y: 0.47071823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96860fdd11797f4d8658da39278f797
+      internalID: 4879983410065081600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealExplosion06
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2088
+        width: 876
+        height: 894
+      alignment: 9
+      pivot: {x: 0.510274, y: 0.46979865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad9e6193e7486840b4bd79c9772fce3
+      internalID: -8991168616913959594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealExplosion07
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 2354
+        width: 888
+        height: 868
+      alignment: 9
+      pivot: {x: 0.5382883, y: 0.43894008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3530e93eaf235ef4681b7a96171424bb
+      internalID: 8401013917099642666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealExplosion08
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 3224
+        width: 908
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5495595, y: 0.44942528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a2b7993b8a61c4b9703d0489cbb830
+      internalID: -1916901369164085070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealExplosion09
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2984
+        width: 908
+        height: 655
+      alignment: 9
+      pivot: {x: 0.49889868, y: 0.2351145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2642082d7dcde47bb733cc4f8c251a
+      internalID: -4117356715795453863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealExplosion10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3641
+        width: 958
+        height: 453
+      alignment: 9
+      pivot: {x: 0.49478078, y: -0.09271523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbec2e2dd8de184cbc783be1b49ee50
+      internalID: -3223871677812593640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2253f48a123a47949b1276fd6992f559
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

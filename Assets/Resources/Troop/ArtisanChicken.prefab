@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Team: 10
-  Identify: 10001
+  Identify: 10006
   Rigidbody: {fileID: 0}
   Collider: {fileID: 0}
   SpriteRenderer: {fileID: 0}

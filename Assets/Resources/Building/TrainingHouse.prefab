@@ -205,8 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055f9fccf63dbf042a76ac68a66c4d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _currentTrainID: 10003
-  _trainList: 13270000
+  _trainList: 14270000
   _maxTrainingTime: 0
   _trainingTime: 0
 --- !u!114 &114227956420449688

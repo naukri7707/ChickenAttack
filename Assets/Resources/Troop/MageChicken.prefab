@@ -213,10 +213,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a68e1f9a88858c43b1dea3b1efc66e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackType: 0
+  AttackType: 1
   FixPosition: {x: 0, y: 0, z: 0}
   LockedAgent: {fileID: 0}
-  InstantiateObject: {fileID: 0}
+  InstantiateObject: {fileID: 1837707240109570, guid: 132880e7bc7fa3f48b41c3f6df9145d2,
+    type: 3}
 --- !u!114 &114228490917167622
 MonoBehaviour:
   m_ObjectHideFlags: 0

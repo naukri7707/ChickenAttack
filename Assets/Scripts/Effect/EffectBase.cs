@@ -9,6 +9,11 @@ public class EffectBase : MonoBehaviour
 	public GameObject InstantiateObject;
 
 	/// <summary>
+	/// 物件起始位置修正
+	/// </summary>
+	public Vector2 FixPosition;
+
+	/// <summary>
 	/// 衍生物件起始位置修正
 	/// </summary>
 	public Vector2 InstantiateFixPosition;
@@ -55,6 +60,11 @@ public class EffectBase : MonoBehaviour
 	public void DestroyThis()
 	{
 		Destroy(gameObject);
+	}
+
+	private void Start()
+	{
+		transform.Translate(FixPosition);
 	}
 
 	public void Initialization(CoreBase target, int damage)
