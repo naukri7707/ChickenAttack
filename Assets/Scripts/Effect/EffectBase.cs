@@ -14,11 +14,6 @@ public class EffectBase : MonoBehaviour
 	public Vector2 FixPosition;
 
 	/// <summary>
-	/// 衍生物件起始位置修正
-	/// </summary>
-	public Vector2 InstantiateFixPosition;
-
-	/// <summary>
 	/// 目標物件
 	/// </summary>
 	public CoreBase Target { get; set; }
@@ -85,10 +80,25 @@ public class EffectBase : MonoBehaviour
 			return;
 		}
 
-		GameObject tmp = Instantiate(InstantiateObject, transform.position + (Vector3)InstantiateFixPosition, new Quaternion());
+		GameObject tmp = Instantiate(InstantiateObject);
+		tmp.transform.position = transform.position;
 		tmp.GetComponent<EffectBase>().Initialization(Target, Damage);
 	}
-
+	public bool IsCollisionWithEnemy()
+	{
+		foreach (BoxCollider2D b in GetComponent<BoxCollider2D>().OverlapAll())
+		{
+			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
+			{
+				CoreBase agent = b.GetComponent<CoreBase>();
+				if (agent.Team == TargetTeam)
+				{
+					return true;
+				}
+			}
+		}
+		return false;
+	}
 	public void Attack()
 	{
 		foreach (BoxCollider2D b in GetComponent<BoxCollider2D>().OverlapAll())

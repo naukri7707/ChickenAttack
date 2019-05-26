@@ -23,8 +23,6 @@ public class AttackAbilityDarwer : Editor
 		{
 			EditorGUILayout.Space();
 			NGUILayout.ShowProperty(target, "InstantiateObject");
-			m_Target.FixPosition = EditorGUILayout.Vector2Field("FixPosition", m_Target.FixPosition);
-			
 		}
 	}
 }

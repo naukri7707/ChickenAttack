@@ -30,14 +30,6 @@ public class TroopCore : CoreBase
 		_details = new TroopDetails(Identify);
 		base.Awake();
 	}
-
-#if UNITY_EDITOR
-	private void OnDrawGizmos()
-	{
-		if(UnityEditor.EditorApplication.isPlaying)
-		Naukri.Tools.NGizmos.DrawRay(this.transform.position, new Vector2(GetDetails<TroopDetails>().HitRange, 0) * Direction);
-	}
-#endif
 }
 
 

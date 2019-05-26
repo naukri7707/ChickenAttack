@@ -164,5 +164,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InstantiateObject: {fileID: 1900021572521962, guid: e2950d7e6df1ed646a6e09aa969888ce,
     type: 3}
-  InstantiateFixPosition: {x: 0, y: 0}
+  FixPosition: {x: -1, y: 1}
   TargetTeam: 0

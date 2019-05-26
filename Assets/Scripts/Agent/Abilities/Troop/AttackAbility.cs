@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-
 /// <summary>
 /// 攻擊型態
 /// </summary>
@@ -20,11 +19,6 @@ public class AttackAbility : AbilityBase
 	/// 攻擊型態
 	/// </summary>
 	public AttackType AttackType;
-
-	/// <summary>
-	/// 調整位置
-	/// </summary>
-	public Vector3 FixPosition;
 
 	/// <summary>
 	/// 鎖定目標
@@ -52,7 +46,8 @@ public class AttackAbility : AbilityBase
 
 	public override void EveryFrame()
 	{
-
+		//攻擊距離
+		Debug.DrawRay(_rayOrigin, _agent.Direction * _agent.GetDetails<TroopDetails>().HitRange, Color.green);
 	}
 
 	public override bool Triggers()
@@ -99,7 +94,8 @@ public class AttackAbility : AbilityBase
 	/// </summary>
 	public void RemoteAttack()
 	{
-		GameObject tmp = Instantiate(InstantiateObject, transform.position + FixPosition, new Quaternion());
+		GameObject tmp = Instantiate(InstantiateObject);
+		tmp.transform.position = transform.position;
 		tmp.GetComponent<EffectBase>().Initialization(LockedAgent, _agent.GetDetails<TroopDetails>().Damage);
 	}
 }

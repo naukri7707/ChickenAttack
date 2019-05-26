@@ -9,6 +9,7 @@ public class BulletEffect : EffectBase
 	// Start is called before the first frame update
 	private void Start()
 	{
+		transform.Translate(FixPosition);
 		_speed = Mathf.Abs(_speed) * (TargetTeam == AgentTeam.Ally ? -1 : 1);
 		_animatorManager = GetComponent<Animator>();
 		_animatorManager.AnimClip = (int)AbilityAnimClip.Move;
@@ -21,7 +22,7 @@ public class BulletEffect : EffectBase
 		{
 			transform.Translate(_speed, 0, 0);
 
-			if (AttackOnce())
+			if (IsCollisionWithEnemy())
 			{
 				_animatorManager.AnimClip = (int)AbilityAnimClip.Dead;
 			}

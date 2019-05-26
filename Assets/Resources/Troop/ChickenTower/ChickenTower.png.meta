@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: 1e85813246860f54696f5949207d8c00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3828709626758910319
+    second: ChickenTower_Attack01
+  - first:
+      213: 2131843934736902917
+    second: ChickenTower_Attack02
+  - first:
+      213: -8290957947866364840
+    second: ChickenTower_Attack03
+  - first:
+      213: -3165753980551270480
+    second: ChickenTower_Attack04
+  - first:
+      213: 7423930097145154348
+    second: ChickenTower_Attack05
+  - first:
+      213: -9129313340344612604
+    second: ChickenTower_Attack06
+  - first:
+      213: -1458736946516212202
+    second: ChickenTower_Attack07
+  - first:
+      213: -4770197617719488209
+    second: ChickenTower_Attack08
+  - first:
+      213: -8562493338453994148
+    second: ChickenTower_Idle01
+  - first:
+      213: -3838602140742927076
+    second: ChickenTower_Idle02
+  - first:
+      213: -5634425969024196358
+    second: ChickenTower_Idle03
+  - first:
+      213: -8720345779144084554
+    second: ChickenTower_Idle04
+  - first:
+      213: 7990891731585946716
+    second: ChickenTower_Idle05
+  - first:
+      213: -1651695292570313032
+    second: ChickenTower_Idle06
+  - first:
+      213: -2398871425815115067
+    second: ChickenTower_Idle07
+  - first:
+      213: -786937983765133422
+    second: ChickenTower_Idle08
+  - first:
+      213: -3832395328319743387
+    second: ChickenTower_Idle09
+  - first:
+      213: -5622941872787011165
+    second: ChickenTower_Idle10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChickenTower_Attack01
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 3178
+        width: 500
+        height: 916
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49508733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69154ed2c114d3648add400906f357e7
+      internalID: 3828709626758910319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Attack02
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 2262
+        width: 500
+        height: 915
+      alignment: 9
+      pivot: {x: 0.501, y: 0.49562842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277633ad3cda0044f804de4196922a51
+      internalID: 2131843934736902917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Attack03
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2234
+        width: 502
+        height: 929
+      alignment: 9
+      pivot: {x: 0.500996, y: 0.4881593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0535f99c31e544e8e9755c040a0f3e
+      internalID: -8290957947866364840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Attack04
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 2242
+        width: 500
+        height: 921
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49239957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b310edc419d12438f0b388cc3f65a4
+      internalID: -3165753980551270480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Attack05
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 3179
+        width: 502
+        height: 915
+      alignment: 9
+      pivot: {x: 0.50298804, y: 0.49562842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e2a4d6d27b7e34fbb568081acc1817
+      internalID: 7423930097145154348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Attack06
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 3179
+        width: 500
+        height: 915
+      alignment: 9
+      pivot: {x: 0.501, y: 0.49562842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6418acef0801eff4a8f4662c759a005e
+      internalID: -9129313340344612604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Attack07
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3165
+        width: 505
+        height: 929
+      alignment: 9
+      pivot: {x: 0.5039604, y: 0.4881593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e585b26379a2ce4693fb65b28b6e7be
+      internalID: -1458736946516212202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Attack08
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1303
+        width: 502
+        height: 929
+      alignment: 9
+      pivot: {x: 0.500996, y: 0.4881593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69748debd28bf644882c59bf3ea5dfbc
+      internalID: -4770197617719488209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Idle01
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 381
+        width: 502
+        height: 921
+      alignment: 9
+      pivot: {x: 0.50298804, y: 0.49239957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2e35f4b43b3dd429bdaf9c028e1bbc
+      internalID: -8562493338453994148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Idle02
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1324
+        width: 500
+        height: 916
+      alignment: 9
+      pivot: {x: 0.499, y: 0.49508733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5873f88e0bbdb56448862e5b88cf372d
+      internalID: -3838602140742927076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Idle03
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 406
+        width: 500
+        height: 916
+      alignment: 9
+      pivot: {x: 0.499, y: 0.49508733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aeea1b72ed80854c85fcb83423a47c4
+      internalID: -5634425969024196358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Idle04
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1304
+        width: 501
+        height: 928
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48868534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bfc2f00da63f149bf2011a40db0741
+      internalID: -8720345779144084554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Idle05
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 372
+        width: 502
+        height: 929
+      alignment: 9
+      pivot: {x: 0.500996, y: 0.4881593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ef943f2f77b64448ea50d3a33ee778
+      internalID: 7990891731585946716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Idle06
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1343
+        width: 501
+        height: 915
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49562842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd29a540657275408dae81fefa2c17d
+      internalID: -1651695292570313032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Idle07
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 2234
+        width: 501
+        height: 929
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4881593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48eb726d9094174087debe49130d165
+      internalID: -2398871425815115067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Idle08
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 426
+        width: 500
+        height: 915
+      alignment: 9
+      pivot: {x: 0.501, y: 0.49562842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a63204cc865afb4996e86e7609c7dac
+      internalID: -786937983765133422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Idle09
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 3165
+        width: 500
+        height: 929
+      alignment: 9
+      pivot: {x: 0.501, y: 0.4881593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba8037ff58867c48aa09a3f634b7536
+      internalID: -3832395328319743387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenTower_Idle10
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 2260
+        width: 500
+        height: 916
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49508733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaaebe8cd2954f4e893643002256ef9
+      internalID: -5622941872787011165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ed61d138032925b4fbe4f6a212048061
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
