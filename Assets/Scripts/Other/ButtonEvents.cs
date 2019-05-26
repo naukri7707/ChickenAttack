@@ -208,9 +208,4 @@ public class ButtonEvents : MonoBehaviour
 		GameArgs.FocusPermit = permit;
 	}
 
-	public void ExitApplication()
-	{
-		Application.Quit();
-	}
-
 }
