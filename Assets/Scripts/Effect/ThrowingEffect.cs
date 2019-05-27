@@ -24,7 +24,6 @@ public class ThrowingEffect : EffectBase
 		limiter = Naukri.NMath.Gap(transform.position.x, Target.transform.position.x) * SpeedLimiter;
 		if (limiter < 0.1f)
 			limiter = 0.1f;
-		Debug.Log("SP = " + limiter);
 	}
 
 	private void Update()

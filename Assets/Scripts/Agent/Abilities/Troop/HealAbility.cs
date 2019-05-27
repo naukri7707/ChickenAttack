@@ -39,7 +39,7 @@ public class HealAbility : AbilityBase
 
 	public override bool Triggers()
 	{
-		RaycastHit2D hit = Physics2D.Raycast(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange, _agent.EnemyLayerMask);
+		RaycastHit2D hit = Physics2D.Raycast(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange * 1.5f, _agent.EnemyLayerMask);
 		if (!hit) return false;
 		RaycastHit2D[] hits = Physics2D.RaycastAll(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange, 1 << (int)_agent.Team);
 		Array.Sort(hits, (lhs, rhs) => rhs.transform.position.x.CompareTo(lhs.transform.position.x));
