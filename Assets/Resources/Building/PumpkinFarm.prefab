@@ -35,7 +35,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4993523341531942}
-  - {fileID: 5932339860576151686}
+  - {fileID: 2029736437062813513}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -121,7 +121,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.8049998}
+  m_Offset: {x: 0, y: -1.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5696367}
@@ -132,7 +132,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.88, y: 11.56}
+  m_Size: {x: 10, y: 10}
   m_EdgeRadius: 0
 --- !u!114 &114435398064799096
 MonoBehaviour:
@@ -368,7 +368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cef366d87d2dda546b876b4b694f20df, type: 3}
---- !u!4 &5932339860576151686 stripped
+--- !u!4 &2029736437062813513 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5654538871598476652, guid: cef366d87d2dda546b876b4b694f20df,
     type: 3}

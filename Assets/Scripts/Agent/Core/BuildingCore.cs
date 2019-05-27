@@ -32,7 +32,7 @@ public class BuildingCore : CoreBase
 
 	private void OnMouseUpAsButton()
 	{
-		if (Team == AgentTeam.Ally && GameArgs.FocusPermit)
+		if (Team == AgentTeam.Ally && GameArgs.FocusPermit && BuildBtnEvent.BuildingGameObject == null)
 		{
 			GameArgs.FocusBuilding = this;
 			GameArgs.BuildingList.SetActive(true);

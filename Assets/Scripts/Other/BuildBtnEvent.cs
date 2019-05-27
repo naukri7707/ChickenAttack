@@ -8,12 +8,14 @@ public class BuildBtnEvent : MonoBehaviour
 {
 	public int BuildingID;
 
+	public AudioSource btnApply, btnCancel;
+
 	/// <summary>
 	/// 目標建築
 	/// </summary>
-	private static GameObject _buildingGameObject;
+	public static GameObject BuildingGameObject;
 
-	private static Vector2 _colliderSize;
+	private static Vector3 _colliderSize, _colliderOffset;
 
 	private static Vector3 cursorWorldPos => Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.nearClipPlane));
 
@@ -25,7 +27,8 @@ public class BuildBtnEvent : MonoBehaviour
 
 	private bool isCollisionWithBuilding()
 	{
-		foreach (Collider2D hit in Physics2D.OverlapBoxAll(_buildingGameObject.transform.position, _colliderSize, 0, GameArgs.ObjectLayer))
+		Naukri.Tools.NDebug.DrawBox(BuildingGameObject.transform.position + _colliderOffset, _colliderSize);
+		foreach (Collider2D hit in Physics2D.OverlapBoxAll(BuildingGameObject.transform.position + _colliderOffset, _colliderSize, 0, GameArgs.ObjectLayer))
 		{
 			if (hit.tag == GameArgs.Building || hit.tag == GameArgs.Background)
 			{
@@ -37,35 +40,40 @@ public class BuildBtnEvent : MonoBehaviour
 
 	private void Update()
 	{
-		if (_buildingGameObject != null)
+		if (BuildingGameObject != null)
 		{
 			Vector3 newPos = Vector3Int.RoundToInt(cursorWorldPos);
 			newPos.z = 0;
-			_buildingGameObject.transform.position = newPos;
+			BuildingGameObject.transform.position = newPos;
 
-			if (isCollisionWithBuilding() || !_buildingGameObject.transform.IsNearGround(_colliderSize))
+			if (isCollisionWithBuilding() || !BuildingGameObject.transform.IsNearGround(_colliderSize))
 			{
-				foreach (SpriteRenderer sr in _buildingGameObject.GetComponents<SpriteRenderer>())
+				foreach (SpriteRenderer sr in BuildingGameObject.GetComponents<SpriteRenderer>())
 					sr.color = new Color(1, 0, 0, 1);
+				if (Input.GetMouseButton(0))
+				{
+					btnCancel.Play();
+				}
 			}
 			else
 			{
-				foreach (SpriteRenderer sr in _buildingGameObject.GetComponents<SpriteRenderer>())
+				foreach (SpriteRenderer sr in BuildingGameObject.GetComponents<SpriteRenderer>())
 					sr.color = new Color(1, 1, 1, 1);
 				if (Input.GetMouseButton(0))
 				{
-					GameArgs.Gold -= _buildingGameObject.GetComponent<CoreBase>().GetDetails<BuildingDetails>().UpgradeCost;
-					_buildingGameObject.GetComponent<CoreBase>().enabled = true;
-					_buildingGameObject.GetComponent<Collider2D>().enabled = true;
-					_buildingGameObject = null;
+					btnApply.Play();
+					GameArgs.Gold -= BuildingGameObject.GetComponent<CoreBase>().GetDetails<BuildingDetails>().UpgradeCost;
+					BuildingGameObject.GetComponent<CoreBase>().enabled = true;
+					BuildingGameObject.GetComponent<Collider2D>().enabled = true;
+					BuildingGameObject = null;
 					transform.parent.gameObject.SetActive(false);
 				}
 			}
 
 			if (Input.GetMouseButton(1))
 			{
-				Destroy(_buildingGameObject);
-				_buildingGameObject = null;
+				Destroy(BuildingGameObject);
+				BuildingGameObject = null;
 				transform.parent.gameObject.SetActive(false);
 			}
 		}
@@ -73,20 +81,23 @@ public class BuildBtnEvent : MonoBehaviour
 
 	public void OnClick()
 	{
-		if (_buildingGameObject != null)
+		if (BuildingGameObject != null)
 		{
-			Destroy(_buildingGameObject);
+			Destroy(BuildingGameObject);
 		}
-		_buildingGameObject = Prefabs.Instantiate(BuildingID);
-		if (GameArgs.Gold < _buildingGameObject.GetComponent<CoreBase>().GetDetails<BuildingDetails>().UpgradeCost)
+		BuildingGameObject = Prefabs.Instantiate(BuildingID);
+		if (GameArgs.Gold < BuildingGameObject.GetComponent<CoreBase>().GetDetails<BuildingDetails>().UpgradeCost)
 		{
-			Destroy(_buildingGameObject);
-			_buildingGameObject = null;
+			btnCancel.Play();
+			Destroy(BuildingGameObject);
+			BuildingGameObject = null;
 			return;
 		}
-		_buildingGameObject.transform.parent = GameArgs.World.transform;
-		_colliderSize = _buildingGameObject.GetComponent<Collider2D>().bounds.size;
-		_buildingGameObject.GetComponent<CoreBase>().enabled = false;
-		_buildingGameObject.GetComponent<Collider2D>().enabled = false;
+		btnApply.Play();
+		BuildingGameObject.transform.parent = GameArgs.World.transform;
+		_colliderOffset = BuildingGameObject.GetComponent<BoxCollider2D>().BoundsOffset();
+		_colliderSize = BuildingGameObject.GetComponent<BoxCollider2D>().bounds.size;
+		BuildingGameObject.GetComponent<CoreBase>().enabled = false;
+		BuildingGameObject.GetComponent<Collider2D>().enabled = false;
 	}
 }

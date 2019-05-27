@@ -213,4 +213,13 @@ public class ButtonEvents : MonoBehaviour
 		Application.Quit();
 	}
 
+	public void DestoryGameObject<T>(T mono) where T : MonoBehaviour
+	{
+		Destroy(mono.gameObject);
+	}
+
+	public void DestoryBuildingGameObject()
+	{
+		Destroy(BuildBtnEvent.BuildingGameObject);
+	}
 }

@@ -1,0 +1,978 @@
+fileFormatVersion: 2
+guid: 4209b69ce5886e74aabc1af934845875
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6804250462300301161
+    second: SuperChicken_Alert01
+  - first:
+      213: 6651612088103992314
+    second: SuperChicken_Attack01
+  - first:
+      213: 1379996880473895316
+    second: SuperChicken_Attack02
+  - first:
+      213: 4181850178476408078
+    second: SuperChicken_Attack03
+  - first:
+      213: -7362627674756462621
+    second: SuperChicken_Attack04
+  - first:
+      213: -5157046929649450095
+    second: SuperChicken_Attack05
+  - first:
+      213: 8802265537510114817
+    second: SuperChicken_Attack06
+  - first:
+      213: 2871108915395045682
+    second: SuperChicken_Attack07
+  - first:
+      213: -9209003329212671772
+    second: SuperChicken_Attack08
+  - first:
+      213: 4173435837827066157
+    second: SuperChicken_Attack09
+  - first:
+      213: 8386692968096897536
+    second: SuperChicken_Attack10
+  - first:
+      213: -5238661699021727458
+    second: SuperChicken_Attack11
+  - first:
+      213: -6046080201071449870
+    second: SuperChicken_Attack12
+  - first:
+      213: -6504893393219560454
+    second: SuperChicken_Attack13
+  - first:
+      213: -8332048352676199364
+    second: SuperChicken_Attack14
+  - first:
+      213: 5358344099637572562
+    second: SuperChicken_Attack15
+  - first:
+      213: 543779728219227961
+    second: SuperChicken_Attack16
+  - first:
+      213: -4030916461003396667
+    second: SuperChicken_Attack17
+  - first:
+      213: -9097461608852876183
+    second: SuperChicken_Attack18
+  - first:
+      213: 2292700044494929043
+    second: SuperChicken_Idle01
+  - first:
+      213: 5380825314818362976
+    second: SuperChicken_Idle02
+  - first:
+      213: -7497436501857548637
+    second: SuperChicken_Idle03
+  - first:
+      213: 104657291405606656
+    second: SuperChicken_Idle04
+  - first:
+      213: 4514621144451656489
+    second: SuperChicken_Idle05
+  - first:
+      213: -1099677980176839678
+    second: SuperChicken_Idle06
+  - first:
+      213: -1546150894355470158
+    second: SuperChicken_Idle07
+  - first:
+      213: -4739261239434714155
+    second: SuperChicken_Idle08
+  - first:
+      213: -7534866959451655722
+    second: SuperChicken_Idle09
+  - first:
+      213: -4033619008295709210
+    second: SuperChicken_Idle10
+  - first:
+      213: 4418057247194716973
+    second: SuperChicken_Idle11
+  - first:
+      213: -7834966889572013301
+    second: SuperChicken_Idle12
+  - first:
+      213: -7992926051345918347
+    second: SuperChicken_Walk01
+  - first:
+      213: 3364381600508036080
+    second: SuperChicken_Walk02
+  - first:
+      213: -5809489022857382425
+    second: SuperChicken_Walk03
+  - first:
+      213: 580245976363059992
+    second: SuperChicken_Walk04
+  - first:
+      213: -5053158952329871192
+    second: SuperChicken_Walk05
+  - first:
+      213: 2721954568749307747
+    second: SuperChicken_Walk06
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperChicken_Alert01
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 2837
+        width: 382
+        height: 643
+      alignment: 9
+      pivot: {x: 0.57329845, y: 0.4688958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322eb9e91e9e5bb499f0c695e9053e15
+      internalID: -6804250462300301161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack01
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 994
+        width: 285
+        height: 621
+      alignment: 9
+      pivot: {x: 0.51754385, y: 0.49516907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ceedc1873aaf104abeb9ab469665512
+      internalID: 6651612088103992314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2188
+        width: 305
+        height: 622
+      alignment: 9
+      pivot: {x: 0.49344262, y: 0.49919614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b291ca7a01231145bd184a443910fff
+      internalID: 1379996880473895316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack03
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 3456
+        width: 299
+        height: 638
+      alignment: 9
+      pivot: {x: 0.49665552, y: 0.4866771}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a49a7b23ed44e64b9edfa263e86680d
+      internalID: 4181850178476408078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack04
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 2809
+        width: 359
+        height: 618
+      alignment: 9
+      pivot: {x: 0.41643453, y: 0.4959547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af79f22e213ceff4e864730438c5ecce
+      internalID: -7362627674756462621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack05
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2864
+        width: 452
+        height: 616
+      alignment: 9
+      pivot: {x: 0.32632744, y: 0.5040584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c193ea411803e42ac6e666aa5b2999
+      internalID: -5157046929649450095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack06
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 3464
+        width: 541
+        height: 630
+      alignment: 9
+      pivot: {x: 0.26709798, y: 0.48650792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cb489f1ad11d24fa6db4438c9d4de0
+      internalID: 8802265537510114817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack07
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3429
+        width: 800
+        height: 665
+      alignment: 9
+      pivot: {x: 0.500625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68665b11ada4df4496515b6e0a37895
+      internalID: 2871108915395045682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack08
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3482
+        width: 543
+        height: 612
+      alignment: 9
+      pivot: {x: 0.27163905, y: 0.500817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb439518ff304349aae527bb6a62752
+      internalID: -9209003329212671772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack09
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 3482
+        width: 544
+        height: 612
+      alignment: 9
+      pivot: {x: 0.27297795, y: 0.500817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5a31871b68ad243ab03201a43d24f6
+      internalID: 4173435837827066157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2812
+        width: 377
+        height: 615
+      alignment: 9
+      pivot: {x: 0.38859415, y: 0.500813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7a47e488326db419cd56ac825c37e2
+      internalID: 8386692968096897536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1567
+        width: 290
+        height: 619
+      alignment: 9
+      pivot: {x: 0.5017241, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cea931c376de743a528dd10cc394de
+      internalID: -5238661699021727458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack12
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 2834
+        width: 295
+        height: 628
+      alignment: 9
+      pivot: {x: 0.50338984, y: 0.49124205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9cb4f592a97e44ea12c8f5e12583bb
+      internalID: -6046080201071449870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack13
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1617
+        width: 290
+        height: 630
+      alignment: 9
+      pivot: {x: 0.5017241, y: 0.4904762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5a7d4a6fc462f4cba602426c7b820b
+      internalID: -6504893393219560454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack14
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 2222
+        width: 295
+        height: 613
+      alignment: 9
+      pivot: {x: 0.5067797, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb8baef0d606b04c854e0039337b78b
+      internalID: -8332048352676199364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack15
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 2236
+        width: 295
+        height: 614
+      alignment: 9
+      pivot: {x: 0.5067797, y: 0.5008143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ef730bb897a504783e73f3db7b5da9
+      internalID: 5358344099637572562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 946
+        width: 290
+        height: 619
+      alignment: 9
+      pivot: {x: 0.5017241, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b4ac0c09c37a04689f4145d7781277
+      internalID: 543779728219227961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack17
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1597
+        width: 286
+        height: 623
+      alignment: 9
+      pivot: {x: 0.52272725, y: 0.49839488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1c1cc5a2d388f44b1e495e8fa8e296
+      internalID: -4030916461003396667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Attack18
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 2865
+        width: 296
+        height: 614
+      alignment: 9
+      pivot: {x: 0.5050676, y: 0.5008143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d81e6aa70f73d4385cb29b05de6af9
+      internalID: -9097461608852876183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle01
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 3487
+        width: 269
+        height: 607
+      alignment: 9
+      pivot: {x: 0.5055762, y: 0.49835256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb6bd9d8987f3b4a8efcdf9b3bb109c
+      internalID: 2292700044494929043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle02
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 952
+        width: 281
+        height: 608
+      alignment: 9
+      pivot: {x: 0.48042706, y: 0.4975329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d48665d7e49a44e9e132b5e84b9017
+      internalID: 5380825314818362976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle03
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 376
+        width: 270
+        height: 616
+      alignment: 9
+      pivot: {x: 0.5037037, y: 0.4926948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9ffae8ebd99114296364fbe694c887
+      internalID: -7497436501857548637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle04
+      rect:
+        serializedVersion: 2
+        x: 3042
+        y: 3486
+        width: 271
+        height: 608
+      alignment: 9
+      pivot: {x: 0.501845, y: 0.4975329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495cf19a83e3f8543a18693eabc6a47c
+      internalID: 104657291405606656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle05
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1603
+        width: 271
+        height: 614
+      alignment: 9
+      pivot: {x: 0.48708487, y: 0.492671}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4a21c3e8b1cab49902e1da46ba41d4
+      internalID: 4514621144451656489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle06
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 996
+        width: 273
+        height: 599
+      alignment: 9
+      pivot: {x: 0.50549453, y: 0.50500834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4d6b95e225b9744a57b51dbefc8257
+      internalID: -1099677980176839678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle07
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 380
+        width: 276
+        height: 614
+      alignment: 9
+      pivot: {x: 0.51086956, y: 0.49429968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2797255f54eff4e84ca9e84b6f3c5b
+      internalID: -1546150894355470158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle08
+      rect:
+        serializedVersion: 2
+        x: 3586
+        y: 3485
+        width: 268
+        height: 609
+      alignment: 9
+      pivot: {x: 0.51492536, y: 0.49671593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc2c15d6c227954696ae656e2e16646
+      internalID: -4739261239434714155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle09
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 328
+        width: 276
+        height: 616
+      alignment: 9
+      pivot: {x: 0.4746377, y: 0.4926948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb60bc42f4b5e7f4585fb349ab88b43a
+      internalID: -7534866959451655722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle10
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 334
+        width: 276
+        height: 616
+      alignment: 9
+      pivot: {x: 0.51086956, y: 0.49107143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7011fc78ac83d40892d05517ccf339
+      internalID: -4033619008295709210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle11
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 2873
+        width: 262
+        height: 612
+      alignment: 9
+      pivot: {x: 0.5038168, y: 0.49428105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd05a267766551b4782f4e01fb5f83c8
+      internalID: 4418057247194716973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Idle12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 327
+        width: 269
+        height: 617
+      alignment: 9
+      pivot: {x: 0.4832714, y: 0.49027553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084e49480d3b5dd40acf46c4d4440788
+      internalID: -7834966889572013301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Walk01
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2194
+        width: 302
+        height: 613
+      alignment: 9
+      pivot: {x: 0.4668874, y: 0.4690049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c81caecf874c3b438d76a7dbc169ca3
+      internalID: -7992926051345918347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Walk02
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 2852
+        width: 296
+        height: 610
+      alignment: 9
+      pivot: {x: 0.4527027, y: 0.46639344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5eedff516553148ad9b521a06efd10
+      internalID: 3364381600508036080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Walk03
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 3481
+        width: 301
+        height: 613
+      alignment: 9
+      pivot: {x: 0.4501661, y: 0.47063622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0ef5d7148640e449ad1dd1d7a2bf5c
+      internalID: -5809489022857382425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Walk04
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2249
+        width: 305
+        height: 613
+      alignment: 9
+      pivot: {x: 0.46393442, y: 0.46574226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b457a465d12814694514de42b1e2db
+      internalID: 580245976363059992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Walk05
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1562
+        width: 290
+        height: 630
+      alignment: 9
+      pivot: {x: 0.47068965, y: 0.4611111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a72be3c1acf1a048a4de8428f163b19
+      internalID: -5053158952329871192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperChicken_Walk06
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 2219
+        width: 291
+        height: 616
+      alignment: 9
+      pivot: {x: 0.4604811, y: 0.4650974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664666a4ab4a14c488d31c779fec1db1
+      internalID: 2721954568749307747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 25baf081e2e8d8c4eac5f09440074c25
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

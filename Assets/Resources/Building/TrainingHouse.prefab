@@ -33,9 +33,9 @@ Transform:
   m_GameObject: {fileID: 1219244948096136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3473635330316096641}
+  - {fileID: 9100686093325384526}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -141,7 +141,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.07499993, y: 0.2}
+  m_Offset: {x: 0, y: 0.35}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5093633, y: 0.51322484}
@@ -152,7 +152,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.01, y: 9.83}
+  m_Size: {x: 8, y: 10}
   m_EdgeRadius: 0
 --- !u!114 &114045032395984046
 MonoBehaviour:
@@ -290,7 +290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cef366d87d2dda546b876b4b694f20df, type: 3}
---- !u!4 &3473635330316096641 stripped
+--- !u!4 &9100686093325384526 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5654538871598476652, guid: cef366d87d2dda546b876b4b694f20df,
     type: 3}

@@ -67,7 +67,7 @@ public class InstantiateAbility : AbilityBase
 		TroopDetails det = trainCore.GetDetails<TroopDetails>();
 		det.DeBuff.AddFlag(AgentDeBuff.Freeze);
 		det.Level = _agent.GetDetails<DetailsBase>().Level;
-		float scale = Mathf.Pow(det.GrowthRate, det.Level);
+		float scale = Mathf.Pow(det.GrowthRate, det.Level - 1);
 		det.MaxHitPoint = det.HitPoint = (int)(det.MaxHitPoint * scale);
 		det.Damage = (int)(det.Damage * scale);
 		det.KnockBack = (int)(det.KnockBack * scale);

@@ -38,17 +38,11 @@ public class ThrowingEffect : EffectBase
 		{
 			if (newPos.x > transform.position.x + limiter)
 			{
-				Debug.Log("1:  " + transform.position.y);
 				newPos.x = transform.position.x + limiter;
 			}
 			else if (newPos.x < transform.position.x)
 			{
-				Debug.Log("2:  " + transform.position.y);
 				newPos.x = transform.position.x;
-			}
-			else
-			{
-				Debug.Log("3:  " + transform.position.y);
 			}
 		}
 		else

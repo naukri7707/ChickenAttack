@@ -96,6 +96,11 @@ namespace Naukri.ExtensionMethods
 		{
 			return Physics2D.OverlapBoxAll(collider.transform.position + (Vector3)collider.offset, collider.bounds.size, 0);
 		}
+
+		public static Vector2 BoundsOffset(this Collider2D collider)
+		{
+			return new Vector2(collider.offset.x * collider.transform.localScale.x, collider.offset.y * collider.transform.localScale.y);
+		}
 	}
 }
 

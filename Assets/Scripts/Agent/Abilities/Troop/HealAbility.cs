@@ -1,9 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
+using System.Linq;
 using UnityEngine;
 
 [DisallowMultipleComponent]
-[AddComponentMenu("AgentAbility/General/NoneAbility")]
+[AddComponentMenu("AgentAbility/General/HealAbility")]
 public class HealAbility : AbilityBase
 {
 	/// <summary>
@@ -39,11 +39,15 @@ public class HealAbility : AbilityBase
 
 	public override bool Triggers()
 	{
+		RaycastHit2D hit = Physics2D.Raycast(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange, _agent.EnemyLayerMask);
+		if (!hit) return false;
 		RaycastHit2D[] hits = Physics2D.RaycastAll(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange, 1 << (int)_agent.Team);
-		foreach (var hit in hits)
+		Array.Sort(hits, (lhs, rhs) => rhs.transform.position.x.CompareTo(lhs.transform.position.x));
+
+		foreach (RaycastHit2D h in hits)
 		{
-			if (hit.transform.gameObject == gameObject) continue;
-			var agent = hit.transform.transform.GetComponent<CoreBase>();
+			if (h.transform.gameObject == gameObject) continue;
+			CoreBase agent = h.transform.transform.GetComponent<CoreBase>();
 			if (agent.GetDetails<DetailsBase>().Type == AgentType.Building)
 				continue;
 			if (LockedAgent == null)
@@ -75,7 +79,7 @@ public class HealAbility : AbilityBase
 	/// </summary>
 	public void NormalHeal()
 	{
-		var la = LockedAgent.GetDetails<DetailsBase>();
+		DetailsBase la = LockedAgent.GetDetails<DetailsBase>();
 		la.HitPoint += _agent.GetDetails<TroopDetails>().Damage;
 		if (la.HitPoint > la.MaxHitPoint)
 			la.HitPoint = la.MaxHitPoint;

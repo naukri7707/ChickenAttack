@@ -26,7 +26,7 @@ public class GoldProduceAbility : AbilityBase
 		GoldBar.fillAmount += 0.005f;
 		if (GoldBar.fillAmount >= 1)
 		{
-			GameArgs.Gold += BasisGoldProduce * _agent.GetDetails<DetailsBase>().Level;
+			GameArgs.Gold += (int)(BasisGoldProduce * Mathf.Pow(_agent.GetDetails<DetailsBase>().GrowthRate, _agent.GetDetails<DetailsBase>().Level - 1));
 			GoldBar.fillAmount = 0;
 		}
 	}
