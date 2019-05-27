@@ -4,6 +4,10 @@ using UnityEngine;
 public class EffectBase : MonoBehaviour
 {
 	/// <summary>
+	/// 隊伍
+	/// </summary>
+	public AgentTeam Team;
+	/// <summary>
 	/// 衍生物件
 	/// </summary>
 	public GameObject InstantiateObject;
@@ -62,12 +66,13 @@ public class EffectBase : MonoBehaviour
 		transform.Translate(FixPosition);
 	}
 
-	public void Initialization(CoreBase target, int damage)
+	public void Initialization(CoreBase target, int damage, AgentTeam team)
 	{
 		if (target.Team == AgentTeam.Ally)
 		{
 			transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
 		}
+		Team = team;
 		Target = target;
 		TargetTeam = target.Team;
 		Damage = damage;
@@ -82,7 +87,7 @@ public class EffectBase : MonoBehaviour
 
 		GameObject tmp = Instantiate(InstantiateObject);
 		tmp.transform.position = transform.position;
-		tmp.GetComponent<EffectBase>().Initialization(Target, Damage);
+		tmp.GetComponent<EffectBase>().Initialization(Target, Damage, Team);
 	}
 	public bool IsCollisionWithEnemy()
 	{
@@ -132,6 +137,42 @@ public class EffectBase : MonoBehaviour
 					{
 						agent.GetComponent<AlertAbility>().KnockBack = true;
 					}
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+	public void Heal()
+	{
+		foreach (BoxCollider2D b in GetComponent<BoxCollider2D>().OverlapAll())
+		{
+			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
+			{
+				CoreBase agent = b.GetComponent<CoreBase>();
+				if (agent.Team == TargetTeam)
+				{
+					agent.GetDetails<DetailsBase>().HitPoint += Damage;
+					if (agent.GetDetails<DetailsBase>().HitPoint > agent.GetDetails<DetailsBase>().MaxHitPoint)
+						agent.GetDetails<DetailsBase>().HitPoint = agent.GetDetails<DetailsBase>().MaxHitPoint;
+				}
+			}
+		}
+	}
+
+	public bool HealOnce()
+	{
+		foreach (BoxCollider2D b in GetComponent<BoxCollider2D>().OverlapAll())
+		{
+			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
+			{
+				CoreBase agent = b.GetComponent<CoreBase>();
+				if (agent.Team == TargetTeam)
+				{
+					agent.GetDetails<DetailsBase>().HitPoint += Damage;
+					if (agent.GetDetails<DetailsBase>().HitPoint > agent.GetDetails<DetailsBase>().MaxHitPoint)
+						agent.GetDetails<DetailsBase>().HitPoint = agent.GetDetails<DetailsBase>().MaxHitPoint;
 					return true;
 				}
 			}

@@ -96,6 +96,6 @@ public class AttackAbility : AbilityBase
 	{
 		GameObject tmp = Instantiate(InstantiateObject);
 		tmp.transform.position = transform.position;
-		tmp.GetComponent<EffectBase>().Initialization(LockedAgent, _agent.GetDetails<TroopDetails>().Damage);
+		tmp.GetComponent<EffectBase>().Initialization(LockedAgent, _agent.GetDetails<TroopDetails>().Damage , _agent.Team);
 	}
 }

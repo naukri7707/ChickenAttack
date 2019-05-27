@@ -9,6 +9,7 @@ public enum AbilityPriority
 	Dead = 2147483647,
 	//
 	Move = 0,
+	Heal = 9,
 	Attack = 10,
 	Alert = 20,
 	//
