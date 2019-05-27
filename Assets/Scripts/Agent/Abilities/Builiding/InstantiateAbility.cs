@@ -64,7 +64,14 @@ public class InstantiateAbility : AbilityBase
 		trainObj.transform.SetOnHorizon(_agent.transform.position.x);
 		trainCore.transform.parent = transform.parent;
 		trainCore.SetTeam(_agent.Team);
-		trainCore.GetDetails<DetailsBase>().DeBuff.AddFlag(AgentDeBuff.Freeze);
+		TroopDetails det = trainCore.GetDetails<TroopDetails>();
+		det.DeBuff.AddFlag(AgentDeBuff.Freeze);
+		det.Level = _agent.GetDetails<DetailsBase>().Level;
+		float scale = Mathf.Pow(det.GrowthRate, det.Level);
+		det.MaxHitPoint = det.HitPoint = (int)(det.MaxHitPoint * scale);
+		det.Damage = (int)(det.Damage * scale);
+		det.KnockBack = (int)(det.KnockBack * scale);
+		det.Gold = (int)(det.Gold * scale);
 		_trainingTime = _maxTrainingTime;
 	}
 	public override void Stay()

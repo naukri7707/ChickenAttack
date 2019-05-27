@@ -1,0 +1,16 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:1ae6746802e67b72271ade2060512c30:56b79934ac67cddc3219886459fa5f4c:1c367a6567c5da0ca884dd669ed72c2d$
+#
+:format=40300
+:texture=output.png
+:size=1024x128
+:pivotpoints=enabled
+:borders=disabled
+
+HealthBar;2;70;540;56; 0.5;0.4910714285714286; 0;0;0;0; 8;540;0;0;0;0;56;540;56;6;52;6;4;534;4;534;52; 8;5;0;1;5;1;2;4;5;2;4;2;3;7;4;3;6;7;3;0;5;6;3;0;6
+HealthBarFill;2;22;532;46; 0.5;0.48913043478260865; 0;0;0;0; 4;532;0;0;0;0;46;532;46; 2;1;2;3;0;1;3

@@ -27,7 +27,7 @@ public class BulletEffect : EffectBase
 				_animatorManager.AnimClip = (int)AbilityAnimClip.Dead;
 			}
 		}
-		else
+		else 
 		{
 			transform.Translate(_speed / 2, 0, 0);
 		}

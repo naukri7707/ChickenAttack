@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 [DisallowMultipleComponent]
 [AddComponentMenu("AgentAbility/General/GoldProduceAbility")]
 public class GoldProduceAbility : AbilityBase
 {
+	public Image GoldBar;
+
 	public int BasisGoldProduce;
 
 	private GoldProduceAbility()
@@ -14,17 +17,18 @@ public class GoldProduceAbility : AbilityBase
 
 	private void Start()
 	{
-		InvokeRepeating("GoldProduce", 0, 1f);
+
 	}
 
-	private void GoldProduce()
-	{
-		GameArgs.Gold += BasisGoldProduce * _agent.GetDetails<DetailsBase>().Level;
-	}
 
 	public override void EveryFrame()
 	{
-
+		GoldBar.fillAmount += 0.005f;
+		if (GoldBar.fillAmount >= 1)
+		{
+			GameArgs.Gold += BasisGoldProduce * _agent.GetDetails<DetailsBase>().Level;
+			GoldBar.fillAmount = 0;
+		}
 	}
 
 	public override bool Triggers()
