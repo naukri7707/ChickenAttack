@@ -2,8 +2,6 @@
 
 public class BulletEffect : EffectBase
 {
-	private AnimatorManager _animatorManager;
-
 	[SerializeField] private float _speed;
 
 	// Start is called before the first frame update
@@ -11,20 +9,24 @@ public class BulletEffect : EffectBase
 	{
 		transform.Translate(FixPosition);
 		_speed = Mathf.Abs(_speed) * (TargetTeam == AgentTeam.Ally ? -1 : 1);
-		_animatorManager = GetComponent<Animator>();
-		_animatorManager.AnimClip = (int)AbilityAnimClip.Move;
+		AnimatorManager = GetComponent<Animator>();
+		AnimatorManager.AnimClip = (int)AbilityAnimClip.Move;
 	}
 
 	// Update is called once per frame
 	private void Update()
 	{
-		if (_animatorManager.AnimClip == (int)AbilityAnimClip.Move)
+		if (Target == null)
+		{
+			AnimatorManager.AnimClip = (int)AbilityAnimClip.Dead;
+		}
+		if (AnimatorManager.AnimClip == (int)AbilityAnimClip.Move)
 		{
 			transform.Translate(_speed, 0, 0);
 
 			if (IsCollisionWithEnemy())
 			{
-				_animatorManager.AnimClip = (int)AbilityAnimClip.Dead;
+				AnimatorManager.AnimClip = (int)AbilityAnimClip.Dead;
 			}
 		}
 		else 

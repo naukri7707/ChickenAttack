@@ -9,6 +9,15 @@ using UnityEngine;
  * Struct 為 CallBy Reference
  * 這意味著當 this 引數為 struct 時，你只能間接得更改他的值
  * ******************/
+public static class Extension
+{
+	public static void PlayIfNotPlaying(this AudioSource src)
+	{
+		if (src.isPlaying) return;
+		src.Play();
+	}
+}
+
 namespace Naukri.ExtensionMethods
 {
 	public static class Extension

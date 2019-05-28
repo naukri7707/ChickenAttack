@@ -37,6 +37,7 @@ public class SwapSoundButton : MonoBehaviour
 	{
 		StrikeLine.enabled = true;
 		BaseImage.color = Color.red;
-		transform.parent.GetComponentInChildren<AudioEvents>().Audio.volume = 0;
+		foreach (var a in transform.parent.GetComponentInChildren<AudioEvents>().Audios)
+			a.volume = 0;
 	}
 }

@@ -52,7 +52,7 @@ public class BuildBtnEvent : MonoBehaviour
 					sr.color = new Color(1, 0, 0, 1);
 				if (Input.GetMouseButton(0))
 				{
-					btnCancel.Play();
+					btnCancel.PlayIfNotPlaying();
 				}
 			}
 			else
@@ -61,7 +61,7 @@ public class BuildBtnEvent : MonoBehaviour
 					sr.color = new Color(1, 1, 1, 1);
 				if (Input.GetMouseButton(0))
 				{
-					btnApply.Play();
+					btnApply.PlayIfNotPlaying();
 					GameArgs.Gold -= BuildingGameObject.GetComponent<CoreBase>().GetDetails<BuildingDetails>().UpgradeCost;
 					BuildingGameObject.GetComponent<CoreBase>().enabled = true;
 					BuildingGameObject.GetComponent<Collider2D>().enabled = true;
@@ -88,12 +88,12 @@ public class BuildBtnEvent : MonoBehaviour
 		BuildingGameObject = Prefabs.Instantiate(BuildingID);
 		if (GameArgs.Gold < BuildingGameObject.GetComponent<CoreBase>().GetDetails<BuildingDetails>().UpgradeCost)
 		{
-			btnCancel.Play();
+			btnCancel.PlayIfNotPlaying();
 			Destroy(BuildingGameObject);
 			BuildingGameObject = null;
 			return;
 		}
-		btnApply.Play();
+		btnApply.PlayIfNotPlaying();
 		BuildingGameObject.transform.parent = GameArgs.World.transform;
 		_colliderOffset = BuildingGameObject.GetComponent<BoxCollider2D>().BoundsOffset();
 		_colliderSize = BuildingGameObject.GetComponent<BoxCollider2D>().bounds.size;

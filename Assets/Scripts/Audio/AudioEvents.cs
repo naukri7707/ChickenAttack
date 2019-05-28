@@ -1,27 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class AudioEvents : MonoBehaviour {
+public class AudioEvents : MonoBehaviour
+{
 
-	public AudioSource Audio;
+	public AudioSource[] Audios;
+
+	private Slider slider;
 
 	private SwapSoundButton _swapSoundButton;
 
 	private void Awake()
 	{
 		_swapSoundButton = transform.parent.GetComponentInChildren<SwapSoundButton>();
+		slider = GetComponent<Slider>();
 	}
 
 	public void SetVolume()
 	{
-		Audio.volume = GetComponent<Slider>().value;
+		foreach (AudioSource a in Audios)
+			a.volume = slider.value;
 	}
 
 	public void CancelMute()
 	{
-		Audio.volume = GetComponent<Slider>().value;
+		foreach (AudioSource a in Audios)
+			a.volume = slider.value;
 		_swapSoundButton.AudioOn();
 	}
 }

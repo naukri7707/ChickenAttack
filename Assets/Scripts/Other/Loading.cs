@@ -33,6 +33,10 @@ public class Loading : MonoBehaviour
 	/// <returns></returns>
 	private IEnumerator LoadingScreenAsync(int sceneNum)
 	{
+		if (sceneNum == 3)
+			KeepObjects.SetActive(false);
+		else
+			KeepObjects.SetActive(true);
 		int fPogress = 0, tPogress;
 		AsyncOperation async = SceneManager.LoadSceneAsync(sceneNum);
 		async.allowSceneActivation = false;

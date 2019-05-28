@@ -27,6 +27,8 @@ public static class GameArgs
 
 	public const string Background = "BackGround";
 
+	public const string Shield = "Shield";
+
 	/// <summary>
 	/// 金幣
 	/// </summary>

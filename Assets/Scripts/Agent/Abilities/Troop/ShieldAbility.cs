@@ -6,6 +6,9 @@ using UnityEngine;
 [AddComponentMenu("AgentAbility/General/ShieldAbility")]
 public class ShieldAbility : AbilityBase
 {
+	public CoreBase Shield;
+
+	public float ShieldTime;
 	/// <summary>
 	/// 攻擊型態
 	/// </summary>
@@ -28,13 +31,15 @@ public class ShieldAbility : AbilityBase
 
 	private ShieldAbility()
 	{
-		Priority = AbilityPriority.None;
+		Priority = AbilityPriority.Shield;
 		AnimClip = AbilityAnimClip.Attack;
 	}
 
 	public override void EveryFrame()
 	{
+		//警界距離
 		Debug.DrawRay(_rayOrigin, _agent.Direction * _agent.GetDetails<TroopDetails>().HitRange, Color.green);
+		ShieldTime -= Time.deltaTime;
 	}
 
 	public override bool Triggers()
@@ -68,6 +73,27 @@ public class ShieldAbility : AbilityBase
 	/// </summary>
 	public void MakeShield()
 	{
-		
+		if (ShieldTime <= 0)
+		{
+			if (Shield != null)
+				Shield.GetDetails<TroopDetails>().HitPoint = 0;
+			Shield = Instantiate(InstantiateObject).GetComponent<CoreBase>();
+			Shield.Team = _agent.Team;
+			Shield.gameObject.layer = 16;
+			TroopDetails det = Shield.GetComponent<CoreBase>().GetDetails<TroopDetails>();
+			det.Level = _agent.GetDetails<DetailsBase>().Level;
+			float scale = Mathf.Pow(det.GrowthRate, det.Level - 1);
+			det.MaxHitPoint = det.HitPoint = (int)(det.MaxHitPoint * scale);
+			det.Damage = (int)(det.Damage * scale);
+			det.KnockBack = (int)(det.KnockBack * scale);
+			det.Gold = (int)(det.Gold * scale);
+			Shield.transform.position = transform.position;
+			ShieldTime = 10;
+		}
+	}
+	public void OnDestroy()
+	{
+		if (Shield != null)
+			Shield.GetDetails<TroopDetails>().HitPoint = 0;
 	}
 }

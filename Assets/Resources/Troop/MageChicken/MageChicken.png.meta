@@ -163,8 +163,8 @@ TextureImporter:
       name: MageChicken_Alert01
       rect:
         serializedVersion: 2
-        x: 1
-        y: 3449
+        x: 2
+        y: 3448
         width: 561
         height: 646
       alignment: 9
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9efe03e292bac245b836a61bb119bf1
-      internalID: -435687720235116548
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -184,8 +184,8 @@ TextureImporter:
       name: MageChicken_Attack01
       rect:
         serializedVersion: 2
-        x: 1474
-        y: 2381
+        x: 2
+        y: 2301
         width: 412
         height: 571
       alignment: 9
@@ -195,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16b96501bd40a684e97dd6fb12071c80
-      internalID: -8635974160174483815
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -205,8 +205,8 @@ TextureImporter:
       name: MageChicken_Attack02
       rect:
         serializedVersion: 2
-        x: 1226
-        y: 1813
+        x: 1561
+        y: 1817
         width: 401
         height: 566
       alignment: 9
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2703eaf9a394b244cb80009a76bea110
-      internalID: 2307668976597919399
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -226,8 +226,8 @@ TextureImporter:
       name: MageChicken_Attack03
       rect:
         serializedVersion: 2
-        x: 1574
-        y: 3522
+        x: 1583
+        y: 3521
         width: 450
         height: 573
       alignment: 9
@@ -237,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20923bd5adac64b4cba41ef8900cab6d
-      internalID: 1028384756995220403
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -247,8 +247,8 @@ TextureImporter:
       name: MageChicken_Attack04
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 3527
+        x: 565
+        y: 2956
         width: 501
         height: 568
       alignment: 9
@@ -258,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 413a9d51f937e44418c0fc3a69af7e32
-      internalID: -8207535240052042936
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -268,8 +268,8 @@ TextureImporter:
       name: MageChicken_Attack05
       rect:
         serializedVersion: 2
-        x: 1572
-        y: 2954
+        x: 1571
+        y: 2953
         width: 442
         height: 566
       alignment: 9
@@ -279,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8776a1bc298a14f4c9a7cc5afec107d2
-      internalID: 3933004598628487110
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -289,8 +289,8 @@ TextureImporter:
       name: MageChicken_Attack06
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2881
+        x: 417
+        y: 2388
         width: 413
         height: 566
       alignment: 9
@@ -300,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a33fa4f16f60bd47ad244765472d4b9
-      internalID: -2643625042640982484
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -310,8 +310,8 @@ TextureImporter:
       name: MageChicken_Attack07
       rect:
         serializedVersion: 2
-        x: 816
-        y: 1249
+        x: 408
+        y: 1252
         width: 398
         height: 567
       alignment: 9
@@ -321,8 +321,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82c78498301206242a77339d4117779e
-      internalID: -5948339761094534766
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -331,8 +331,8 @@ TextureImporter:
       name: MageChicken_Attack08
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 2385
+        x: 2
+        y: 2874
         width: 413
         height: 572
       alignment: 9
@@ -342,8 +342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eac87b527df96714580d2b7f79872f6e
-      internalID: -9194756343751240314
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -352,8 +352,8 @@ TextureImporter:
       name: MageChicken_Attack09
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1174
+        x: 2
+        y: 1730
         width: 404
         height: 569
       alignment: 9
@@ -363,8 +363,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc7654b161b0dd14ab61417a949db0d1
-      internalID: 8549303741971237181
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -373,8 +373,8 @@ TextureImporter:
       name: MageChicken_Attack10
       rect:
         serializedVersion: 2
-        x: 819
-        y: 1818
+        x: 416
+        y: 1821
         width: 405
         height: 565
       alignment: 9
@@ -384,8 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ceb5cb67b059a54c83b03b9445bb5a4
-      internalID: 626090247135103445
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -394,8 +394,8 @@ TextureImporter:
       name: MageChicken_Attack11
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1745
+        x: 832
+        y: 1829
         width: 406
         height: 566
       alignment: 9
@@ -405,8 +405,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9e4141f0a303104aae359e2c8ebc68a
-      internalID: 721278978008522128
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -415,8 +415,8 @@ TextureImporter:
       name: MageChicken_Attack12
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2313
+        x: 1566
+        y: 2385
         width: 407
         height: 566
       alignment: 9
@@ -426,8 +426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21cd249025cbc814586bb7e64199c4e9
-      internalID: 3400142397859779737
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -436,8 +436,8 @@ TextureImporter:
       name: MageChicken_Idle01
       rect:
         serializedVersion: 2
-        x: 1
-        y: 149
+        x: 808
+        y: 754
         width: 316
         height: 520
       alignment: 9
@@ -447,8 +447,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d993c4a26f209204eaa88aeee1eed31b
-      internalID: 1233322582834779241
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -457,8 +457,8 @@ TextureImporter:
       name: MageChicken_Idle02
       rect:
         serializedVersion: 2
-        x: 319
-        y: 159
+        x: 401
+        y: 740
         width: 316
         height: 510
       alignment: 9
@@ -468,8 +468,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45b6f7ee36c2fd448a4393c019d31a80
-      internalID: 5527683463486286739
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -478,8 +478,8 @@ TextureImporter:
       name: MageChicken_Idle03
       rect:
         serializedVersion: 2
-        x: 1
-        y: 671
+        x: 1242
+        y: 1956
         width: 317
         height: 501
       alignment: 9
@@ -489,8 +489,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0768f90848ddcf4fb33bcf74441e39f
-      internalID: -4971822019259310038
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -499,8 +499,8 @@ TextureImporter:
       name: MageChicken_Idle04
       rect:
         serializedVersion: 2
-        x: 407
-        y: 759
+        x: 1242
+        y: 2459
         width: 322
         height: 495
       alignment: 9
@@ -510,8 +510,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21e07bac8058ec947b946dd519cd09b2
-      internalID: 5229040597657743080
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -520,8 +520,8 @@ TextureImporter:
       name: MageChicken_Idle05
       rect:
         serializedVersion: 2
-        x: 1629
-        y: 1393
+        x: 1559
+        y: 1326
         width: 317
         height: 489
       alignment: 9
@@ -531,8 +531,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 112771111b236474fbda21439c9fa140
-      internalID: -2961208690803202052
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -541,8 +541,8 @@ TextureImporter:
       name: MageChicken_Idle06
       rect:
         serializedVersion: 2
-        x: 731
-        y: 764
+        x: 1544
+        y: 841
         width: 316
         height: 483
       alignment: 9
@@ -552,8 +552,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05ef7617936b8bc419c72ac7e117f61f
-      internalID: -4743210187301314650
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -562,8 +562,8 @@ TextureImporter:
       name: MageChicken_Idle07
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 1322
+        x: 1225
+        y: 968
         width: 317
         height: 489
       alignment: 9
@@ -573,8 +573,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bfc542ce94dbc344a6bba4f0e72a5cd
-      internalID: 3125210282219817644
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -583,8 +583,8 @@ TextureImporter:
       name: MageChicken_Idle08
       rect:
         serializedVersion: 2
-        x: 1629
-        y: 1884
+        x: 1240
+        y: 1459
         width: 317
         height: 495
       alignment: 9
@@ -594,8 +594,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 713a63d02c06bac458125d7373dda582
-      internalID: -5145893790635661259
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -604,8 +604,8 @@ TextureImporter:
       name: MageChicken_Idle09
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 818
+        x: 2
+        y: 155
         width: 316
         height: 502
       alignment: 9
@@ -615,8 +615,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2df24eb23ff1a87409cc325c5aaa8d14
-      internalID: -1824026322812337377
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -625,8 +625,8 @@ TextureImporter:
       name: MageChicken_Idle10
       rect:
         serializedVersion: 2
-        x: 1535
-        y: 881
+        x: 2
+        y: 659
         width: 316
         height: 510
       alignment: 9
@@ -636,8 +636,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 552497db1a420dc4d8f51f7e0a4f9d6b
-      internalID: 5531544013746588609
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -646,19 +646,19 @@ TextureImporter:
       name: MageChicken_Move01
       rect:
         serializedVersion: 2
-        x: 564
-        y: 3524
-        width: 505
-        height: 571
+        x: 565
+        y: 3526
+        width: 509
+        height: 568
       alignment: 9
-      pivot: {x: 0.43960395, y: 0.5122592}
+      pivot: {x: 0.46954814, y: 0.506162}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fc58b69e5a2092479a0092a000416f1
-      internalID: 4004214293957204589
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -667,19 +667,19 @@ TextureImporter:
       name: MageChicken_Move02
       rect:
         serializedVersion: 2
-        x: 410
-        y: 1823
-        width: 407
-        height: 563
+        x: 832
+        y: 2397
+        width: 408
+        height: 557
       alignment: 9
-      pivot: {x: 0.5159705, y: 0.5053286}
+      pivot: {x: 0.44852942, y: 0.510772}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2792695eb4cd44940acfe2a43a7166a1
-      internalID: -3760957835736058863
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -688,19 +688,19 @@ TextureImporter:
       name: MageChicken_Move03
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 2959
-        width: 499
+        x: 1068
+        y: 2956
+        width: 501
         height: 566
       alignment: 9
-      pivot: {x: 0.42184368, y: 0.50795054}
+      pivot: {x: 0.4520958, y: 0.50618374}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0040cea03df6664286f1a60341ce3f3
-      internalID: -3666027993159590456
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -709,19 +709,19 @@ TextureImporter:
       name: MageChicken_Move04
       rect:
         serializedVersion: 2
-        x: 416
-        y: 2388
-        width: 408
-        height: 563
+        x: 823
+        y: 1276
+        width: 400
+        height: 551
       alignment: 9
-      pivot: {x: 0.5183824, y: 0.5071048}
+      pivot: {x: 0.41625, y: 0.51451904}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cd69ce7b24e3ad46aa13d024c7031b7
-      internalID: 1897682803183790919
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -730,19 +730,19 @@ TextureImporter:
       name: MageChicken_Move05
       rect:
         serializedVersion: 2
-        x: 564
-        y: 2953
-        width: 493
-        height: 569
+        x: 1076
+        y: 3524
+        width: 505
+        height: 570
       alignment: 9
-      pivot: {x: 0.4249493, y: 0.51054484}
+      pivot: {x: 0.43069306, y: 0.5096491}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9c47cc2922b5934e8be7fe22bc0596e
-      internalID: -6759386588257019122
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -751,19 +751,19 @@ TextureImporter:
       name: MageChicken_Move06
       rect:
         serializedVersion: 2
-        x: 409
-        y: 1256
-        width: 405
-        height: 565
+        x: 2
+        y: 1171
+        width: 397
+        height: 557
       alignment: 9
-      pivot: {x: 0.5185185, y: 0.50707966}
+      pivot: {x: 0.44332492, y: 0.51436263}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4befdca64f35d6f4aa6c8e7c84e65b21
-      internalID: 4620431134854416700
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []

@@ -35,6 +35,9 @@ public static class Prefabs
 		{10004, Resources.Load("Troop/MageChicken")},
 		{10005, Resources.Load("Troop/HealChicken")},
 		{10006, Resources.Load("Troop/ArtisanChicken")},
+		{10007, Resources.Load("Building/ChickenTower")},
+		{10008, Resources.Load("Troop/SuperChicken")},
+
 	};
 
 	/// <summary>

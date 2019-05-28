@@ -9,20 +9,9 @@ using UnityEngine.UI;
 /// </summary>
 public class ButtonEvents : MonoBehaviour
 {
-	/// <summary>
-	/// 預設材質
-	/// </summary>
-	[SerializeField] private Material _materialDefault;
+	public AudioSource Audio_Apply;
 
-	/// <summary>
-	/// 毛玻璃材質
-	/// </summary>
-	[SerializeField] private Material _materialBlurGass;
-
-	/// <summary>
-	/// 灰階材質
-	/// </summary>
-	[SerializeField] private Material _materiaGrayScale;
+	public AudioSource Audio_Cancel;
 
 	/// <summary>
 	/// 暫停遊戲
@@ -46,7 +35,7 @@ public class ButtonEvents : MonoBehaviour
 		SpriteRenderer[] sr = target.GetComponentsInChildren<SpriteRenderer>();
 		foreach (SpriteRenderer s in sr)
 		{
-			s.material = _materiaGrayScale;
+			s.material = GameArgs.World.GetComponent<World>().MateriaGrayScale;
 		}
 	}
 
@@ -59,7 +48,7 @@ public class ButtonEvents : MonoBehaviour
 		Image[] im = target.GetComponentsInChildren<Image>();
 		foreach (Image i in im)
 		{
-			i.material = _materiaGrayScale;
+			i.material = GameArgs.World.GetComponent<World>().MateriaGrayScale;
 		}
 	}
 
@@ -72,7 +61,7 @@ public class ButtonEvents : MonoBehaviour
 		SpriteRenderer[] sr = target.GetComponentsInChildren<SpriteRenderer>();
 		foreach (SpriteRenderer s in sr)
 		{
-			s.material = _materialBlurGass;
+			s.material = GameArgs.World.GetComponent<World>().MaterialBlurGass;
 		}
 	}
 
@@ -85,7 +74,7 @@ public class ButtonEvents : MonoBehaviour
 		Image[] im = target.GetComponentsInChildren<Image>();
 		foreach (Image i in im)
 		{
-			i.material = _materialBlurGass;
+			i.material = GameArgs.World.GetComponent<World>().MaterialBlurGass;
 		}
 	}
 
@@ -98,7 +87,7 @@ public class ButtonEvents : MonoBehaviour
 		SpriteRenderer[] sr = target.GetComponentsInChildren<SpriteRenderer>();
 		foreach (SpriteRenderer s in sr)
 		{
-			s.material = _materialDefault;
+			s.material = GameArgs.World.GetComponent<World>().MaterialDefault;
 		}
 	}
 
@@ -111,7 +100,7 @@ public class ButtonEvents : MonoBehaviour
 		Image[] im = target.GetComponentsInChildren<Image>();
 		foreach (Image i in im)
 		{
-			i.material = _materialDefault;
+			i.material = GameArgs.World.GetComponent<World>().MaterialDefault;
 		}
 	}
 
@@ -138,7 +127,7 @@ public class ButtonEvents : MonoBehaviour
 	public void LoadSecne(int sceneNum)
 	{
 		GameArgs.LoadingScene = sceneNum;
-		SceneManager.LoadScene(3);
+		SceneManager.LoadScene(4);
 	}
 
 	public void SelectStage(int stage)
@@ -165,11 +154,16 @@ public class ButtonEvents : MonoBehaviour
 
 	public void BuildingUpgarde()
 	{
-		BuildingDetails focus = GameArgs.FocusBuilding.GetDetails<BuildingDetails>();
-		if (GameArgs.Gold > focus.UpgradeCost)
+		BuildingDetails det = GameArgs.FocusBuilding.GetDetails<BuildingDetails>();
+		if (GameArgs.Gold >= (int)(det.UpgradeCost * Mathf.Pow(det.GrowthRate, det.Level - 1)))
 		{
-			GameArgs.Gold -= focus.UpgradeCost;
-			focus.Level++;
+			GameArgs.Gold -= det.UpgradeCost;
+			det.Level++;
+			GameArgs.World.GetComponent<World>().FX_Apply.PlayIfNotPlaying();
+		}
+		else
+		{
+			GameArgs.World.GetComponent<World>().FX_Cancel.PlayIfNotPlaying();
 		}
 	}
 
@@ -183,7 +177,10 @@ public class ButtonEvents : MonoBehaviour
 	{
 		src.Play();
 	}
-
+	public void PlaySoundIfNotPlaying(AudioSource src)
+	{
+		src.PlayIfNotPlaying();
+	}
 	public void PrevTraining(ChangeInfo panel)
 	{
 		var ins = GameArgs.FocusBuilding.GetComponent<InstantiateAbility>();

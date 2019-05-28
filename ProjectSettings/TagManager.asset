@@ -10,6 +10,7 @@ TagManager:
   - Object
   - Effect
   - BackGround
+  - Shield
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Object
   - Effect
   - SceneObject
-  - 
+  - Shield
   - 
   - 
   - 

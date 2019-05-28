@@ -32,9 +32,7 @@ public class EffectBase : MonoBehaviour
 	/// </summary>
 	private float _targetPosX;
 
-	/// <summary>
-	/// 目標隊伍
-	/// </summary>
+	public AnimatorManager AnimatorManager;
 
 	/// <summary>
 	/// 目標x座標
@@ -68,9 +66,14 @@ public class EffectBase : MonoBehaviour
 
 	public void Initialization(CoreBase target, int damage, AgentTeam team)
 	{
-		if (target.Team == AgentTeam.Ally)
+		if (team == AgentTeam.Ally)
+		{
+			gameObject.GetComponent<SpriteRenderer>().material = GameArgs.World.GetComponent<World>().MaterialDefault;
+		}
+		else
 		{
 			transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+			gameObject.GetComponent<SpriteRenderer>().material = GameArgs.World.GetComponent<World>().MateriaGrayScale;
 		}
 		Team = team;
 		Target = target;
@@ -91,7 +94,7 @@ public class EffectBase : MonoBehaviour
 	}
 	public bool IsCollisionWithEnemy()
 	{
-		foreach (BoxCollider2D b in GetComponent<BoxCollider2D>().OverlapAll())
+		foreach (Collider2D b in GetComponent<BoxCollider2D>().OverlapAll())
 		{
 			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
 			{
@@ -106,9 +109,9 @@ public class EffectBase : MonoBehaviour
 	}
 	public void Attack()
 	{
-		foreach (BoxCollider2D b in GetComponent<BoxCollider2D>().OverlapAll())
+		foreach (Collider2D b in GetComponent<BoxCollider2D>().OverlapAll())
 		{
-			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
+			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop || b.tag == GameArgs.Shield)
 			{
 				CoreBase agent = b.GetComponent<CoreBase>();
 				if (agent.Team == TargetTeam)
@@ -125,9 +128,9 @@ public class EffectBase : MonoBehaviour
 
 	public bool AttackOnce()
 	{
-		foreach (BoxCollider2D b in GetComponent<BoxCollider2D>().OverlapAll())
+		foreach (Collider2D b in GetComponent<BoxCollider2D>().OverlapAll())
 		{
-			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
+			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop || b.tag == GameArgs.Shield)
 			{
 				CoreBase agent = b.GetComponent<CoreBase>();
 				if (agent.Team == TargetTeam)
@@ -146,7 +149,7 @@ public class EffectBase : MonoBehaviour
 
 	public void Heal()
 	{
-		foreach (BoxCollider2D b in GetComponent<BoxCollider2D>().OverlapAll())
+		foreach (Collider2D b in GetComponent<BoxCollider2D>().OverlapAll())
 		{
 			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
 			{
@@ -163,7 +166,7 @@ public class EffectBase : MonoBehaviour
 
 	public bool HealOnce()
 	{
-		foreach (BoxCollider2D b in GetComponent<BoxCollider2D>().OverlapAll())
+		foreach (Collider2D b in GetComponent<BoxCollider2D>().OverlapAll())
 		{
 			if (b.tag == GameArgs.Building || b.tag == GameArgs.Troop)
 			{

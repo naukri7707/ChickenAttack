@@ -88,6 +88,11 @@ public abstract class CoreBase : MonoBehaviour
 		Details = GetDetailsBase();
 	}
 
+	public void Start()
+	{
+		SpriteRenderer.material = Team == AgentTeam.Ally ? GameArgs.World.GetComponent<World>().MaterialDefault : GameArgs.World.GetComponent<World>().MateriaGrayScale;
+	}
+
 	/// <summary>
 	/// 固定式更新
 	/// </summary>

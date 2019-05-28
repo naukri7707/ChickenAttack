@@ -35,7 +35,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 9100686093325384526}
+  - {fileID: 9100686093325384515}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055f9fccf63dbf042a76ac68a66c4d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _trainList: 14270000
+  _trainList: 1427000018270000
   _maxTrainingTime: 0
   _trainingTime: 0
 --- !u!114 &114227956420449688
@@ -290,7 +290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cef366d87d2dda546b876b4b694f20df, type: 3}
---- !u!4 &9100686093325384526 stripped
+--- !u!4 &9100686093325384515 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5654538871598476652, guid: cef366d87d2dda546b876b4b694f20df,
     type: 3}

@@ -5,6 +5,21 @@ using UnityEngine;
 
 public class World : MonoBehaviour
 {
+	/// <summary>
+	/// 預設材質
+	/// </summary>
+	public Material MaterialDefault;
+
+	/// <summary>
+	/// 毛玻璃材質
+	/// </summary>
+	public Material MaterialBlurGass;
+
+	/// <summary>
+	/// 灰階材質
+	/// </summary>
+	public Material MateriaGrayScale;
+
 	public GameObject argsWorld;
 
 	public GameObject argsGround;
@@ -13,6 +28,9 @@ public class World : MonoBehaviour
 
 	public GameObject argsBuildingList;
 
+	public AudioSource FX_Apply;
+
+	public AudioSource FX_Cancel;
 	// Use this for initialization
 	void Awake()
 	{

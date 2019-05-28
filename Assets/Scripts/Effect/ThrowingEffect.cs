@@ -9,8 +9,6 @@ public class ThrowingEffect : EffectBase
 
 	public float limiter;
 
-	private AnimatorManager _animatorManager;
-
 	private Rigidbody2D _rigid;
 
 	private Vector2 targetPos;
@@ -19,7 +17,7 @@ public class ThrowingEffect : EffectBase
 		transform.Translate(FixPosition);
 		_rigid = GetComponent<Rigidbody2D>();
 		_rigid.AddForce(new Vector2(0, Mathf.Abs(Naukri.NMath.Gap(transform.position.x, Target.transform.position.x)) * InitForce));
-		_animatorManager = GetComponent<Animator>();
+		AnimatorManager = GetComponent<Animator>();
 		targetPos = _rigid.transform.position;
 		limiter = Naukri.NMath.Gap(transform.position.x, Target.transform.position.x) * SpeedLimiter;
 		if (limiter < 0.1f)
@@ -56,9 +54,9 @@ public class ThrowingEffect : EffectBase
 
 	private void OnCollisionEnter2D(Collision2D col)
 	{
-		if (col.gameObject == GameArgs.Ground)
+		if (col.gameObject == GameArgs.Ground || col.gameObject.tag == "Shield")
 		{
-			_animatorManager.AnimClip = (int)AbilityAnimClip.Dead;
+			AnimatorManager.AnimClip = (int)AbilityAnimClip.Dead;
 		}
 	}
 }

@@ -34,7 +34,6 @@ public class TrainAction : ActionBase
 			g.transform.parent = trainBy.transform.parent;
 			g.SetTeam(trainBy.Team);
 			g.GetDetails<DetailsBase>().DeBuff.AddFlag(AgentDeBuff.Freeze);
-			g.GetComponent<SpriteRenderer>().material = trainBy.GetComponent<SpriteRenderer>().material;
 			await Awaiters.Seconds(0.3f);
 		}
 	}
