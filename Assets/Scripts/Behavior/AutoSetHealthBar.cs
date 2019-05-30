@@ -32,9 +32,10 @@ public class AutoSetHealthBar : MonoBehaviour
 				s.enabled = true;
 			Vector3 targetScale = transform.localScale;
 			targetScale.x = (float)HitPoint / (float)MaxHitPoint;
+			if (targetScale.x < 0) targetScale.x = 0;
 			//targetScale.x = -targetScale.x;
-			transform.localScale = Vector3.Lerp(transform.localScale, targetScale, 0.1f);
-			tempHitPoint = HitPoint;
+			transform.localScale = Vector3.Lerp(transform.localScale, targetScale, 0.05f);
+			tempHitPoint = (int)targetScale.x;
 			showTime = MaxShowTime;
 		}
 		else if (showTime > 0)

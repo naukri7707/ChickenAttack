@@ -10,7 +10,7 @@ public class ViewBehavior : MonoBehaviour
 	private void Start()
 	{
 		view = GetComponent<Image>();
-		view.color = new Color(0, 0, 0, 0);
+		view.color = new Color(1, 1, 1, 0);
 		KeepObjects.SetActive(false);
 	}
 

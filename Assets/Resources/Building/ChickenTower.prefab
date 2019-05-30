@@ -36,7 +36,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 124513966276046246}
+  - {fileID: 5747342922252452457}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -788235345
-  m_SortingLayer: 4
+  m_SortingLayerID: -1184660649
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -8562493338453994148, guid: 1e85813246860f54696f5949207d8c00,
     type: 3}
@@ -309,7 +309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cef366d87d2dda546b876b4b694f20df, type: 3}
---- !u!4 &124513966276046246 stripped
+--- !u!4 &5747342922252452457 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5654538871598476652, guid: cef366d87d2dda546b876b4b694f20df,
     type: 3}

@@ -16,6 +16,11 @@ public abstract class CoreBase : MonoBehaviour
 	/// </summary>
 	public AgentTeam Team;
 
+	public AgentType Type
+	{
+		get => Details.Type;
+	}
+
 	/// <summary>
 	/// 代理ID
 	/// </summary>

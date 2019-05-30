@@ -10,24 +10,29 @@ public static class Prefabs
 	/// <summary>
 	/// 實例化
 	/// </summary>
-	/// <param name="Identify">ID</param>
+	/// <param name="identify">ID</param>
 	/// <returns>實例化物件</returns>
-	public static GameObject Instantiate(int Identify)
+	public static GameObject Instantiate(int identify)
 	{
-		if (Identify < 20000)
+		if (identify < 20000)
 		{
-			return Object.Instantiate(Troop[Identify]) as GameObject;
+			return Object.Instantiate(Troop[identify]) as GameObject;
 		}
-		else if (Identify < 30000)
+		else if (identify < 30000)
 		{
-			return Object.Instantiate(Building[Identify]) as GameObject;
+			return Object.Instantiate(Building[identify]) as GameObject;
 		}
 		else
 		{
-			return Object.Instantiate(Effect[Identify]) as GameObject;
+			return Object.Instantiate(Effect[identify]) as GameObject;
 		}
 	}
-
+	public static GameObject Instantiate(int identify, Transform parent)
+	{
+		var tmp = Instantiate(identify);
+		tmp.transform.parent = parent;
+		return tmp;
+	}
 	/// <summary>
 	/// 軍隊預製表
 	/// </summary>
@@ -62,5 +67,6 @@ public static class Prefabs
 	public readonly static Dictionary<int, Object> Effect = new Dictionary<int, Object>
 	{
 		{30001, Resources.Load("Effect/LevelUp")},
+		{30002, Resources.Load("Effect/PotionExplosion")},
 	};
 }

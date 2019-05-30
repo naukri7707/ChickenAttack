@@ -25,7 +25,6 @@ public class ActionManager : MonoBehaviour
 		Stack<int> currentLoops = new Stack<int>();
 		for (int i = 0; i < _actions.Count; i++)
 		{
-			Debug.Log(_actions[i].Type.ToString());
 			switch (_actions[i].Type)
 			{
 				case ActionType.Train:
