@@ -9,10 +9,6 @@ using UnityEngine.UI;
 /// </summary>
 public class ButtonEvents : MonoBehaviour
 {
-	public AudioSource Audio_Apply;
-
-	public AudioSource Audio_Cancel;
-
 	/// <summary>
 	/// 暫停遊戲
 	/// </summary>
@@ -160,11 +156,25 @@ public class ButtonEvents : MonoBehaviour
 			GameArgs.Gold -= det.UpgradeCost;
 			det.Level++;
 			GameArgs.World.GetComponent<World>().FX_Apply.PlayIfNotPlaying();
+			UpgradeEffect();
 		}
 		else
 		{
 			GameArgs.World.GetComponent<World>().FX_Cancel.PlayIfNotPlaying();
 		}
+	}
+
+	public void UpgradeEffect()
+	{
+		GameObject eff = Prefabs.Instantiate(30001);
+		GameObject foc = GameArgs.FocusBuilding.gameObject;
+		eff.transform.position = foc.transform.position;
+		SpriteRenderer es = eff.GetComponent<SpriteRenderer>();
+		SpriteRenderer fs = foc.GetComponent<SpriteRenderer>();
+		float scale = fs.bounds.size.x * 1.5f / es.bounds.size.x;
+		eff.transform.localScale = new Vector3(scale, scale, 1);
+		float newY = GameArgs.Horizon + es.bounds.size.y / 2 - 2f;
+		eff.transform.position = new Vector3(eff.transform.position.x, newY, eff.transform.position.z);
 	}
 
 	public void BuildingDestroy()

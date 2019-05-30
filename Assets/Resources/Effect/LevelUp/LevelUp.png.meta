@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 2b50983f56b30394793f59326765cefc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1288666967201416387
+    second: LevelUp01
+  - first:
+      213: -1647149347091003413
+    second: LevelUp02
+  - first:
+      213: 90755424372379647
+    second: LevelUp03
+  - first:
+      213: -2149535767730799773
+    second: LevelUp04
+  - first:
+      213: 333651777251726288
+    second: LevelUp05
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelUp01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 823
+        width: 932
+        height: 224
+      alignment: 9
+      pivot: {x: 0.4946352, y: 2.7700894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565a66d17c8b96e4487bc96f1593c766
+      internalID: -1288666967201416387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelUp02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1049
+        width: 1112
+        height: 780
+      alignment: 9
+      pivot: {x: 0.45683452, y: 0.7955128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0095e535f95094d9fac01bbbb27c1c
+      internalID: -1647149347091003413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelUp03
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2858
+        width: 1210
+        height: 1236
+      alignment: 9
+      pivot: {x: 0.5053719, y: 0.5020226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0e4419ad6fd8c49903a2e3e02cfb75
+      internalID: 90755424372379647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelUp04
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1831
+        width: 1122
+        height: 1025
+      alignment: 9
+      pivot: {x: 0.45409983, y: 0.39463416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098129ea9084fa44a86dd4c0503a336a
+      internalID: -2149535767730799773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelUp05
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 3899
+        width: 807
+        height: 195
+      alignment: 9
+      pivot: {x: 0.49256507, y: 0.24871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4c1e7f90e8ee34d9c6bc70c2f9ec78
+      internalID: 333651777251726288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 75613067056e6c2499c886066fb4c2c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

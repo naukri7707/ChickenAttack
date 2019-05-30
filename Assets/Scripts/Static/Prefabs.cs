@@ -18,9 +18,13 @@ public static class Prefabs
 		{
 			return Object.Instantiate(Troop[Identify]) as GameObject;
 		}
-		else
+		else if (Identify < 30000)
 		{
 			return Object.Instantiate(Building[Identify]) as GameObject;
+		}
+		else
+		{
+			return Object.Instantiate(Effect[Identify]) as GameObject;
 		}
 	}
 
@@ -50,5 +54,13 @@ public static class Prefabs
 		{20003, Resources.Load("Building/TrainingHole")},
 		{20004, Resources.Load("Building/EvilCastle")},
 		{20005, Resources.Load("Building/TrainingHouse")},
+	};
+
+	/// <summary>
+	/// 效果預製表
+	/// </summary>
+	public readonly static Dictionary<int, Object> Effect = new Dictionary<int, Object>
+	{
+		{30001, Resources.Load("Effect/LevelUp")},
 	};
 }
