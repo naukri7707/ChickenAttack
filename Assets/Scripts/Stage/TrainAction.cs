@@ -30,7 +30,16 @@ public class TrainAction : ActionBase
 		{
 			CoreBase g = Prefabs.Instantiate(Idnetify).GetComponent<CoreBase>();
 			g.transform.SetOnHorizon(trainBy.transform.position.x);
-
+			//
+			TroopDetails det = g.GetComponent<CoreBase>().GetDetails<TroopDetails>();
+			det.DeBuff.AddFlag(AgentDeBuff.Freeze);
+			det.Level = trainBy.GetDetails<DetailsBase>().Level;
+			float scale = Mathf.Pow(det.GrowthRate, det.Level - 1);
+			det.MaxHitPoint = det.HitPoint = (int)(det.MaxHitPoint * scale);
+			det.Damage = (int)(det.Damage * scale);
+			det.KnockBack = (int)(det.KnockBack * scale);
+			det.Gold = (int)(det.Gold * scale);
+			//
 			g.transform.parent = trainBy.transform.parent;
 			g.SetTeam(trainBy.Team);
 			g.GetDetails<DetailsBase>().DeBuff.AddFlag(AgentDeBuff.Freeze);

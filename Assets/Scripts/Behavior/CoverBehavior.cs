@@ -3,22 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FadeAtStart : MonoBehaviour
+public class CoverBehavior : MonoBehaviour
 {
-	public Image img;
-
+	Image view;
 	// Start is called before the first frame update
 	void Start()
 	{
-		img = GetComponent<Image>();
+		view = GetComponent<Image>();
+		view.color = new Color(0, 0, 0, 1);
 	}
+
 	// Update is called once per frame
 	void Update()
 	{
-		img.color = new Color(img.color.r, img.color.g, img.color.b, img.color.a - 0.02f);
-		if (img.color.a <= 0)
-		{
+		view.color -= new Color(0, 0, 0, 0.02f);
+		if (view.color.a <= 0)
 			Destroy(gameObject);
-		}
 	}
 }

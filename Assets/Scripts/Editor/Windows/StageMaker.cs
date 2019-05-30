@@ -116,6 +116,12 @@ public class StageMaker : EditorWindow
 					case ActionType.EndLoop:
 						_actions.Reset(i, new EndLoopAction());
 						break;
+					case ActionType.LevelUp:
+						_actions.Reset(i, new LevelUpAction());
+						break;
+					case ActionType.Warning:
+						_actions.Reset(i, new WarningAction());
+						break;
 				}
 				return;
 			}
@@ -145,6 +151,17 @@ public class StageMaker : EditorWindow
 					break;
 				case ActionType.EndLoop:
 					deep--;
+					break;
+				case ActionType.LevelUp:
+					//
+					break;
+				case ActionType.Warning:
+					action.As<WarningAction>().WarningType = (WarningType)NGUILayout.EnumPopup("", action.As<WarningAction>().WarningType, GUILayout.Width(80));
+					if (action.As<WarningAction>().WarningType == WarningType.Custom)
+					{
+						action.As<WarningAction>().CustomText = NGUILayout.TextField("Text", action.As<WarningAction>().CustomText);
+					}
+					action.As<WarningAction>().TextColor = EditorGUILayout.ColorField("", action.As<WarningAction>().TextColor, GUILayout.Width(80));
 					break;
 			}
 			DrawButtonFamily(i);

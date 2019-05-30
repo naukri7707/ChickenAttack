@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class World : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class World : MonoBehaviour
 
 	public GameObject argsBuildingList;
 
+	public Text WarningText;
+
 	public AudioSource FX_Apply;
 
 	public AudioSource FX_Cancel;
@@ -42,5 +45,6 @@ public class World : MonoBehaviour
 		GameArgs.Horizon = GameArgs.Ground.GetComponent<Collider2D>().GetBoundsRect().yMax;
 		GameArgs.Gold = 0;
 		GameArgs.FocusPermit = true;
+		GameArgs.WarningText = WarningText;
 	}
 }

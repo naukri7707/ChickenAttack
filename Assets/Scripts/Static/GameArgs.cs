@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Naukri.ExtensionMethods;
+using UnityEngine.UI;
 
 /// <summary>
 /// 通用靜態參數
@@ -34,6 +35,14 @@ public static class GameArgs
 	/// </summary>
 	public static int Gold;
 
+	/// <summary>
+	/// 警告文字
+	/// </summary>
+	public static Text WarningText;
+
+	/// <summary>
+	/// 建築是否可被聚焦
+	/// </summary>
 	public static bool FocusPermit;
 
 	/// <summary>

@@ -8,7 +8,7 @@ public class Crack : MonoBehaviour
 	{
 		if (Input.GetKeyDown(KeyCode.F11))
 		{
-			GameArgs.Gold += 100;
+			GameArgs.Gold += 999999999;
 		}
 	}
 }

@@ -8,4 +8,6 @@ public enum ActionType
 	Delay,
 	Loop,
 	EndLoop,
+	LevelUp,
+	Warning,
 }

@@ -25,6 +25,7 @@ public class ActionManager : MonoBehaviour
 		Stack<int> currentLoops = new Stack<int>();
 		for (int i = 0; i < _actions.Count; i++)
 		{
+			Debug.Log(_actions[i].Type.ToString());
 			switch (_actions[i].Type)
 			{
 				case ActionType.Train:
@@ -42,6 +43,15 @@ public class ActionManager : MonoBehaviour
 					_actions[j].As<LoopAction>().currentLoopTime--;
 					if (_actions[j].As<LoopAction>().currentLoopTime > 0) i = j;
 					else currentLoops.Pop();
+					break;
+				case ActionType.LevelUp:
+					_actions[i].As<LevelUpAction>().DoAction(transform.GetComponent<CoreBase>());
+					var war = new WarningAction();
+					war.WarningType = WarningType.LevelUp;
+					war.DoAction();
+					break;
+				case ActionType.Warning:
+					_actions[i].As<WarningAction>().DoAction();
 					break;
 			}
 		}
