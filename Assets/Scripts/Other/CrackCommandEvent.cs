@@ -5,28 +5,30 @@ using UnityEngine;
 using UnityEngine.UI;
 using Naukri.ExtensionMethods;
 using System.Threading.Tasks;
+using TMPro;
 
 public class CrackCommandEvent : MonoBehaviour
 {
 	public GameObject filter;
-	public Text text;
+	public TMP_InputField tif;
 	// Start is called before the first frame update
 
 	private void Awake()
 	{
+		tif = GetComponent<TMP_InputField>();
 	}
 	void OnEnable()
 	{
 		Time.timeScale = 0;
 
 		filter.GetComponent<Image>().material = GameArgs.World.GetComponent<World>().MaterialBlurGass;
-		GetComponent<InputField>().Select();
-		GetComponent<InputField>().ActivateInputField();
+		tif.Select();
+		tif.ActivateInputField();
 	}
 
 	public async void Execute()
 	{
-		var cmd = text.text.ToLower();
+		var cmd = tif.text.ToLower();
 		Debug.Log(cmd);
 		Time.timeScale = 1;
 		filter.GetComponent<Image>().material = GameArgs.World.GetComponent<World>().MaterialDefault;

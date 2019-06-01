@@ -24,7 +24,7 @@ public class DeadAbility : AbilityBase
 
 	public override void Enter()
 	{
-		if (_agent.GetDetails<DetailsBase>().Type == AgentType.Troop)
+		if (_agent.Type == AgentType.Troop)
 		{
 			_agent.Collider.enabled = false;
 			_agent.Rigidbody.AddForce(new Vector2(_agent.Team == AgentTeam.Ally ? -200f : 200f, 400f));

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class ChangeInfo : MonoBehaviour
 {
 	public Image Chicken;
-	public Text Name, Comment, HitPoint, Damage, Speed;
+	public Text Name, Comment, HitPoint, GrowthRate, Damage, HitRange, Speed, KnockBack;
 	private void OnEnable()
 	{
 		var ins = GameArgs.FocusBuilding.GetComponent<InstantiateAbility>();
@@ -18,12 +18,18 @@ public class ChangeInfo : MonoBehaviour
 		GameObject temp = Instantiate(Prefabs.Troop[identify] as GameObject);
 		temp.transform.position = new Vector3(9999999, 9999999, 9999999);
 		CoreBase target = temp.GetComponent<CoreBase>();
-		Chicken.sprite = target.GetComponent<SpriteRenderer>().sprite;
-		Name.text = target.GetDetails<TroopDetails>().Name;
-		Comment.text = target.GetDetails<TroopDetails>().Comment;
-		HitPoint.text = target.GetDetails<TroopDetails>().HitPoint.ToString();
-		Damage.text = target.GetDetails<TroopDetails>().Damage.ToString();
-		Speed.text = target.GetDetails<TroopDetails>().Speed.ToString();
+		Chicken.overrideSprite = target.GetComponent<SpriteRenderer>().sprite;
+		Chicken.SetNativeSize();
+		Chicken.transform.localScale = new Vector3(0.5f * target.transform.localScale.x, 0.5f * target.transform.localScale.y, 1);
+		var det = target.GetDetails<TroopDetails>();
+		Name.text = det.Name;
+		Comment.text = det.Comment;
+		HitPoint.text = det.HitPoint.ToString();
+		GrowthRate.text = det.GrowthRate.ToString();
+		Damage.text = det.Damage.ToString();
+		HitRange.text = det.KnockBack.ToString();
+		Speed.text = det.Speed.ToString();
+		KnockBack.text = det.KnockBack.ToString();
 		Destroy(temp);
 	}
 }

@@ -3,8 +3,14 @@ using UnityEngine.UI;
 
 public class StageManager : MonoBehaviour
 {
+	/// <summary>
+	/// 目前選關頁面(1頁10關)
+	/// </summary>
 	public static int CurrentPage;
 
+	/// <summary>
+	/// 對大可選擇關卡 (PlayerPrefs)
+	/// </summary>
 	public static int MaxStage
 	{
 		get => PlayerPrefs.GetInt("MaxStage", 1);

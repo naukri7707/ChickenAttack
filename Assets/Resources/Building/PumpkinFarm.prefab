@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 61969321462837456}
   - component: {fileID: 114435398064799096}
   - component: {fileID: 114632694976579746}
-  - component: {fileID: 114546846858669358}
   - component: {fileID: 8591235692235136833}
+  - component: {fileID: 3084902210490933866}
   m_Layer: 12
   m_Name: PumpkinFarm
   m_TagString: Building
@@ -35,7 +35,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4993523341531942}
-  - {fileID: 2029736437062813513}
+  - {fileID: 5932339860576151686}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -174,18 +174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 222c19ec3d5ec2f4ca1eda67a43d73a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114546846858669358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598699219301212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8cff2f4888f41b4ea76b6f03af4356b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8591235692235136833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,6 +188,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GoldBar: {fileID: 0}
   BasisGoldProduce: 50
+--- !u!114 &3084902210490933866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598699219301212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032a65074c03a4246937d0ab485e6df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1907280664735700
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cef366d87d2dda546b876b4b694f20df, type: 3}
---- !u!4 &2029736437062813513 stripped
+--- !u!4 &5932339860576151686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5654538871598476652, guid: cef366d87d2dda546b876b4b694f20df,
     type: 3}

@@ -126,8 +126,8 @@ TextureImporter:
       name: egg
       rect:
         serializedVersion: 2
-        x: 1398
-        y: 2397
+        x: 2
+        y: 1312
         width: 572
         height: 734
       alignment: 9
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67282cf2b2d3ab146bb6ebac8018c6ed
-      internalID: -2109547878569501114
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,8 @@ TextureImporter:
       name: egg_energy
       rect:
         serializedVersion: 2
-        x: 1419
-        y: 3417
+        x: 2
+        y: 633
         width: 623
         height: 677
       alignment: 9
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 607ada6b61cb44f40a34ad5b95a4479d
-      internalID: 4200675326698670201
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -168,8 +168,8 @@ TextureImporter:
       name: egg_energyLine
       rect:
         serializedVersion: 2
-        x: 1398
-        y: 3133
+        x: 627
+        y: 591
         width: 583
         height: 282
       alignment: 9
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b6c3b5531bc36749b1b4efd7a159594
-      internalID: 8817161882765653717
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -189,19 +189,19 @@ TextureImporter:
       name: icon_build
       rect:
         serializedVersion: 2
-        x: 676
-        y: 2250
-        width: 566
-        height: 498
+        x: 627
+        y: 875
+        width: 592
+        height: 494
       alignment: 9
-      pivot: {x: 0.5, y: 0.47991967}
+      pivot: {x: 0.5, y: 0.4959514}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3c4d16a35a25884fb27ec9d845b5bb6
-      internalID: -658742112255296425
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -210,8 +210,8 @@ TextureImporter:
       name: icon_cancel
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1889
+        x: 732
+        y: 178
         width: 398
         height: 411
       alignment: 9
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 922a7f7b0be62b449a84c87869b9b01f
-      internalID: 8576677450322519593
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -231,8 +231,8 @@ TextureImporter:
       name: icon_exit
       rect:
         serializedVersion: 2
-        x: 1244
-        y: 2600
+        x: 2
+        y: 27
         width: 148
         height: 148
       alignment: 0
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81b16703a0df9a44da832e326dad733c
-      internalID: 1445869448751300512
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -253,18 +253,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 3374
-        width: 720
-        height: 720
+        y: 177
+        width: 412
+        height: 412
       alignment: 9
-      pivot: {x: 0.5, y: 0.49930555}
+      pivot: {x: 0.5, y: 0.49878642}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c1027d481b107544adc9ad0b8873149
-      internalID: -3315573968085272438
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -273,8 +273,8 @@ TextureImporter:
       name: icon_pause
       rect:
         serializedVersion: 2
-        x: 1244
-        y: 2032
+        x: 1384
+        y: 339
         width: 328
         height: 363
       alignment: 9
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8911068acf32aa46a17217f50f3ead2
-      internalID: -8757137802742049463
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -294,8 +294,8 @@ TextureImporter:
       name: icon_rectBoard
       rect:
         serializedVersion: 2
-        x: 724
-        y: 2750
+        x: 576
+        y: 1371
         width: 672
         height: 675
       alignment: 9
@@ -305,8 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20137a422c5e56442a95c2627d5b19d8
-      internalID: -3083231132573708178
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -315,8 +315,8 @@ TextureImporter:
       name: icon_rectBoard2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2699
+        x: 1250
+        y: 704
         width: 672
         height: 673
       alignment: 9
@@ -326,8 +326,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bffeb8c410336a249a2580df0b816808
-      internalID: 288446474658153220
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -336,8 +336,8 @@ TextureImporter:
       name: icon_roundBoard
       rect:
         serializedVersion: 2
-        x: 724
-        y: 3427
+        x: 1250
+        y: 1379
         width: 693
         height: 667
       alignment: 9
@@ -347,8 +347,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 659827f2e27333340a69c4243236a94a
-      internalID: 7041223526543009186
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -357,19 +357,19 @@ TextureImporter:
       name: icon_trash
       rect:
         serializedVersion: 2
-        x: 1574
-        y: 1976
-        width: 287
-        height: 419
+        x: 416
+        y: 177
+        width: 314
+        height: 412
       alignment: 9
-      pivot: {x: 0.5017422, y: 0.49164677}
+      pivot: {x: 0.48089173, y: 0.49635923}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2468eb8301f362f41904356c9f8d1ba4
-      internalID: -1634381009187739497
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -378,19 +378,19 @@ TextureImporter:
       name: icon_upgrade
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2302
-        width: 494
-        height: 395
+        x: 1132
+        y: 199
+        width: 250
+        height: 390
       alignment: 9
-      pivot: {x: 0.4959514, y: 0.49873418}
+      pivot: {x: 0.5, y: 0.49871793}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c08891feba6fd84d9dbb43549b0d548
-      internalID: -5356211433497995897
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []

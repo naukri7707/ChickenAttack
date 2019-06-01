@@ -9,8 +9,8 @@ public class BlarAtStart : MonoBehaviour
 	public Image fliter;
 	public Material material;
     // Start is called before the first frame update
-    void Start()
-    {
+    void OnEnable()
+	{
 		foreach (var g in DisableObjects)
 		{
 			g.SetActive(false);

@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EvilCastleDeadAbility : DeadAbility
+public class PumpkinFarmDeadAbility : DeadAbility
 {
-	public EvilCastleDeadAbility()
+	public AudioSource PlaySound;
+	public GameObject ShowPanel;
+	public PumpkinFarmDeadAbility()
 	{
 		Priority = AbilityPriority.Dead;
 		AnimClip = AbilityAnimClip.Dead;
@@ -22,15 +24,18 @@ public class EvilCastleDeadAbility : DeadAbility
 
 	public override void Enter()
 	{
-		if (StageManager.MaxStage == GameArgs.CurrentStage)
-			StageManager.MaxStage++;
+		GameArgs.World.GetComponent<AudioSource>().Pause();
+		PlaySound.Play();
+		ShowPanel.SetActive(true);
 	}
 
 	public override void Stay()
 	{
 		_agent.SpriteRenderer.color -= new Color(0, 0, 0, 0.01f);
 		if (_agent.SpriteRenderer.color.a <= 0.1f)
+		{
 			Destroy(gameObject);
+		}
 	}
 
 	public override void Exit()
