@@ -229,4 +229,22 @@ public class ButtonEvents : MonoBehaviour
 	{
 		Destroy(BuildBtnEvent.BuildingGameObject);
 	}
+
+	public void NextStagesPage()
+	{
+		if (StageManager.CurrentPage < StageManager.MaxStagePage)
+		{
+			StageManager.CurrentPage++;
+			StageManager.SetStageList();
+		}
+	}
+
+	public void PrevStagesPage()
+	{
+		if (StageManager.CurrentPage > 0)
+		{
+			StageManager.CurrentPage--;
+			StageManager.SetStageList();
+		}
+	}
 }

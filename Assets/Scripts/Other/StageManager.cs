@@ -3,11 +3,15 @@ using UnityEngine.UI;
 
 public class StageManager : MonoBehaviour
 {
+	public static int MaxStagePage = 2;
 	/// <summary>
 	/// 目前選關頁面(1頁10關)
 	/// </summary>
-	public static int CurrentPage;
-
+	public static int CurrentPage
+	{
+		get => PlayerPrefs.GetInt("CurrentPage", 0);
+		set => PlayerPrefs.SetInt("CurrentPage", value);
+	}
 	/// <summary>
 	/// 對大可選擇關卡 (PlayerPrefs)
 	/// </summary>
@@ -17,7 +21,7 @@ public class StageManager : MonoBehaviour
 		set => PlayerPrefs.SetInt("MaxStage", value);
 	}
 
-	private void Start()
+	public void Start()
 	{
 		SetStageList();
 	}
@@ -28,10 +32,15 @@ public class StageManager : MonoBehaviour
 
 	}
 
-	private void SetStageList()
+	public static void SetStageList()
 	{
 		GameObject stages = GameObject.Find("Stages");
-		int currentStage = CurrentPage;
+		var s = stages.GetComponentsInChildren<Transform>();
+		for (int i = 1; i < s.Length; i++)
+		{
+			Destroy(s[i].gameObject);
+		}
+		int currentStage = CurrentPage * 10;
 		for (int i = 0; i < 2; i++)
 		{
 			for (int j = 1; j <= 5; j++)
