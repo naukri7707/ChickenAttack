@@ -38,6 +38,9 @@ public class ChangeInfo : MonoBehaviour
 		if (GameArgs.FocusBuilding.GetComponent<CoreBase>().Identify == 20001)
 			TrainTimeBar.fillAmount = GameArgs.FocusBuilding.GetComponent<GoldProduceAbility>().GoldBar.fillAmount;
 		else
-			TrainTimeBar.fillAmount = GameArgs.FocusBuilding.GetComponent<InstantiateAbility>().TrainingTime / GameArgs.FocusBuilding.GetComponent<InstantiateAbility>().MaxTrainingTime;
+		{
+			var ia = GameArgs.FocusBuilding.GetComponent<InstantiateAbility>();
+			TrainTimeBar.fillAmount = (ia.MaxTrainingTime - ia.TrainingTime) / ia.MaxTrainingTime;
+		}
 	}
 }

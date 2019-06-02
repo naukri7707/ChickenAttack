@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class ViewBehavior : MonoBehaviour
 {
-	float wait = 1;
+	float wait = 3;
 
 	private Image view;
 	private void Start()
