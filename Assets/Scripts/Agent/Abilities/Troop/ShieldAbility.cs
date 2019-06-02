@@ -8,7 +8,16 @@ public class ShieldAbility : AbilityBase
 {
 	public CoreBase Shield;
 
-	public float ShieldTime;
+	/// <summary>
+	/// 護盾冷卻
+	/// </summary>
+	public float ShieldCoolDown;
+
+	/// <summary>
+	/// 護盾剩餘時間
+	/// </summary>
+	public float ShieldTime { get; set; }
+
 	/// <summary>
 	/// 攻擊型態
 	/// </summary>
@@ -88,7 +97,7 @@ public class ShieldAbility : AbilityBase
 			det.KnockBack = (int)(det.KnockBack * scale);
 			det.Gold = (int)(det.Gold * scale);
 			Shield.transform.position = transform.position;
-			ShieldTime = 10;
+			ShieldTime = ShieldCoolDown;
 		}
 	}
 	public void OnDestroy()

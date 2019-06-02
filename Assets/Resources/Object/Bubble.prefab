@@ -140,7 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ca45fe10eeb4cf4c86f859756cdbeac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InstantiateObject: {fileID: 0}
-  InstantiateFixPosition: {x: 0, y: 0}
+  Team: 0
+  InstantiateObject: {fileID: 1900021572521962, guid: 067f89f4b95144a47b571d720edcdfc2,
+    type: 3}
+  FixPosition: {x: 0, y: 0}
   TargetTeam: 0
   _speed: 0.4

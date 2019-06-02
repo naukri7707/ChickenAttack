@@ -38,6 +38,21 @@ TextureImporter:
   - first:
       213: 6059277131562960277
     second: icon_prev
+  - first:
+      213: 459769931867043981
+    second: btn_back
+  - first:
+      213: -4130727792001979799
+    second: btn_enter
+  - first:
+      213: 235245520111216286
+    second: btn_exit
+  - first:
+      213: -625532350337806888
+    second: btn_next
+  - first:
+      213: -1911798679207649965
+    second: btn_prev
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -120,106 +135,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cover_back
+      name: btn_back
       rect:
         serializedVersion: 2
         x: 2
-        y: 501
-        width: 485
-        height: 248
+        y: 1317
+        width: 997
+        height: 729
       alignment: 9
-      pivot: {x: 0.4969072, y: 0.50403225}
+      pivot: {x: 0.4894684, y: 0.49931413}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 485d3cb86f81c084099314b1a7543103
-      internalID: -2064290967978799557
+      spriteID: 15bad07a0434ae741933683bd4609096
+      internalID: 459769931867043981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cover_enter
+      name: btn_enter
       rect:
         serializedVersion: 2
         x: 2
-        y: 751
-        width: 775
-        height: 271
+        y: 847
+        width: 976
+        height: 468
       alignment: 9
-      pivot: {x: 0.49935484, y: 0.501845}
+      pivot: {x: 0.5010246, y: 0.5053419}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91669db18c027d943a2543db7a1b6708
-      internalID: 703191495980237012
+      spriteID: 052124295605b7d47b0eb4cdac52d3f5
+      internalID: -4130727792001979799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cover_exit
+      name: btn_exit
       rect:
         serializedVersion: 2
-        x: 2
-        y: 33
+        x: 541
+        y: 677
         width: 340
-        height: 166
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5029762}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b46b06dacc0069499ec97a122cc541b
-      internalID: -5036861428529946794
+      spriteID: 8aec6c69d2a9f4641b5d8461a0e2ff66
+      internalID: 235245520111216286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_next
+      name: btn_next
       rect:
         serializedVersion: 2
-        x: 489
-        y: 261
-        width: 269
-        height: 241
+        x: 2
+        y: 483
+        width: 288
+        height: 362
       alignment: 9
-      pivot: {x: 0.49070632, y: 0.49585062}
+      pivot: {x: 0.5034722, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b11bb9f23bdef364da37c325fe429524
-      internalID: 7843380787237700146
+      spriteID: ed694105eca45ee449e9a3b13f0ee350
+      internalID: -625532350337806888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_prev
+      name: btn_prev
       rect:
         serializedVersion: 2
-        x: 489
-        y: 504
-        width: 269
-        height: 245
+        x: 2
+        y: 119
+        width: 287
+        height: 362
       alignment: 9
-      pivot: {x: 0.50743496, y: 0.49591836}
+      pivot: {x: 0.5017422, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 209eb6ffa0a66f74693f1b8056a47cd3
-      internalID: 6059277131562960277
+      spriteID: 1293358d861b6d349857854f47ddcf3c
+      internalID: -1911798679207649965
       vertices: []
       indices: 
       edges: []
@@ -228,8 +243,8 @@ TextureImporter:
       name: icon_stageLock
       rect:
         serializedVersion: 2
-        x: 970
-        y: 345
+        x: 980
+        y: 1263
         width: 42
         height: 52
       alignment: 9
@@ -239,7 +254,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 917684c452dbdd74e858bc21ba06e95d
+      spriteID: 05b99560f9b0cab4c80f39dd90c21b71
       internalID: 3404962962337231475
       vertices: []
       indices: 
@@ -249,8 +264,8 @@ TextureImporter:
       name: icon_stageSelectorStyle1
       rect:
         serializedVersion: 2
-        x: 760
-        y: 399
+        x: 291
+        y: 64
         width: 248
         height: 204
       alignment: 9
@@ -260,7 +275,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 933e37882f6b2424aae1fe7e84fd0460
+      spriteID: 4620881d5352009478cf9bf07bce1263
       internalID: 1197085100960554446
       vertices: []
       indices: 
@@ -270,8 +285,8 @@ TextureImporter:
       name: icon_stageSelectorStyle2
       rect:
         serializedVersion: 2
-        x: 779
-        y: 605
+        x: 292
+        y: 641
         width: 240
         height: 204
       alignment: 9
@@ -281,7 +296,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61620a4d7824ad64d91eb5e04df25f93
+      spriteID: 197314154be3a9f4a8a345a3c3d0c7a1
       internalID: 4042727606487199793
       vertices: []
       indices: 
@@ -291,8 +306,8 @@ TextureImporter:
       name: icon_stageSelectorStyle3
       rect:
         serializedVersion: 2
-        x: 779
-        y: 811
+        x: 291
+        y: 270
         width: 243
         height: 211
       alignment: 9
@@ -302,7 +317,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73c5c9e99b741e24ba70eaab2a136d98
+      spriteID: 5878cd55548404e41b8c66e8f4cd5ab7
       internalID: 2114705616521237380
       vertices: []
       indices: 
@@ -312,8 +327,8 @@ TextureImporter:
       name: logo
       rect:
         serializedVersion: 2
-        x: 760
-        y: 201
+        x: 536
+        y: 479
         width: 208
         height: 196
       alignment: 9
@@ -323,7 +338,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2820808ba5ba78d41848db6ee572c4bf
+      spriteID: 2a57abdd79ee34e48ba5c25ee28d2d39
       internalID: 6973341628372400424
       vertices: []
       indices: 

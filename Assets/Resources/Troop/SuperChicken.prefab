@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Shield: {fileID: 0}
-  ShieldTime: 0
+  ShieldCoolDown: 5
   AttackType: 0
   LockedAgent: {fileID: 0}
   InstantiateObject: {fileID: 1837707240109570, guid: 5a79e716225374d4a9160f0fa0839bf2,

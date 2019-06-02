@@ -3,19 +3,13 @@ importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/codeandweb.com/Input/Atk.tpsheet
-- Assets/Resources/UI/Cover.tpsheet
-- Assets/TexturePackerImporter/output.tpsheet
 - Assets/TexturePackerImporter/UI_Panel.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/codeandweb.com/Input/Atk.png
-- Assets/Resources/UI/cover.png
-- Assets/TexturePackerImporter/output.png
 - Assets/TexturePackerImporter/UI_Panel.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
-- 
-- 
 - 
 - 
 enableDebugOutput: 0

@@ -59,12 +59,7 @@ public class EffectBase : MonoBehaviour
 		Destroy(gameObject);
 	}
 
-	private void Start()
-	{
-		transform.Translate(FixPosition);
-	}
-
-	public void Initialization(CoreBase target, int damage, AgentTeam team)
+	public virtual void Initialization(CoreBase target, int damage, AgentTeam team)
 	{
 		if (team == AgentTeam.Ally)
 		{
@@ -79,6 +74,9 @@ public class EffectBase : MonoBehaviour
 		Target = target;
 		TargetTeam = target.Team;
 		Damage = damage;
+		if (team == AgentTeam.Enemy)
+			FixPosition.x = -FixPosition.x;
+		transform.Translate(FixPosition);
 	}
 
 	public void Instantiate()

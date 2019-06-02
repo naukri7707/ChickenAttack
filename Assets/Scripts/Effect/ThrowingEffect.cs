@@ -12,9 +12,10 @@ public class ThrowingEffect : EffectBase
 	private Rigidbody2D _rigid;
 
 	private Vector2 targetPos;
-	private void Start()
+
+	public override void Initialization(CoreBase target, int damage, AgentTeam team)
 	{
-		transform.Translate(FixPosition);
+		base.Initialization(target, damage, team);
 		_rigid = GetComponent<Rigidbody2D>();
 		_rigid.AddForce(new Vector2(0, Mathf.Abs(Naukri.NMath.Gap(transform.position.x, Target.transform.position.x)) * InitForce));
 		AnimatorManager = GetComponent<Animator>();
