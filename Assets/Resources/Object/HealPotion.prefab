@@ -162,7 +162,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec37cbb6b1d7e804faf43485d98a8331, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Team: 0
   InstantiateObject: {fileID: 1900021572521962, guid: e2950d7e6df1ed646a6e09aa969888ce,
     type: 3}
   FixPosition: {x: -1, y: 1}
   TargetTeam: 0
+  limiter: 0
