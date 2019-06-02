@@ -17,21 +17,89 @@ AnimationClip:
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
-  m_PPtrCurves: []
-  m_SampleRate: 60
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: -7058688450478020812, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.05
+      value: {fileID: -3506205068530808039, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.1
+      value: {fileID: -8187830010272526167, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.15
+      value: {fileID: -3282398741564801841, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.2
+      value: {fileID: -6720463783714195160, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.25
+      value: {fileID: -3034808694604917796, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.3
+      value: {fileID: -7657828980300077831, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.35
+      value: {fileID: -8096433739184555400, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.4
+      value: {fileID: -4651640573159862751, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.45
+      value: {fileID: 5512383177528493624, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.5
+      value: {fileID: 7212724121958163217, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.55
+      value: {fileID: -3588478333866863997, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.6
+      value: {fileID: -6566995708782766926, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    - time: 0.65
+      value: {fileID: -637815210936600710, guid: 3be6017f957aada4c96160af7afee416,
+        type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 20
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: -7058688450478020812, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -3506205068530808039, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -8187830010272526167, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -3282398741564801841, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -6720463783714195160, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -3034808694604917796, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -7657828980300077831, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -8096433739184555400, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -4651640573159862751, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: 5512383177528493624, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: 7212724121958163217, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -3588478333866863997, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -6566995708782766926, guid: 3be6017f957aada4c96160af7afee416, type: 3}
+    - {fileID: -637815210936600710, guid: 3be6017f957aada4c96160af7afee416, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 0.7
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -50,4 +118,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.65
+    functionName: DestroyThis
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
