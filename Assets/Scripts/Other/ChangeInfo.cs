@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ChangeInfo : MonoBehaviour
 {
-	public Image Chicken;
+	public Image Chicken, TrainTimeBar;
 	public Text Name, Comment, HitPoint, GrowthRate, Damage, HitRange, Speed, KnockBack;
 	private void OnEnable()
 	{
@@ -20,7 +20,7 @@ public class ChangeInfo : MonoBehaviour
 		CoreBase target = temp.GetComponent<CoreBase>();
 		Chicken.overrideSprite = target.GetComponent<SpriteRenderer>().sprite;
 		Chicken.SetNativeSize();
-		Chicken.transform.localScale = new Vector3(0.5f * target.transform.localScale.x, 0.5f * target.transform.localScale.y, 1);
+		//Chicken.transform.localScale = new Vector3(0.5f * target.transform.localScale.x, 0.5f * target.transform.localScale.y, 1);
 		var det = target.GetDetails<TroopDetails>();
 		Name.text = det.Name;
 		Comment.text = det.Comment;
@@ -31,5 +31,13 @@ public class ChangeInfo : MonoBehaviour
 		Speed.text = det.Speed.ToString();
 		KnockBack.text = det.KnockBack.ToString();
 		Destroy(temp);
+	}
+
+	public void Update()
+	{
+		if (GameArgs.FocusBuilding.GetComponent<CoreBase>().Identify == 20001)
+			TrainTimeBar.fillAmount = GameArgs.FocusBuilding.GetComponent<GoldProduceAbility>().GoldBar.fillAmount;
+		else
+			TrainTimeBar.fillAmount = GameArgs.FocusBuilding.GetComponent<InstantiateAbility>().TrainingTime / GameArgs.FocusBuilding.GetComponent<InstantiateAbility>().MaxTrainingTime;
 	}
 }

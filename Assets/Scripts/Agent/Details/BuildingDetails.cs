@@ -38,4 +38,38 @@ public class BuildingDetails : DetailsBase
 		//
 		reader.SqliteReader.Close();
 	}
+
+	/// <summary>
+	/// 升一級
+	/// </summary>
+	/// <returns></returns>
+	public override bool Upgrade()
+	{
+		if (Level >= 10) return false;
+		Level++;
+		int newMaxHitPoint = (int)(MaxHitPoint * GrowthRate);
+		HitPoint += newMaxHitPoint - MaxHitPoint;
+		MaxHitPoint = newMaxHitPoint;
+		//
+		UpgradeCost = (int)(UpgradeCost * GrowthRate);
+		return true;
+	}
+
+	/// <summary>
+	/// 升級至level級
+	/// </summary>
+	/// <param name="level">目標等級</param>
+	/// <returns></returns>
+	public override bool SetLevel(int level)
+	{
+		if (level <= Level || Level >= 10) return false;
+		float growthScale = Mathf.Pow(GrowthRate, level - Level);
+		Level = level;
+		int newMaxHitPoint = (int)(MaxHitPoint * growthScale);
+		HitPoint += newMaxHitPoint - MaxHitPoint;
+		MaxHitPoint = newMaxHitPoint;
+		//
+		UpgradeCost = (int)(UpgradeCost * growthScale);
+		return true;
+	}
 }

@@ -14,7 +14,10 @@ public class AuotSetCost : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		BuildingDetails det = GameArgs.FocusBuilding.GetDetails<BuildingDetails>();
-		GetComponent<Text>().text = ((int)(det.UpgradeCost * Mathf.Pow(det.GrowthRate, det.Level - 1))).ToString();
+		var det = GameArgs.FocusBuilding.GetDetails<BuildingDetails>();
+		if (det.Level == 10)
+			GetComponent<Text>().text = "X";
+		else
+			GetComponent<Text>().text = det.UpgradeCost.ToString();
 	}
 }

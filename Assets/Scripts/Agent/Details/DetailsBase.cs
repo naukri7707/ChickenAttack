@@ -54,4 +54,34 @@ public abstract class DetailsBase
 	{
 		return (T)this;
 	}
+
+	/// <summary>
+	/// 升一級
+	/// </summary>
+	/// <returns></returns>
+	public virtual bool Upgrade()
+	{
+		if (Level >= 10) return false;
+		Level++;
+		int newMaxHitPoint = (int)(MaxHitPoint * GrowthRate);
+		HitPoint += newMaxHitPoint - MaxHitPoint;
+		MaxHitPoint = newMaxHitPoint;
+		return true;
+	}
+
+	/// <summary>
+	/// 升級至level級
+	/// </summary>
+	/// <param name="level">目標等級</param>
+	/// <returns>升級是否成功</returns>
+	public virtual bool SetLevel(int level)
+	{
+		if (level <= Level || Level >= 10) return false;
+		float growthScale = Mathf.Pow(GrowthRate, level - Level);
+		Level = level;
+		int newMaxHitPoint = (int)(MaxHitPoint * growthScale);
+		HitPoint += newMaxHitPoint - MaxHitPoint;
+		MaxHitPoint = newMaxHitPoint;
+		return true;
+	}
 }

@@ -151,10 +151,10 @@ public class ButtonEvents : MonoBehaviour
 	public void BuildingUpgarde()
 	{
 		BuildingDetails det = GameArgs.FocusBuilding.GetDetails<BuildingDetails>();
-		if (GameArgs.Gold >= (int)(det.UpgradeCost * Mathf.Pow(det.GrowthRate, det.Level - 1)))
+		if (det.Level < 10 && GameArgs.Gold >= det.UpgradeCost)
 		{
 			GameArgs.Gold -= det.UpgradeCost;
-			det.Level++;
+			det.Upgrade();
 			GameArgs.World.GetComponent<World>().FX_Apply.PlayIfNotPlaying();
 			UpgradeEffect();
 		}

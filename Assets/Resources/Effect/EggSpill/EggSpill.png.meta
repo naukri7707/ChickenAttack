@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 06265bd7dd6e11448a82f069c9e1b566
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8516695016189860881
+    second: egg01
+  - first:
+      213: -3280121939477474853
+    second: egg02
+  - first:
+      213: 6062310630507559390
+    second: egg03
+  - first:
+      213: -5240815745044895916
+    second: egg04
+  - first:
+      213: 2502735028116854035
+    second: egg05
+  - first:
+      213: 2774742636504282917
+    second: egg06
+  - first:
+      213: -92125101928600013
+    second: egg07
+  - first:
+      213: 1648601985279521140
+    second: egg08
+  - first:
+      213: 8372102847663103923
+    second: EggSpill01
+  - first:
+      213: -2246935537049495968
+    second: EggSpill02
+  - first:
+      213: 2612756977837519454
+    second: EggSpill03
+  - first:
+      213: 4025915397087873288
+    second: EggSpill04
+  - first:
+      213: 5628351760869193429
+    second: EggSpill05
+  - first:
+      213: 6320682981097715471
+    second: EggSpill06
+  - first:
+      213: 2846388001559041139
+    second: EggSpill07
+  - first:
+      213: -8721652357939128859
+    second: EggSpill08
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EggSpill01
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1771
+        width: 235
+        height: 275
+      alignment: 9
+      pivot: {x: 0.5170213, y: 0.6872727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437c950e9a8926641b728fd02f3ad3dc
+      internalID: 8372102847663103923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggSpill02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 576
+        width: 415
+        height: 230
+      alignment: 9
+      pivot: {x: 0.46385542, y: 0.8695652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7dec46853144d4d81da6028c864664
+      internalID: -2246935537049495968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggSpill03
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 808
+        width: 606
+        height: 207
+      alignment: 9
+      pivot: {x: 0.56848186, y: 1.0096618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8bfa92dcb366e49825db587a21df39
+      internalID: 2612756977837519454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggSpill04
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1220
+        width: 702
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5576923, y: 1.1545894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae3a9d232d59974282016752d7da025
+      internalID: 4025915397087873288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggSpill05
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1838
+        width: 745
+        height: 208
+      alignment: 9
+      pivot: {x: 0.44630873, y: 1.1442307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f34c85f7129eea41ab88f5e0b1d2f46
+      internalID: 5628351760869193429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggSpill06
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1017
+        width: 677
+        height: 201
+      alignment: 9
+      pivot: {x: 0.40546528, y: 1.1741294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad6719acb9daae49b3bf0ee76b84401
+      internalID: 6320682981097715471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggSpill07
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1634
+        width: 717
+        height: 202
+      alignment: 9
+      pivot: {x: 0.43026498, y: 1.1732674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc306429210ab4f4ea55b77c9e5704d1
+      internalID: 2846388001559041139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggSpill08
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1429
+        width: 705
+        height: 203
+      alignment: 9
+      pivot: {x: 0.42056736, y: 1.1724138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b133d86798c16d8488c77610a9017f62
+      internalID: -8721652357939128859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f26ca3452c17a7043bd418f947f73cde
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

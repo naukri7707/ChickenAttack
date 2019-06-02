@@ -30,9 +30,9 @@ public class InstantiateAbility : AbilityBase
 
 	[SerializeField] private int[] _trainList;
 
-	[SerializeField] [ReadOnly] private float _maxTrainingTime;
+	[ReadOnly] public float MaxTrainingTime;
 
-	[SerializeField] [ReadOnly] private float _trainingTime;
+	[ReadOnly] public float TrainingTime;
 
 	private InstantiateAbility()
 	{
@@ -48,12 +48,12 @@ public class InstantiateAbility : AbilityBase
 
 	public override void EveryFrame()
 	{
-		_trainingTime -= Time.deltaTime;
+		TrainingTime -= Time.deltaTime;
 	}
 
 	public override bool Triggers()
 	{
-		return _trainingTime <= 0;
+		return TrainingTime <= 0;
 	}
 
 	public override void Enter()
@@ -66,13 +66,8 @@ public class InstantiateAbility : AbilityBase
 		trainCore.SetTeam(_agent.Team);
 		TroopDetails det = trainCore.GetDetails<TroopDetails>();
 		det.DeBuff.AddFlag(AgentDeBuff.Freeze);
-		det.Level = _agent.GetDetails<DetailsBase>().Level;
-		float scale = Mathf.Pow(det.GrowthRate, det.Level - 1);
-		det.MaxHitPoint = det.HitPoint = (int)(det.MaxHitPoint * scale);
-		det.Damage = (int)(det.Damage * scale);
-		det.KnockBack = (int)(det.KnockBack * scale);
-		det.Gold = (int)(det.Gold * scale);
-		_trainingTime = _maxTrainingTime;
+		det.SetLevel(_agent.Details.Level);
+		TrainingTime = MaxTrainingTime;
 	}
 	public override void Stay()
 	{
@@ -87,8 +82,8 @@ public class InstantiateAbility : AbilityBase
 	public void ChangeTraining(int index)
 	{
 		CurrentIndex = index;
-		_maxTrainingTime = Prefabs.Troop[CurrentID].GetComponent<CoreBase>().GetDetails<TroopDetails>().TrainingTime;
-		_trainingTime = _maxTrainingTime;
+		MaxTrainingTime = Prefabs.Troop[CurrentID].GetComponent<CoreBase>().GetDetails<TroopDetails>().TrainingTime;
+		TrainingTime = MaxTrainingTime;
 	}
 
 }

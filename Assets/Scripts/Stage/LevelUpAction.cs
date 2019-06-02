@@ -14,7 +14,8 @@ public class LevelUpAction : ActionBase
 
 	public void DoAction(CoreBase trainBy)
 	{
-		trainBy.GetDetails<BuildingDetails>().Level++;
+		if (trainBy.Details.Level < 10)
+			trainBy.GetDetails<BuildingDetails>().Upgrade();
 	}
 
 	public override async Task DoActionAsync()
