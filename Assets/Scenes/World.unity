@@ -4472,7 +4472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3181e7821f4ed0f4f95842c7b55af1ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coolDown: 2
+  coolDown: 30
   currentCoolDown: 0
   count: 5
   dmage: 10
