@@ -21,6 +21,8 @@ public class World : MonoBehaviour
 	/// </summary>
 	public Material MateriaGrayScale;
 
+	public GameObject argsUI;
+
 	public GameObject argsWorld;
 
 	public GameObject argsGround;
@@ -38,6 +40,7 @@ public class World : MonoBehaviour
 	void Awake()
 	{
 		Time.timeScale = 1;
+		GameArgs.UI = argsUI;
 		GameArgs.World = argsWorld;
 		GameArgs.Ground = argsGround;
 		GameArgs.BackGround = argsBackGround;

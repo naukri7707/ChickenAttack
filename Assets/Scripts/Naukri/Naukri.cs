@@ -4,6 +4,14 @@ using UnityEngine;
 
 namespace Naukri
 {
+	public static class Random
+	{
+		public static T Objects<T>(params T[] objects)
+		{
+			if (objects == null || objects.Length == 0) return default;
+			return objects[UnityEngine.Random.Range(0, objects.Length)];
+		}
+	}
 	public static class IO
 	{
 		public static void DeserializeMethod<T>(out T dst, string filePath)
@@ -24,7 +32,7 @@ namespace Naukri
 
 		public static void GetStage<T>(out T dst, int identify)
 		{
-			
+
 			DeserializeMethod(out dst, Application.streamingAssetsPath + "/Stage/stage_" + identify.ToString("000") + ".dat");
 		}
 

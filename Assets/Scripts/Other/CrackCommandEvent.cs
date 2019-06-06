@@ -94,6 +94,15 @@ public class CrackCommandEvent : MonoBehaviour
 					await NightMare();
 					break;
 				}
+			case "no cool down":
+			case "ncd":
+				{
+					foreach (var s in GameArgs.UI.GetComponentsInChildren<ISkill>())
+					{
+						s.CoolDown = s.CurrentCoolDown = 0;
+					}
+					break;
+				}
 		}
 		if (cmd.Contains("+"))
 		{
@@ -157,7 +166,7 @@ public class CrackCommandEvent : MonoBehaviour
 			GameObject eff = Prefabs.Instantiate(30002, GameArgs.World.transform);
 			eff.transform.SetOnHorizon();
 			var det = eff.GetComponent<EffectBase>();
-			det.Team = Random.Range(0, 2) == 0 ? AgentTeam.Ally : AgentTeam.Enemy;
+			det.Team = Naukri.Random.Objects(new AgentTeam[] { AgentTeam.Ally, AgentTeam.Enemy });
 			det.TargetTeam = det.Team == AgentTeam.Ally ? AgentTeam.Enemy : AgentTeam.Ally;
 			det.GetComponent<EffectBase>().Damage = 100;
 			if (eff.GetComponent<EffectBase>().Team == AgentTeam.Enemy)

@@ -8,6 +8,11 @@ public class ChangeInfo : MonoBehaviour
 	public Text Name, Comment, HitPoint, GrowthRate, Damage, HitRange, Speed, KnockBack;
 	private void OnEnable()
 	{
+		if (GameArgs.FocusBuilding.Identify == 20001)
+		{
+			gameObject.SetActive(false);
+			return;
+		}
 		var ins = GameArgs.FocusBuilding.GetComponent<InstantiateAbility>();
 		ins.TempIndex = ins.CurrentIndex;
 		ChangePanelInfo(ins.TempID);

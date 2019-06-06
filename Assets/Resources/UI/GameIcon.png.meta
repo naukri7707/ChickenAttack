@@ -41,6 +41,12 @@ TextureImporter:
   - first:
       213: -3315573968085272438
     second: icon_info
+  - first:
+      213: 2128019336503790322
+    second: icon_skill1
+  - first:
+      213: 7919722871292667281
+    second: icon_skill2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -137,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 59a2b1def850b6e45a1f1cddc5168d85
+      internalID: -2109547878569501114
       vertices: []
       indices: 
       edges: []
@@ -158,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 1fcfc2043464dc74f94aab40e03961ca
+      internalID: 4200675326698670201
       vertices: []
       indices: 
       edges: []
@@ -179,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 9a949b504c2728b48ac01d44b6b24258
+      internalID: 8817161882765653717
       vertices: []
       indices: 
       edges: []
@@ -200,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 8cfe8c4a136a0354f8e970e10c6248d0
+      internalID: -658742112255296425
       vertices: []
       indices: 
       edges: []
@@ -211,7 +217,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 732
-        y: 178
+        y: 28
         width: 398
         height: 411
       alignment: 9
@@ -221,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: fa2d8d50d95b64c4789e917dcdcf0892
+      internalID: 8576677450322519593
       vertices: []
       indices: 
       edges: []
@@ -231,8 +237,8 @@ TextureImporter:
       name: icon_exit
       rect:
         serializedVersion: 2
-        x: 2
-        y: 27
+        x: 611
+        y: 441
         width: 148
         height: 148
       alignment: 0
@@ -242,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 5451fd5f18e3f8e418fb166e5d50279a
+      internalID: 1445869448751300512
       vertices: []
       indices: 
       edges: []
@@ -263,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 5dfcb1ad2856d4944b48a0838a2129ce
+      internalID: -3315573968085272438
       vertices: []
       indices: 
       edges: []
@@ -284,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 476196a6d5062ea4f8367cfd6ee10d54
+      internalID: -8757137802742049463
       vertices: []
       indices: 
       edges: []
@@ -305,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: a2670e2a34070574791d5fd8845982a7
+      internalID: -3083231132573708178
       vertices: []
       indices: 
       edges: []
@@ -326,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 679f66c78a3eac14a8e3460217776a11
+      internalID: 288446474658153220
       vertices: []
       indices: 
       edges: []
@@ -347,8 +353,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 8cd8f83e94776a948b4e0a16acff48c0
+      internalID: 7041223526543009186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_skill1
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 10
+        width: 181
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5055249, y: 0.49197862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5555e90e24c729242a7ed14cc4da109d
+      internalID: 2128019336503790322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_skill2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 435
+        width: 193
+        height: 196
+      alignment: 9
+      pivot: {x: 0.49481866, y: 0.502551}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a073626c2228bc4fbf6660e24612ceb
+      internalID: 7919722871292667281
       vertices: []
       indices: 
       edges: []
@@ -358,7 +406,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 416
-        y: 177
+        y: 21
         width: 314
         height: 412
       alignment: 9
@@ -368,8 +416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: e92e2bc5571ca154e8e84279d54c6135
+      internalID: -1634381009187739497
       vertices: []
       indices: 
       edges: []
@@ -389,8 +437,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 6c37932c84d165948beb0617832228aa
+      internalID: -5356211433497995897
       vertices: []
       indices: 
       edges: []

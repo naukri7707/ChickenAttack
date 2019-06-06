@@ -16,6 +16,9 @@ public abstract class CoreBase : MonoBehaviour
 	/// </summary>
 	public AgentTeam Team;
 
+	/// <summary>
+	/// 型態
+	/// </summary>
 	public AgentType Type
 	{
 		get => Details.Type;
@@ -64,6 +67,10 @@ public abstract class CoreBase : MonoBehaviour
 	/// </summary>
 	public DetailsBase Details;
 
+	/// <summary>
+	/// 取得資料
+	/// </summary>
+	/// <returns></returns>
 	protected abstract DetailsBase GetDetailsBase();
 
 	/// <summary>
@@ -104,7 +111,6 @@ public abstract class CoreBase : MonoBehaviour
 	private void FixedUpdate()
 	{
 		AbilityManger.ProcessAbility();
-		Debug.DrawLine(new Vector3(-100, GameArgs.Horizon), new Vector3(100, GameArgs.Horizon));
 	}
 
 	/// <summary>
@@ -117,5 +123,4 @@ public abstract class CoreBase : MonoBehaviour
 		transform.localScale = new Vector3((Team == AgentTeam.Ally ? 1 : -1) * transform.localScale.x, transform.localScale.y, transform.localScale.z);
 		gameObject.layer = (int)Team;
 	}
-
 }

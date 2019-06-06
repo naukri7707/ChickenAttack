@@ -61,6 +61,11 @@ public static class GameArgs
 	public static int CurrentStage;
 
 	/// <summary>
+	/// UI物件
+	/// </summary>
+	public static GameObject UI;
+
+	/// <summary>
 	/// 世界物件
 	/// </summary>
 	public static GameObject World;
