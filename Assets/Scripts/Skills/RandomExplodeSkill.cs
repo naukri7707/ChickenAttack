@@ -16,7 +16,8 @@ public class RandomExplodeSkill : SkillBase
 
 	public override async void OnSkillAsync()
 	{
-		if (CurrentCoolDown > 0) return;
+		if (CurrentCoolDown > 0 || GameArgs.Gold < Cost) return;
+		GameArgs.Gold -= Cost;
 		CurrentCoolDown = CoolDown;
 		for (int i = 0; i < Count; i++)
 		{
@@ -25,7 +26,7 @@ public class RandomExplodeSkill : SkillBase
 			var det = eff.GetComponent<EffectBase>();
 			det.Team = AgentTeam.Ally;
 			det.TargetTeam = AgentTeam.Enemy;
-			det.GetComponent<EffectBase>().Damage = Dmage;
+			det.GetComponent<EffectBase>().Damage = Dmage * (int)Mathf.Pow(GameArgs.PumpkinFarm.Details.GrowthRate, GameArgs.PumpkinFarm.Details.Level);
 			//
 			CoreBase target = Naukri.Random.Objects((from t in GameArgs.World.GetComponentsInChildren<TroopCore>() where t.Team == AgentTeam.Enemy select t).ToArray());
 			if (target == null)

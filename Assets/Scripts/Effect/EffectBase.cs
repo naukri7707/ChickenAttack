@@ -13,6 +13,11 @@ public class EffectBase : MonoBehaviour
 	public GameObject InstantiateObject;
 
 	/// <summary>
+	/// 放大倍率
+	/// </summary>
+	public Vector2 Scale;
+
+	/// <summary>
 	/// 物件起始位置修正
 	/// </summary>
 	public Vector2 FixPosition;
@@ -59,7 +64,7 @@ public class EffectBase : MonoBehaviour
 		Destroy(gameObject);
 	}
 
-	public virtual void Initialization(CoreBase target, int damage, AgentTeam team)
+	public virtual void Initialization(CoreBase target, int damage, AgentTeam team , Vector2 scale)
 	{
 		if (team == AgentTeam.Ally)
 		{
@@ -74,6 +79,8 @@ public class EffectBase : MonoBehaviour
 		Target = target;
 		TargetTeam = target.Team;
 		Damage = damage;
+		Scale = scale;
+		transform.localScale = new Vector3(transform.localScale.x * Scale.x, transform.localScale.y * Scale.y, 1);
 		if (team == AgentTeam.Enemy)
 			FixPosition.x = -FixPosition.x;
 		transform.Translate(FixPosition);
@@ -88,7 +95,8 @@ public class EffectBase : MonoBehaviour
 
 		GameObject tmp = Instantiate(InstantiateObject);
 		tmp.transform.position = transform.position;
-		tmp.GetComponent<EffectBase>().Initialization(Target, Damage, Team);
+		tmp.GetComponent<EffectBase>().FixPosition *= transform.localScale;
+		tmp.GetComponent<EffectBase>().Initialization(Target, Damage, Team , Scale);
 	}
 	public bool IsCollisionWithEnemy()
 	{

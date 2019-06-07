@@ -10,4 +10,6 @@ public enum ActionType
 	EndLoop,
 	LevelUp,
 	Warning,
+	BossWave,
+	ChickenRain,
 }

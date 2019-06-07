@@ -5,9 +5,9 @@ public class BulletEffect : EffectBase
 	[SerializeField] private float _speed;
 
 	// Start is called before the first frame update
-	public override void Initialization(CoreBase target, int damage, AgentTeam team)
+	public override void Initialization(CoreBase target, int damage, AgentTeam team, Vector2 scale)
 	{
-		base.Initialization(target, damage, team);
+		base.Initialization(target, damage, team, scale);
 		_speed = Mathf.Abs(_speed) * (TargetTeam == AgentTeam.Ally ? -1 : 1);
 		AnimatorManager = GetComponent<Animator>();
 		AnimatorManager.AnimClip = (int)AbilityAnimClip.Move;

@@ -1,11 +1,8 @@
-﻿using Naukri.GUILayout;
-using System.Collections;
+﻿using Naukri.ExtensionMethods;
+using Naukri.GUILayout;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using Naukri.ExtensionMethods;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 
 /// <summary>
 /// 關卡編輯器
@@ -17,7 +14,7 @@ public class StageMaker : EditorWindow
 	/// <summary>
 	/// 動作表
 	/// </summary>
-	[SerializeField] List<ActionBase> _actions;
+	[SerializeField] private List<ActionBase> _actions;
 
 	/// <summary>
 	/// 滑條位置
@@ -42,8 +39,10 @@ public class StageMaker : EditorWindow
 		{
 			if (GUILayout.Button("NewList"))
 			{
-				_actions = new List<ActionBase>();
-				_actions.Add(new TrainAction());
+				_actions = new List<ActionBase>
+				{
+					new TrainAction()
+				};
 			}
 			GUILayout.FlexibleSpace();
 		}
@@ -122,47 +121,88 @@ public class StageMaker : EditorWindow
 					case ActionType.Warning:
 						_actions.Reset(i, new WarningAction());
 						break;
+					case ActionType.BossWave:
+						_actions.Reset(i, new BossWaveAction());
+						break;
+					case ActionType.ChickenRain:
+						_actions.Reset(i, new ChickenRainAction());
+						break;
 				}
 				return;
 			}
 			switch (action.Type)
 			{
 				case ActionType.Train:
-					EditorGUI.BeginChangeCheck();
-					Object newObject = (NGUILayout.GameObjectField("", Prefabs.Troop[action.As<TrainAction>().Idnetify], true, GUILayout.Width(120)));
-					if (EditorGUI.EndChangeCheck())
 					{
-						int newID = (newObject as GameObject).GetComponent<CoreBase>().Identify;
-						if (newID >= 10000 && newID < 20000)
+						EditorGUI.BeginChangeCheck();
+						Object newObject = NGUILayout.GameObjectField("", Prefabs.Troop[action.As<TrainAction>().Identify], true, GUILayout.Width(120));
+						if (EditorGUI.EndChangeCheck())
 						{
-							action.As<TrainAction>().Idnetify = newID;
+							int newID = (newObject as GameObject).GetComponent<CoreBase>().Identify;
+							if (newID >= 10000 && newID < 20000)
+								action.As<TrainAction>().Identify = newID;
 						}
+						action.As<TrainAction>().Amount = NGUILayout.IntField("Amount", action.As<TrainAction>().Amount, GUILayout.Width(80));
+						break;
 					}
-					action.As<TrainAction>().Amount = NGUILayout.IntField("Amount", action.As<TrainAction>().Amount, GUILayout.Width(80));
-					break;
 				case ActionType.Delay:
-					action.As<DelayAction>().DelayTime = EditorGUILayout.FloatField(action.As<DelayAction>().DelayTime, GUILayout.Width(80));
-					GUILayout.Label("s");
-					break;
-				case ActionType.Loop:
-					action.As<LoopAction>().LoopTimes = EditorGUILayout.IntField(action.As<LoopAction>().LoopTimes, GUILayout.Width(80));
-					GUILayout.Label("times");
-					deep++;
-					break;
-				case ActionType.EndLoop:
-					deep--;
-					break;
-				case ActionType.LevelUp:
-					//
-					break;
-				case ActionType.Warning:
-					action.As<WarningAction>().WarningType = (WarningType)NGUILayout.EnumPopup("", action.As<WarningAction>().WarningType, GUILayout.Width(80));
-					if (action.As<WarningAction>().WarningType == WarningType.Custom)
 					{
-						action.As<WarningAction>().CustomText = NGUILayout.TextField("Text", action.As<WarningAction>().CustomText);
+						action.As<DelayAction>().DelayTime = EditorGUILayout.FloatField(action.As<DelayAction>().DelayTime, GUILayout.Width(80));
+						GUILayout.Label("s");
+						break;
 					}
-					action.As<WarningAction>().TextColor = EditorGUILayout.ColorField("", action.As<WarningAction>().TextColor, GUILayout.Width(80));
-					break;
+				case ActionType.Loop:
+					{
+						action.As<LoopAction>().LoopTimes = EditorGUILayout.IntField(action.As<LoopAction>().LoopTimes, GUILayout.Width(80));
+						GUILayout.Label("times");
+						deep++;
+						break;
+					}
+				case ActionType.EndLoop:
+					{
+						deep--;
+						break;
+					}
+				case ActionType.LevelUp:
+					{//
+						break;
+					}
+				case ActionType.Warning:
+					{
+						action.As<WarningAction>().WarningType = (WarningType)NGUILayout.EnumPopup("", action.As<WarningAction>().WarningType, GUILayout.Width(80));
+						if (action.As<WarningAction>().WarningType == WarningType.Custom)
+						{
+							action.As<WarningAction>().CustomText = NGUILayout.TextField("Text", action.As<WarningAction>().CustomText);
+						}
+						action.As<WarningAction>().TextColor = EditorGUILayout.ColorField("", action.As<WarningAction>().SelectColor(), GUILayout.Width(80));
+						break;
+					}
+				case ActionType.BossWave:
+					{
+						EditorGUI.BeginChangeCheck();
+						Object newObject = NGUILayout.GameObjectField("", Prefabs.Troop[action.As<BossWaveAction>().Identify], true, GUILayout.Width(120));
+						if (EditorGUI.EndChangeCheck())
+						{
+							int newID = (newObject as GameObject).GetComponent<CoreBase>().Identify;
+							if (newID >= 10000 && newID < 20000)
+								action.As<BossWaveAction>().Identify = newID;
+						}
+						action.As<BossWaveAction>().Amount = NGUILayout.IntField("Amount", action.As<BossWaveAction>().Amount, GUILayout.Width(80));
+						break;
+					}
+				case ActionType.ChickenRain:
+					{
+						EditorGUI.BeginChangeCheck();
+						Object newObject = NGUILayout.GameObjectField("", Prefabs.Troop[action.As<ChickenRainAction>().Identify], true, GUILayout.Width(120));
+						if (EditorGUI.EndChangeCheck())
+						{
+							int newID = (newObject as GameObject).GetComponent<CoreBase>().Identify;
+							if (newID >= 10000 && newID < 20000)
+								action.As<ChickenRainAction>().Identify = newID;
+						}
+						action.As<ChickenRainAction>().Amount = NGUILayout.IntField("Amount", action.As<ChickenRainAction>().Amount, GUILayout.Width(80));
+						break;
+					}
 			}
 			DrawButtonFamily(i);
 			GUILayout.FlexibleSpace();

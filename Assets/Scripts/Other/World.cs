@@ -27,6 +27,10 @@ public class World : MonoBehaviour
 
 	public GameObject argsGround;
 
+	public BuildingCore argsPumpkinFarm;
+
+	public BuildingCore argsEvilCastle;
+
 	public GameObject argsBackGround;
 
 	public GameObject argsBuildingList;
@@ -42,6 +46,8 @@ public class World : MonoBehaviour
 		Time.timeScale = 1;
 		GameArgs.UI = argsUI;
 		GameArgs.World = argsWorld;
+		GameArgs.PumpkinFarm = argsPumpkinFarm;
+		GameArgs.EvilCastle = argsEvilCastle;
 		GameArgs.Ground = argsGround;
 		GameArgs.BackGround = argsBackGround;
 		GameArgs.BuildingList = argsBuildingList;

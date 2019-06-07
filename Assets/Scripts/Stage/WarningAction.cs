@@ -10,6 +10,8 @@ public enum WarningType
 	LevelUp,
 	Warning,
 	LastWave,
+	BossWave,
+	ChickenRain,
 }
 
 [System.Serializable]
@@ -44,7 +46,7 @@ public class WarningAction : ActionBase
 
 	public string CustomText;
 
-	public NColor TextColor = new NColor(230, 0, 0, 255);
+	public NColor TextColor;
 
 	public WarningAction()
 	{
@@ -55,7 +57,7 @@ public class WarningAction : ActionBase
 	{
 		if (GameArgs.WarningText.gameObject.activeSelf == true)
 			GameArgs.WarningText.gameObject.SetActive(false);
-		GameArgs.WarningText.color = TextColor;
+		GameArgs.WarningText.color = SelectColor();
 		switch (WarningType)
 		{
 			case WarningType.Custom:
@@ -70,6 +72,12 @@ public class WarningAction : ActionBase
 			case WarningType.LastWave:
 				GameArgs.WarningText.text = "最後一波!";
 				break;
+			case WarningType.BossWave:
+				GameArgs.WarningText.text = "巨型" + CustomText + "來襲!!";
+				break;
+			case WarningType.ChickenRain:
+				GameArgs.WarningText.text = CustomText + "雨!!";
+				break;
 		}
 		GameArgs.WarningText.gameObject.SetActive(true);
 	}
@@ -77,5 +85,18 @@ public class WarningAction : ActionBase
 	public override Task DoActionAsync()
 	{
 		throw new System.NotImplementedException();
+	}
+
+	public Color SelectColor()
+	{
+		switch (WarningType)
+		{
+			case WarningType.Custom:
+				return TextColor;
+			case WarningType.LevelUp:
+				return Color.yellow;
+			default:
+				return Color.red;
+		}
 	}
 }

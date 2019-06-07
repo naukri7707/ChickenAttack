@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public abstract class SkillBase : MonoBehaviour, ISkill
 {
+	[SerializeField] int cost;
+	public int Cost { get => cost; set => cost = value; }
+
 	[SerializeField] private float coolDown;
 	public float CoolDown { get => coolDown; set => coolDown = value; }
 
@@ -14,6 +17,8 @@ public abstract class SkillBase : MonoBehaviour, ISkill
 	public Image CoolDownCover { get; set; }
 	public Button SkillButton { get; set; }
 
+	public Text CostText { get; set; }
+
 	public abstract void OnSkillAsync();
 
 	// Start is called before the first frame update
@@ -22,6 +27,8 @@ public abstract class SkillBase : MonoBehaviour, ISkill
 		CoolDownCover = GetComponentsInChildren<Image>()[1];
 		SkillButton = GetComponent<Button>();
 		SkillButton.onClick.AddListener(OnSkillAsync);
+		CostText = GetComponentInChildren<Text>();
+		CostText.text = Cost.ToString();
 		CurrentCoolDown = CoolDown;
 	}
 

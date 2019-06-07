@@ -33,62 +33,72 @@ public static class GameArgs
 	/// <summary>
 	/// 金幣
 	/// </summary>
-	public static int Gold;
+	public static int Gold { get; set; }
 
 	/// <summary>
 	/// 警告文字
 	/// </summary>
-	public static Text WarningText;
+	public static Text WarningText { get; set; }
 
 	/// <summary>
 	/// 建築是否可被聚焦
 	/// </summary>
-	public static bool FocusPermit;
+	public static bool FocusPermit { get; set; }
 
 	/// <summary>
 	/// 聚焦建築
 	/// </summary>
-	public static CoreBase FocusBuilding;
+	public static CoreBase FocusBuilding { get; set; }
 
 	/// <summary>
 	/// 建築按鈕清單
 	/// </summary>
-	public static GameObject BuildingList;
+	public static GameObject BuildingList { get; set; }
 
 	/// <summary>
 	/// 目前關卡
 	/// </summary>
-	public static int CurrentStage;
+	public static int CurrentStage { get; set; }
 
 	/// <summary>
 	/// UI物件
 	/// </summary>
-	public static GameObject UI;
+	public static GameObject UI { get; set; }
 
 	/// <summary>
 	/// 世界物件
 	/// </summary>
-	public static GameObject World;
+	public static GameObject World { get; set; }
+
+	/// <summary>
+	/// 南瓜農場
+	/// </summary>
+	public static BuildingCore PumpkinFarm { get; set; }
+
+	/// <summary>
+	/// 邪惡城堡
+	/// </summary>
+	public static BuildingCore EvilCastle { get; set; }
 
 	/// <summary>
 	/// 背景物件
 	/// </summary>
-	public static GameObject BackGround;
+	public static GameObject BackGround { get; set; }
 
 	/// <summary>
 	/// 地面碰撞器物件
 	/// </summary>
-	public static GameObject Ground;
+	public static GameObject Ground { get; set; }
 
 	/// <summary>
 	/// 地平線
 	/// </summary>
-	public static float Horizon;
+	public static float Horizon { get; set; }
 
 	/// <summary>
 	/// 載入中的視窗
 	/// </summary>
-	public static int LoadingScene;
+	public static int LoadingScene { get; set; }
 
 	/// <summary>
 	/// 將物件設置在地平線上

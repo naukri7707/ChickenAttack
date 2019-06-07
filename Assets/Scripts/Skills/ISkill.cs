@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public interface ISkill
 {
+	int Cost { get; set; }
+
 	float CoolDown { get; set; }
 
 	float CurrentCoolDown { get; set; }
@@ -12,6 +14,8 @@ public interface ISkill
 	Image CoolDownCover { get; set; }
 
 	Button SkillButton { get; set; }
+
+	Text CostText { get; set; }
 
 	void OnSkillAsync();
 }

@@ -28,30 +28,64 @@ public class ActionManager : MonoBehaviour
 			switch (_actions[i].Type)
 			{
 				case ActionType.Train:
-					await _actions[i].As<TrainAction>().DoActionAsync(transform.GetComponent<CoreBase>());
-					break;
+					{
+						await _actions[i].As<TrainAction>().DoActionAsync(transform.GetComponent<CoreBase>());
+						break;
+					}
 				case ActionType.Delay:
-					await _actions[i].DoActionAsync();
-					break;
+					{
+						await _actions[i].DoActionAsync();
+						break;
+					}
 				case ActionType.Loop:
-					_actions[i].As<LoopAction>().currentLoopTime = _actions[i].As<LoopAction>().LoopTimes;
-					currentLoops.Push(i);
-					break;
+					{
+						_actions[i].As<LoopAction>().currentLoopTime = _actions[i].As<LoopAction>().LoopTimes;
+						currentLoops.Push(i);
+						break;
+					}
 				case ActionType.EndLoop:
-					int j = currentLoops.Peek();
-					_actions[j].As<LoopAction>().currentLoopTime--;
-					if (_actions[j].As<LoopAction>().currentLoopTime > 0) i = j;
-					else currentLoops.Pop();
-					break;
+					{
+						int j = currentLoops.Peek();
+						_actions[j].As<LoopAction>().currentLoopTime--;
+						if (_actions[j].As<LoopAction>().currentLoopTime > 0) i = j;
+						else currentLoops.Pop();
+						break;
+					}
 				case ActionType.LevelUp:
-					_actions[i].As<LevelUpAction>().DoAction(transform.GetComponent<CoreBase>());
-					var war = new WarningAction();
-					war.WarningType = WarningType.LevelUp;
-					war.DoAction();
-					break;
+					{
+						var war = new WarningAction();
+						war.WarningType = WarningType.LevelUp;
+						war.DoAction();
+						_actions[i].As<LevelUpAction>().DoAction(transform.GetComponent<CoreBase>());
+						break;
+					}
 				case ActionType.Warning:
-					_actions[i].As<WarningAction>().DoAction();
-					break;
+					{
+						_actions[i].As<WarningAction>().DoAction();
+						break;
+					}
+				case ActionType.BossWave:
+					{
+						var war = new WarningAction();
+						var obj = Prefabs.Instantiate(_actions[i].As<BossWaveAction>().Identify);
+						war.CustomText = obj.GetComponent<CoreBase>().Details.Name;
+						Destroy(obj);
+						war.WarningType = WarningType.BossWave;
+						war.DoAction();
+						await _actions[i].As<BossWaveAction>().DoActionAsync(transform.GetComponent<CoreBase>());
+						break;
+					}
+				case ActionType.ChickenRain:
+					{
+						var war = new WarningAction();
+						var obj = Prefabs.Instantiate(_actions[i].As<ChickenRainAction>().Identify);
+						war.CustomText = obj.GetComponent<CoreBase>().Details.Name;
+						Destroy(obj);
+						war.WarningType = WarningType.ChickenRain;
+						war.DoAction();
+						await _actions[i].As<ChickenRainAction>().DoActionAsync();
+						break;
+					}
 			}
 		}
 	}

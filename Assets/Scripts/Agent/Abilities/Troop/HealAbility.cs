@@ -39,16 +39,14 @@ public class HealAbility : AbilityBase
 
 	public override bool Triggers()
 	{
-		RaycastHit2D hit = Physics2D.Raycast(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange * 1.5f, _agent.EnemyLayerMask);
-		if (!hit) return false;
-		RaycastHit2D[] hits = Physics2D.RaycastAll(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange, 1 << (int)_agent.Team);
-		Array.Sort(hits, (lhs, rhs) => rhs.transform.position.x.CompareTo(lhs.transform.position.x));
-
+		//RaycastHit2D hit = Physics2D.Raycast(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange * 1.5f, _agent.EnemyLayerMask);
+		//if (!hit) return false;
+		RaycastHit2D[] hits = (from a in Physics2D.RaycastAll(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange, 1 << (int)_agent.Team) orderby a.transform.position.x select a).ToArray();
 		foreach (RaycastHit2D h in hits)
 		{
 			if (h.transform.gameObject == gameObject) continue;
 			CoreBase agent = h.transform.transform.GetComponent<CoreBase>();
-			if (agent.GetDetails<DetailsBase>().Type == AgentType.Building)
+			if (agent.GetDetails<DetailsBase>().Type == AgentType.Building || agent.AbilityManger.CurrentAbility.Priority == AbilityPriority.Move)
 				continue;
 			if (LockedAgent == null)
 				LockedAgent = agent;
@@ -92,6 +90,6 @@ public class HealAbility : AbilityBase
 	{
 		GameObject tmp = Instantiate(InstantiateObject);
 		tmp.transform.position = transform.position;
-		tmp.GetComponent<EffectBase>().Initialization(LockedAgent, _agent.GetDetails<TroopDetails>().Damage, _agent.Team);
+		tmp.GetComponent<EffectBase>().Initialization(LockedAgent, _agent.GetDetails<TroopDetails>().Damage, _agent.Team, transform.localScale);
 	}
 }
