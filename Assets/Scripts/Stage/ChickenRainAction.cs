@@ -32,7 +32,7 @@ public class ChickenRainAction : ActionBase
 			GameObject ins = Prefabs.Instantiate(Identify, GameArgs.World.transform);
 			ins.transform.position = new Vector3(Naukri.Random.Objects(targets).transform.position.x + 5f, Random.Range(-1, 15), 0);
 			ins.GetComponent<CoreBase>().SetTeam(AgentTeam.Enemy);
-			await Awaiters.Seconds(0.1f);
+			await Awaiters.Seconds(0.2f);
 		}
 		await Awaiters.Seconds(2f);
 	}

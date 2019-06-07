@@ -93,8 +93,6 @@ public class WarningAction : ActionBase
 		{
 			case WarningType.Custom:
 				return TextColor;
-			case WarningType.LevelUp:
-				return Color.yellow;
 			default:
 				return Color.red;
 		}
