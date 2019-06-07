@@ -11,8 +11,8 @@ public class RandomExplodeSkill : SkillBase
 	[SerializeField] private int count;
 	public int Count { get => count; set => count = value; }
 
-	[SerializeField] private int dmage;
-	public int Dmage { get => dmage; set => dmage = value; }
+	[SerializeField] private int damage;
+	public int Damage { get => damage; set => damage = value; }
 
 	public override async void OnSkillAsync()
 	{
@@ -26,7 +26,7 @@ public class RandomExplodeSkill : SkillBase
 			var det = eff.GetComponent<EffectBase>();
 			det.Team = AgentTeam.Ally;
 			det.TargetTeam = AgentTeam.Enemy;
-			det.GetComponent<EffectBase>().Damage = Dmage * (int)Mathf.Pow(GameArgs.PumpkinFarm.Details.GrowthRate, GameArgs.PumpkinFarm.Details.Level);
+			det.GetComponent<EffectBase>().Damage = Damage * (int)Mathf.Pow(GameArgs.PumpkinFarm.Details.GrowthRate, GameArgs.PumpkinFarm.Details.Level);
 			//
 			CoreBase target = Naukri.Random.Objects((from t in GameArgs.World.GetComponentsInChildren<TroopCore>() where t.Team == AgentTeam.Enemy select t).ToArray());
 			if (target == null)
