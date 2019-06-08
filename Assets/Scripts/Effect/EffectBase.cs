@@ -64,7 +64,7 @@ public class EffectBase : MonoBehaviour
 		Destroy(gameObject);
 	}
 
-	public virtual void Initialization(CoreBase target, int damage, AgentTeam team , Vector2 scale)
+	public virtual void Initialization(CoreBase target, int damage, AgentTeam team, Vector2 scale)
 	{
 		if (team == AgentTeam.Ally)
 		{
@@ -72,6 +72,7 @@ public class EffectBase : MonoBehaviour
 		}
 		else
 		{
+			FixPosition.x = -FixPosition.x;
 			transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
 			gameObject.GetComponent<SpriteRenderer>().material = GameArgs.World.GetComponent<World>().MateriaGrayScale;
 		}
@@ -79,10 +80,9 @@ public class EffectBase : MonoBehaviour
 		Target = target;
 		TargetTeam = target.Team;
 		Damage = damage;
-		Scale = scale;
+		Scale = new Vector2(Mathf.Abs(scale.x), Mathf.Abs(scale.y));
 		transform.localScale = new Vector3(transform.localScale.x * Scale.x, transform.localScale.y * Scale.y, 1);
-		if (team == AgentTeam.Enemy)
-			FixPosition.x = -FixPosition.x;
+		FixPosition *= Scale;
 		transform.Translate(FixPosition);
 	}
 
@@ -95,8 +95,7 @@ public class EffectBase : MonoBehaviour
 
 		GameObject tmp = Instantiate(InstantiateObject);
 		tmp.transform.position = transform.position;
-		tmp.GetComponent<EffectBase>().FixPosition *= transform.localScale;
-		tmp.GetComponent<EffectBase>().Initialization(Target, Damage, Team , Scale);
+		tmp.GetComponent<EffectBase>().Initialization(Target, Damage, Team, Scale);
 	}
 	public bool IsCollisionWithEnemy()
 	{

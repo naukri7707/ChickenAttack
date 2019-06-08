@@ -46,7 +46,7 @@ public class HealAbility : AbilityBase
 		{
 			if (h.transform.gameObject == gameObject) continue;
 			CoreBase agent = h.transform.transform.GetComponent<CoreBase>();
-			if (agent.GetDetails<DetailsBase>().Type == AgentType.Building || agent.AbilityManger.CurrentAbility.Priority == AbilityPriority.Move)
+			if (agent.GetDetails<DetailsBase>().Type == AgentType.Building || agent.AbilityManger.CurrentAbility.Priority != AbilityPriority.Attack)
 				continue;
 			if (LockedAgent == null)
 				LockedAgent = agent;
