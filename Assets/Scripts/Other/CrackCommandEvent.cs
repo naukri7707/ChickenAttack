@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using Naukri.ExtensionMethods;
 using System.Threading.Tasks;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CrackCommandEvent : MonoBehaviour
 {
@@ -103,6 +104,20 @@ public class CrackCommandEvent : MonoBehaviour
 					}
 					break;
 				}
+		}
+		if (cmd.Contains("STG") || cmd.Contains("!sul"))
+		{
+			int n;
+			int.TryParse(Regex.Replace(cmd, "[^0-9]", ""), out n);
+			StageManager.MaxStage = n > 30 ? 30 : n;
+		}
+		if (cmd.Contains("goto") || cmd.Contains("!go"))
+		{
+			int n;
+			int.TryParse(Regex.Replace(cmd, "[^0-9]", ""), out n);
+			GameArgs.CurrentStage = n > 30 ? 30 : n;
+			GameArgs.LoadingScene = 3;
+			SceneManager.LoadScene(4);
 		}
 		if (cmd.Contains("+"))
 		{

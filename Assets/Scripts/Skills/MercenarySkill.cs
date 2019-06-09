@@ -23,6 +23,7 @@ public class MercenarySkill : SkillBase
 			{
 				GameObject ins = Prefabs.Instantiate(10001, GameArgs.World.transform);
 				ins.GetComponent<CoreBase>().SetTeam(AgentTeam.Ally);
+				ins.GetComponent<CoreBase>().GetDetails<TroopDetails>().SetLevel(GameArgs.PumpkinFarm.GetDetails<DetailsBase>().Level);
 				ins.transform.SetOnHorizon(b.transform.position.x + Random.Range(-5f, 6f));
 			}
 		}

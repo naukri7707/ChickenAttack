@@ -41,18 +41,41 @@ public class HealAbility : AbilityBase
 	{
 		//RaycastHit2D hit = Physics2D.Raycast(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange * 1.5f, _agent.EnemyLayerMask);
 		//if (!hit) return false;
-		RaycastHit2D[] hits = (from a in Physics2D.RaycastAll(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange, 1 << (int)_agent.Team) orderby a.transform.position.x select a).ToArray();
+		RaycastHit2D[] hits;
+		if (_agent.Team == AgentTeam.Ally)
+		{
+			hits = (
+				from a in Physics2D.RaycastAll(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange * 10, 1 << (int)_agent.Team)
+				where a.transform.GetComponent<CoreBase>().GetDetails<DetailsBase>().HitPoint < a.transform.GetComponent<CoreBase>().GetDetails<DetailsBase>().MaxHitPoint
+				orderby a.transform.position.x descending
+				select a).ToArray();
+		}
+		else
+		{
+			hits = (
+				   from a in Physics2D.RaycastAll(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange * 10, 1 << (int)_agent.Team)
+				   where a.transform.GetComponent<CoreBase>().GetDetails<DetailsBase>().HitPoint < a.transform.GetComponent<CoreBase>().GetDetails<DetailsBase>().MaxHitPoint
+				   orderby a.transform.position.x 
+				   select a).ToArray();
+			
+		}
+		if (hits.Length == 0)
+			hits = (from a in Physics2D.RaycastAll(_rayOrigin, _agent.Direction, _agent.GetDetails<TroopDetails>().HitRange * 10, 1 << (int)_agent.Team)
+					orderby a.transform.position.x
+					select a).ToArray();
 		foreach (RaycastHit2D h in hits)
 		{
 			if (h.transform.gameObject == gameObject) continue;
 			CoreBase agent = h.transform.transform.GetComponent<CoreBase>();
-			if (agent.GetDetails<DetailsBase>().Type == AgentType.Building || agent.AbilityManger.CurrentAbility.Priority != AbilityPriority.Attack)
+			if (agent.GetDetails<DetailsBase>().Type == AgentType.Building)
 				continue;
-			if (LockedAgent == null)
+			if (Naukri.NMath.Gap(_agent.transform.position.x, agent.transform.position.x) > _agent.GetDetails<TroopDetails>().HitRange)
+				return false;
+			else
+			{
 				LockedAgent = agent;
-			else if (agent.GetDetails<DetailsBase>().HitPoint < agent.GetDetails<DetailsBase>().MaxHitPoint)
-				LockedAgent = agent;
-			return true;
+				return true;
+			}
 		}
 		return false;
 	}

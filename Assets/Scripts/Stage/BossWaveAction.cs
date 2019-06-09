@@ -40,14 +40,14 @@ public class BossWaveAction : ActionBase
 			TroopDetails det = g.GetComponent<CoreBase>().GetDetails<TroopDetails>();
 			det.DeBuff.AddFlag(AgentDeBuff.Freeze);
 			det.SetLevel(trainBy.Details.Level);
-			det.HitPoint *= 2;
+			det.HitPoint *= 4;
 			det.KnockBack *= 4;
-			det.HitRange *= 1.5f;
-			det.Damage = (int)(det.Damage * 1.5f);
+			det.HitRange += 1.5f;
+			det.Gold *= 10;
 			//
 			g.transform.parent = trainBy.transform.parent;
 			g.SetTeam(trainBy.Team);
-			await Awaiters.Seconds(2f);
+			await Awaiters.Seconds(1f);
 		}
 	}
 

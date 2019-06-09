@@ -123,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Team: 0
   InstantiateObject: {fileID: 0}
+  Scale: {x: 0, y: 0}
   FixPosition: {x: 0, y: 0}
   TargetTeam: 0
 --- !u!95 &5709654182123432584

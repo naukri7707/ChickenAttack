@@ -37,7 +37,7 @@ public class TrainAction : ActionBase
 			//
 			g.transform.parent = trainBy.transform.parent;
 			g.SetTeam(trainBy.Team);
-			await Awaiters.Seconds(0.3f);
+			await Awaiters.Seconds(0.1f);
 		}
 	}
 

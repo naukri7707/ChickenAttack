@@ -26,7 +26,7 @@ public class RandomExplodeSkill : SkillBase
 			var det = eff.GetComponent<EffectBase>();
 			det.Team = AgentTeam.Ally;
 			det.TargetTeam = AgentTeam.Enemy;
-			det.GetComponent<EffectBase>().Damage = Damage * (int)Mathf.Pow(GameArgs.PumpkinFarm.Details.GrowthRate, GameArgs.PumpkinFarm.Details.Level);
+			det.GetComponent<EffectBase>().Damage = Damage * GameArgs.PumpkinFarm.Details.Level;
 			//
 			CoreBase target = Naukri.Random.Objects((from t in GameArgs.World.GetComponentsInChildren<TroopCore>() where t.Team == AgentTeam.Enemy select t).ToArray());
 			if (target == null)

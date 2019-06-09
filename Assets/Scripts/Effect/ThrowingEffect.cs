@@ -20,28 +20,25 @@ public class ThrowingEffect : EffectBase
 		_rigid.AddForce(new Vector2(0, Mathf.Abs(Naukri.NMath.Gap(transform.position.x, Target.transform.position.x)) * InitForce));
 		AnimatorManager = GetComponent<Animator>();
 		targetPos = _rigid.transform.position;
-		limiter = Naukri.NMath.Gap(transform.position.x, Target.transform.position.x) * SpeedLimiter;
-		if (limiter < 0.1f)
-			limiter = 0.1f;
 	}
 
 	private void Update()
 	{
 		if (Target != null)
+		{
 			targetPos = Target.transform.position;
+			limiter = 0.03f + Naukri.NMath.Gap(transform.position.x, Target.transform.position.x) * SpeedLimiter;
+			if (limiter > 0.1) limiter = 0.1f;
+		}
 		float tmep = transform.position.y;
 		Vector3 newPos = Vector3.Lerp(transform.position, targetPos, LerpGap);
 		newPos.y = tmep;
 		if (Team == AgentTeam.Ally)
 		{
 			if (newPos.x > transform.position.x + limiter)
-			{
 				newPos.x = transform.position.x + limiter;
-			}
 			else if (newPos.x < transform.position.x)
-			{
 				newPos.x = transform.position.x;
-			}
 		}
 		else
 		{

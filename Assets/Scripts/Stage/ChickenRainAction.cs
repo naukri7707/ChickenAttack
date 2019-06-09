@@ -24,15 +24,20 @@ public class ChickenRainAction : ActionBase
 
 	public override async Task DoActionAsync()
 	{
-		TroopCore[] targets = (from a in GameArgs.World.GetComponentsInChildren<TroopCore>() where a.Team == AgentTeam.Ally && a.Type == AgentType.Troop select a).ToArray();
-		if (targets.Length == 0)
-			targets = (from a in GameArgs.World.GetComponentsInChildren<TroopCore>() where a.Team == AgentTeam.Ally && a.Type == AgentType.Building && a.Identify != 20001 select a).ToArray();
 		for (int i = 0; i < Amount; i++)
 		{
 			GameObject ins = Prefabs.Instantiate(Identify, GameArgs.World.transform);
-			ins.transform.position = new Vector3(Naukri.Random.Objects(targets).transform.position.x + 5f, Random.Range(-1, 15), 0);
+			CoreBase[] targets = (from a in GameArgs.World.GetComponentsInChildren<TroopCore>() where a.Team == AgentTeam.Ally && a.Type == AgentType.Troop select a).ToArray();
+			if (targets.Length == 0)
+				targets = (from a in GameArgs.World.GetComponentsInChildren<BuildingCore>() where a.Team == AgentTeam.Ally && a.Identify != 20001 select a).ToArray();
+			if (targets.Length == 0)
+				targets = (from a in GameArgs.World.GetComponentsInChildren<BuildingCore>() where a.Team == AgentTeam.Ally select a).ToArray();
+			float posX = Naukri.Random.Objects(targets).transform.position.x + Random.Range(-5f, 0);
+			if (posX < -35)
+				posX = -35 + +Random.Range(5f, 0);
+			ins.transform.position = new Vector3(posX, Random.Range(-1f, 10f), 0);
 			ins.GetComponent<CoreBase>().SetTeam(AgentTeam.Enemy);
-			await Awaiters.Seconds(0.2f);
+			await Awaiters.Seconds(0.1f);
 		}
 		await Awaiters.Seconds(2f);
 	}

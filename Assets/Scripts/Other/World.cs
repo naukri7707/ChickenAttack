@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class World : MonoBehaviour
 {
+	public int InitGold;
 	/// <summary>
 	/// 預設材質
 	/// </summary>
@@ -44,6 +45,7 @@ public class World : MonoBehaviour
 	void Awake()
 	{
 		Time.timeScale = 1;
+		GameArgs.Gold = InitGold;
 		GameArgs.UI = argsUI;
 		GameArgs.World = argsWorld;
 		GameArgs.PumpkinFarm = argsPumpkinFarm;
@@ -52,7 +54,6 @@ public class World : MonoBehaviour
 		GameArgs.BackGround = argsBackGround;
 		GameArgs.BuildingList = argsBuildingList;
 		GameArgs.Horizon = GameArgs.Ground.GetComponent<Collider2D>().GetBoundsRect().yMax;
-		GameArgs.Gold = 0;
 		GameArgs.FocusPermit = true;
 		GameArgs.WarningText = WarningText;
 	}
